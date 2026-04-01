@@ -1,0 +1,6 @@
+Specialtecken:
+- Långt s		ſ	U-017F
+- Dubbelt s		ß	U+00DF
+- Svansad z		ʒ	U+0292
+- Versal svansad Z	Ʒ	U+01B7
+		æ	U+00E6
