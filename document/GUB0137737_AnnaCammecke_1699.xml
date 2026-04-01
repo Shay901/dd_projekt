@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title>Digital version av begravningsdikt för Anna Cammerecker: "Klage-dicht Öfwer Dän i
+               Lifstiden täcka och Behageliga lilla Jungfrun ANNA CAMMERECKER [...]"</title>
+            <author>M. P. A.</author>
+            <respStmt>
+               <resp>TEI-kodning</resp>
+               <name xml:id="JT">Johanna Thorelli</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="rows" quantity="56">56 rader</measure>
+         </extent>
+         <publicationStmt>
+            <p>Digitaliseringen av verket är en del av kursen "Digitalisering för bevarande och
+               tillgänglighet" vårterminen 2026 vid Högskolan i Borås, i samarbete med Göteborgs
+               universitet.</p>
+            <p>Verket innefattas inte av någon upphovsrätt utan är fullständigt tillgängligt.</p>
+         </publicationStmt>
+
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Klage-Dicht Öfwer Dän i Lifstjden täcka och Behageliga lilla Jungfrun ANNA
+                     CAMMERECKER, Dän Äreborne och Högachtade Herrens DAVID CAMMERECKERS, Förnäm
+                     Handelsmans i Stockholm Kärälskelige Dotter</title>
+                  <author>M. P. A.</author>
+               </titleStmt>
+               <publicationStmt>
+                  <p>Okänt tryckeri</p>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <projectDesc>
+            <p>(project description) describes in detail the aim or purpose for which an electronic
+               file was encoded, together with any other relevant information concerning the process
+               by which it was assembled or collected.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Urvalkriterier: Begravningsdikt från sent 1600-tal som behandlar kvinnor eller
+               barn.</p>
+         </samplingDecl>
+         <editorialDecl>
+            <p>(editorial practice declaration) provides details of editorial principles and
+               practices applied during the encoding of a text.</p>
+            <p>Exempelvis: "correction", "normalization", "punctuation", "quotation", "hyphenation",
+               "segmentation", "interpretation" och annat listas.</p>
+         </editorialDecl>
+      </encodingDesc>
+
+      <profileDesc>
+         <textClass>
+            <classCode scheme="https://id.kb.se/term/sao/SAB-systemet">Hc.03</classCode>
+            <classCode scheme="https://id.kb.se/term/sao/Dewey%20decimalklassifikation"
+               >839.71</classCode>
+            <keywords scheme="https://id.kb.se/term/saogf">
+               <term>Begravningsdikter</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text rend="fraktur">
+      <front>
+         <div>
+            <head> Klage-Dicht / 
+               <lb/>Öfwer
+               <lb/>Dän i Lifstjden täcka och Behageliga lilla Jungfrun / 
+               <lb/>ANNA CAMMERECKER, 
+               <lb/>Dän Äreborne och Högachtade Herrens / 
+               <lb/>DAVID CAMMERECKERS, 
+               <lb/>Förnäm Handelsmans i Stockholm 
+               <lb/> Kärälskelige Dotter;<lb/>
+            </head>
+            <dateline>Då däs Lekamen / sedan dän ifrån sin kära' Själ / efter ett i 2 Åhr hafde sammanboende skild / war / af förnämt
+               <lb/>Medföllje till sin Graf och Hwilo-Rum uti Ofwansjö Kyrkja den <date when="1699-03-14">14 
+                  <foreign xml:lang="la" rend="roman">Martii</foreign> Åhr 1699</date> wederbörligen beledsagat blef </dateline>
+            <byline>J några Rim med hast författad<lb/> Af
+               <lb/><docAuthor>M. P. A.</docAuthor></byline>
+         </div>
+         <div>
+            <epigraph>
+               <cit>
+                  <bibl rend="roman">Psalm 103: 15. 16.</bibl>
+                  <quote><lb/>En Menniskia är i sitt Lefwande 
+                     <lb/>såsom Gräs / hon blomstras såsom 
+                     <lb/>ett Blomster på Marckene. När Wä-
+                     <lb break="no"/>dret ther öfwer går / så är thet intet 
+                     <lb/>meer ther / och thess Rum känner thet 
+                     <lb/>intet meer.
+                  </quote>
+               </cit>
+            </epigraph>
+            <cb/>
+            <div type="frontispiece"/>
+            <cb/>
+            <epigraph>
+               <cit>
+                  <bibl rend="roman">Marc- 10: 14.</bibl>
+                  <quote><lb/>Låter Barnen komma til mig / 
+                     <lb/>och förmener them icke / ty sådana hö-
+                     <lb break="no"/>rer Himmeltiket till.
+                  </quote>
+               </cit>
+            </epigraph>
+         </div>
+      </front>
+
+      <body>
+         <div type="poem">
+            <lg>
+               <l>SÅ är dän täcka Ros / som war sin Faders Löye /</l>
+               <l>Sin Moders fägnad och däs kära ljufwa Nöye /</l>
+               <l rend="indent">Däs Ro och Tidfördrif / däs wackra Ögnalust /</l>
+               <l rend="indent">Af hastigt iland' Storm / och hårder wäder Pust /</l>
+               <l>När dän knapt hade sedt sin första Sol / til Jorden</l>
+               <l>Afblåst / och i stor hast förbleknad / wissnad worden;</l>
+               <l rend="indent">At man däs Ort och Rum här mera intet kan</l>
+               <l rend="indent">Få se / ty dän så snart sin kos ur vägen swan.</l>
+               <l>Så har dän röda Mund / som förr så kärligt myste /</l>
+               <l>Nu bleknat af; de Ljus / som ock så härligt lyste</l>
+               <l rend="indent">Af ljuflighet och af ett hjertans täckt Behag /</l>
+               <l rend="indent">Utslocknat/ för än de wäl lyst en enda Dag.</l>
+               <l>Orörlig / stelnad är dän lalland' ljufwe Tunga /</l>
+               <l>Som nu så wackert lärt at Pappa / Mamma Sjunga.</l>
+               <l rend="indent">Äi röra sig nu mer / ey eller kunna stå /</l>
+               <l rend="indent">De lena Händer / ock de snälla Fötter små.</l>
+               <l>Dy under intet är at de / af hwilkas lifwe /</l>
+               <l>Däs lefnad kommet haar / och som dän anda gifwet /</l>
+               <l rend="indent">En sallter Tåre-flod af Hiertat gjuta ut /</l>
+               <l rend="indent">At deras Blod så snart haar sett sin lefnads Slut;</l>
+               <l>At de nu öma sig / och utaf Hjertat klaga /</l>
+               <l>Där deras Hopp så snart är taget utaf Daga:</l>
+               <l rend="indent">Dän förra Ro och Lust i sorg och Tårar wänd;</l>
+               <l rend="indent">J Hjertat ängʒlan och en Sorge-eld uptänd.</l>
+               <l>Om fägring och Behag / ell' annat sådant kunde</l>
+               <l>Förmå mot dödsens trug / så swär jag nu på stunde /</l>
+               <l rend="indent">At dätta unga Lif / hwars Kropp här ligger kull /</l>
+               <l rend="indent">Så snart äi blifwit släckt / och molmat uti Mull /</l>
+               <cb/>
+               <l>Men Döden är äi wan ett från dät andra skillja;</l>
+               <l>Ty rätt så snart hans Hand en skön och fager Lillja /</l>
+               <l rend="indent">Som annat ringa Gräs med Lijan hugger af;</l>
+               <l rend="indent">Alt / alt han / när han wil / för neder i sin Graf.</l>
+               <l>Enär en Trägårdsman uti sin Trägård kommer /</l>
+               <l>Sin Örters wackra Ʒir och ögne fagre Blommor</l>
+               <l rend="indent">At se / en sköner Ros fast häldre han sig taar /</l>
+               <l rend="indent">Än sådan jordens Frucht / som ingen fägring haar.</l>
+               <l>Så ock dän store Gud / som sielf allena lagar</l>
+               <l>Sin Örte-gård / alt som dät honom bäst behagar /</l>
+               <l rend="indent">Han har nu brutit af dän Ros som allom war</l>
+               <l rend="indent">Så täck / och på sin Blad så ädla färgor bar.</l>
+               <l>Ty dän af skönhet mer uti hans Ögon lyste</l>
+               <l>Än andra / och hos sig en större fägring hyste /</l>
+               <l rend="indent">Fördänskull han ock dän däs förra ryckte bort</l>
+               <l rend="indent">Til sig / och gjorde så däs tid hos oß mer kort.</l>
+               <l>Och hwem wil neka? ty af jordens ädla Fruchter</l>
+               <l>En Förstling honom bör /som wäl och ljufligt luchtar.</l>
+               <l rend="indent">Och sådant älskar han / men straxt igen förär</l>
+               <l rend="indent">En större Ymnighet / at Åkren mera bär.</l>
+               <l>Dy låten nöya Ehr / J som så swåra qwiden /</l>
+               <l>Och utaf sorgse Mod så Edra Händer wriden /</l>
+               <l rend="indent">Ehr späda Dotter han til Förstling tagit an /</l>
+               <l rend="indent">Som honom täckligt är / utaf Ehr Famn och Hand;</l>
+               <l>Och lärer Ehr igen en större fägnad gifwa /</l>
+               <l>At man med nöye skal få se wälsignadt blifwa</l>
+               <l rend="indent">Ehrt Hus; ty oansedt at Blomman wisnadt har</l>
+               <l rend="indent">Så är doch Roten frisk ännu i Jorden qwar.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
