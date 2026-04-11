@@ -99,17 +99,17 @@
             <head> Klage-Dicht / 
                <lb/>Öfwer
                <lb/>Dän i Lifstjden täcka och Behageliga lilla Jungfrun / 
-               <lb/>ANNA CAMMERECKER, 
+               <lb/><name type="person">ANNA CAMMERECKER</name>, 
                <lb/>Dän Äreborne och Högachtade Herrens / 
-               <lb/>DAVID CAMMERECKERS, 
+               <lb/><name type="person">DAVID CAMMERECKERS</name>, 
                <lb/>Förnäm Handelsmans i Stockholm 
                <lb/> Kärälſkelige Dotter;<lb/>
             </head>
             <dateline>Då däs Lekamen / ſedan dän ifrån ſin kära' Själ / efter ett i 2 Åhr hafde ſammanboende skild / war / af förnämt
-               <lb/>Medföllje till ſin Graf och Hwilo-Rum uti Ofwanſjö Kyrkja den <date when="1699-03-14">14 
-                  <foreign xml:lang="la" rend="roman">Martii</foreign> Åhr 1699</date> wederbörligen beledſagat blef </dateline>
+               <lb/>Medföllje till ſin Graf och Hwilo-Rum uti <name type="place">Ofwanſjö Kyrkja</name> den <date when="1699-03-14">14 
+                  <foreign xml:lang="la" rend="roman">Martii</foreign> Åhr 1699</date> wederbörligen beledſagat blef</dateline>
             <byline>J några Rim med haſt författad<lb/> Af
-               <lb/><docAuthor>M. P. A.</docAuthor></byline>
+               <lb/><docAuthor><name type="person">M. P. A.</name></docAuthor></byline>
          </div>
          <div>
             <epigraph>
