@@ -18,7 +18,7 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="rows" quantity="56">56 rader</measure>
+            <measure unit="rows" quantity="84">84 rader</measure>
          </extent>
          <publicationStmt>
             <p>Digitaliseringen av verket är en del av kursen "Digitalisering för bevarande och
@@ -74,12 +74,17 @@
                   föregående ord med ett mellanslag.</p>
             </punctuation>
             <hyphenation>
-               <p>OBS! VI MÅSTE FATTA ETT BESLUT OM RADBRYTANDE BINDESTRECK. HÅRDKODA ELLER MJUKKODA?</p>
+               <p>Radbrytande bindestreck kodas med tecknet för sådana (U+00AD), och dess radbrytning kodas
+                  med attributet break="no" för att markera att ordet i fråga inte avbryts.</p>
             </hyphenation>
          </editorialDecl>
       </encodingDesc>
       
       <profileDesc>
+         <langUsage>
+            <language ident="sv-Latf" usage="92">Tidigmodern svenska, skriven med frakturstil</language>
+            <language ident="la-Latn" usage="8">Latin</language>
+         </langUsage>
          <textClass>
             <classCode scheme="https://id.kb.se/term/sao/SAB-systemet">Hc.03</classCode>
             <classCode scheme="https://id.kb.se/term/sao/Dewey%20decimalklassifikation"
@@ -91,8 +96,27 @@
          </textClass>
       </profileDesc>
    </teiHeader>
-   
-   
+
+   <standOff>
+      <listPerson>
+         <person xml:id="BritaJöransdotter"><p>Brita Jöransdotter.</p></person>
+         <person xml:id="PetterHall"><p>Petter Hall.</p></person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="JakobsKyrka"><p>Sankt Jakobs kyrka. En av församlingskyrkorna i Stockholm.
+               Ligger på Norrmalm på västra sidan om Kungsträdgården. Kyrkan brann 1723 och byggdes om
+               kraftigt flera gånger efter det, så den kyrka vi ser idag är inte helt lik den som Brita 
+               Jöransdotter såg.</p>
+            <idno type="URI">https://sv.wikipedia.org/wiki/Jacobs_kyrka</idno>
+         </place>
+      </listPlace>
+      <listBibl>
+         <bibl xml:id="bibel3">Jobs bok kap 16 vers 19: 
+            "Även nu, se i himlarna har jag mitt vittne,
+            och min försvarare finns i höjden."</bibl>
+      </listBibl>
+   </standOff>
+
    <text rend="fraktur">
       <front>
          <div>
@@ -101,7 +125,7 @@
                <lb/>Nu mera hoos Gud Sahlige MATRONANS,
                <lb/><name type="person">Huſtro BRITA
                <lb/>Jörans-Dotters</name> /
-               <lb/>Profwiant-Mäſstarens wid Kongl. <foreign xml:lang="la" rend="roman">Ammiralitetet</foreign>,
+               <lb/>Profwiant-Mäſstarens wid Kongl. <span rend="roman">Ammiralitetet</span>,
                <lb/>Den
                <lb/>Ehreborne och Wählbetrodde Herrens /
                <lb/><name type="person">Herr PETTER Halls</name> /
@@ -110,17 +134,31 @@
             <dateline>ſom wijd des döda<lb/> Lekamens Grafſsättning uthi <name type="place"><span rend="roman">S:t Jacobs</span> Kyrckia</name> den 
                <span rend="roman"><date when="1699-12-19">19. Decemb:<lb/> ANNO 1697.</date></span> frammwijſtes.</dateline>
          </div>
-            <div type="frontispiece"/>
+            <div type="frontispiece">
+               <lg type="banners" rend="italic">
+               <lg>
+                  <l>Som ſpindlar ſina nät på bäſta blomſter ſträckia:</l>
+                  <l>Så wil odygens mun hwad dygigt är befläckia.</l>
+               </lg>
+               <lg>
+                  <l>Men Himlen ſkyddar ſielf och Cröner Dygdens ſtam;</l>
+                  <l>Och ſtörter Odygd ned uthi ſin egen skam.</l>
+               </lg>
+               </lg>
+            </div>
       </front>
+      <note place="bottom" type="pencil">1697</note>
   <pb/>    
       <body>
-         <head>TEXTEN</head>
-         <bibl rend="roman">Hiob 16 Cap. 19. v.</bibl>
+         <head rend="roman">TEXTEN</head>
+         <epigraph><cit>
+            <bibl rend="roman" ref="#bibel3">Hiob 16 Cap. 19. v.</bibl>
          <quote>Och ſij nu mitt Wittne är i Himmelen /
             <lb/>Och den mig känner bor i Högdenne.</quote>
+         </cit></epigraph>
          <div type="poem">
             <lg>
-               <lg>
+               <lg type="stanza">
                   <l>Så har den Dag ſig äntlig wehlat wiſa</l>
                   <l>Som med ſig brakt min högſta Siäle-Ljſa</l>
                   <l rend="indent">Så har jag nått dig nu O ſälla Stund</l>
@@ -128,7 +166,7 @@
                   <l>Och frälſar mig från den mit Hiärta ſårar</l>
                   <l rend="longindent">Min Owäns Mun</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Mitt Hopp det har nu wunnit alt sitt Nöje</l>
                   <l>För jordiſk Sorg har jag fått Himbla Löje</l>
                   <l rend="indent">Min Glädie bljr mitt ſälla Tijdfördrjf /</l>
@@ -136,7 +174,7 @@
                   <l>Och Himlen har oändlig Lust tillägnat</l>
                   <l rend="longindent">Mitt hela Ljf.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Jag blijr nu frj och achtar tig ey mera</l>
                   <l>O falſka Siähl hwad wil tu mig nu giöra</l>
                   <l rend="indent">Tin Tunga som af Etter ſwullen är</l>
@@ -144,7 +182,7 @@
                   <l>Sen jag går bort och ſamblas till dhe döda</l>
                   <l rend="longindent">Från allt Beſwär.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Du hölt oſpart och ſökte med all Möda</l>
                   <l>Ey att mit Lijf men <sic>Aran</sic> min att döda</l>
                   <l rend="indent">Den Omſorg war din ſtunders högſta Roo /</l>
@@ -152,7 +190,7 @@
                   <l>Det war emot din Drafwels-Flock min Wärja</l>
                   <l rend="longindent">Som tig motstood.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Det war den Grund hwar på mitt Ankar hwjlte</l>
                   <l>När Stormen af din Onſka kring mig Ihlte</l>
                   <l rend="indent">Det war den Grund som mig giord frj för ſträck /</l>
@@ -161,7 +199,7 @@
                   <l rend="longindent">Jag trygger geck.</l>
                   </lg>
              <pb/>
-               <lg>
+               <lg type="stanza">
                   <l>Ja ſom een Palm ſtår grön båd' Höſt och Sommar</l>
                   <l>Och achtar ey hwar ifrån Wädret kommer</l>
                   <l rend="indent">Så war beſtändigt och mitt Sinnes wähl</l>
@@ -169,7 +207,7 @@
                   <l>Så kunde och din Laſters-Storm ey twinga</l>
                   <l rend="longindent">Min frja Siähl.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Doch ſkiönt faſt du der om all Winning lade</l>
                   <l>Att drifwa ſlijkt hwad Argheet tig tillsade:</l>
                   <l rend="indent">Så önſka jag tig tär emoot alt wäll</l>
@@ -177,7 +215,7 @@
                   <l>Som ſkulle tig och mig der eengång hitta</l>
                   <l rend="longindent">Wid Werldſens Qwäll.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Har du mig ſökt här med i Lifwet plåga</l>
                   <l>Så un mig Fred nu efter Döden åga</l>
                   <l rend="indent">Om Hiärtat ditt ſlijkt tåhla kan och will</l>
@@ -185,7 +223,7 @@
                   <l>Emoot dett Gifft ſkiönt du will Sanning ſpara</l>
                   <l rend="longindent">Spår jag tig till.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Jag ger tig till will ey der på mer tahla</l>
                   <l>Ditt Samwet lär som ligger nu i Dwahla</l>
                   <l rend="indent">Så diupt nijdſänkt; när det sig reeſer opp:</l>
@@ -193,7 +231,7 @@
                   <l>Hwad jag oskylligt har måſt af dig ljda</l>
                   <l rend="longindent">Uthi mitt Lopp</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Jag ger tig till / det fordrar HErrans Willja</l>
                   <l>Nu när jag skall mig ifrån Werlden ſkillja</l>
                   <l rend="indent">Och Himlen öfwergie min matte Siähl</l>
@@ -201,7 +239,7 @@
                   <l>Du wijſtas qwar än i ſitt Argheetʒ Fängſel</l>
                   <l rend="longindent">Min Wän far wähl.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                   <l>Jag tar nu moot med glädie-fulla Händer</l>
                   <l>Den Cronan som min JEſus mig tillſänder</l>
                   <l rend="indent">Den Han förwärfwat har mig med ſin Död</l>
@@ -210,7 +248,7 @@
                   <l rend="longindent">Min Tröſt i Nöd.</l>
                   </lg>
              <pb/>
-               <lg>
+               <lg type="stanza">
                <l>Mitt Hiärta ſom i Andaktʒ-Böner waka</l>
                <l>Till JEſum min dett will' han ey förſaka</l>
                <l rend="indent">Min Jämmer war min JEſu wähl bekant:</l>
@@ -218,7 +256,7 @@
                <l>Som ſkull' mig gie förſäkran och bebåda</l>
                <l rend="longindent">Min Frihetʒ Pant.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                <l>Jag tar den moot med Glädie uthan ända</l>
                <l>Och will mig från alt jordiſkt Tummel wända</l>
                <l rend="indent">Som oppfylt är med Argheet Lögn och Swjk</l>
@@ -226,7 +264,7 @@
                <l>Har jag med Jemmer ſtoor (hwar på) förfarit</l>
                <l rend="longindent">Du Werld är rjk.</l>
                   </lg>
-               <lg>
+               <lg type="stanza">
                <l>Jag tar den moot och tig min JEſu priſar</l>
                <l>Tig JEſu ſom min Siähl med Glädie ſpiſar</l>
                <l rend="indent">Tig Lifʒens Drått jag föllier i dit Tiäll</l>
@@ -235,17 +273,21 @@
                <l rend="indent">Och jag är ſäll.</l>
                   </lg>
             </lg>
+            </div>
+         
+               <div type="poem" xml:lang="la" rend="roman">
             <lg>
-               <l><foreign xml:lang="la" rend="roman">QUas nunc vindicias, &amp; quæ præconia <lb/>velles</foreign></l>
-               <l rend="indent"><foreign xml:lang="la" rend="roman">In vivis læſæ reddere livor iners?</foreign></l>
-               <l><foreign xml:lang="la" rend="roman">Fruſtra tentarunt dubiæ mendacia vocis:</foreign></l>
-               <l rend="indent"><foreign xml:lang="la" rend="roman">Illæſum ſervat poſt ſua fata decus.</foreign></l>
-               <l><foreign xml:lang="la" rend="roman">Quæquæ manent vitam caſtè &amp; ſinceriter actam,</foreign></l>
-               <l rend="indent"><foreign xml:lang="la" rend="roman">Præmia pars melior non peritura tenet.</foreign></l>
-               <l><foreign xml:lang="la" rend="roman">Improbe, ſed diſcas aliàs compeſere linguam:</foreign></l>
-               <l rend="indent"><foreign xml:lang="la" rend="roman">Non, Tibi qui credit, ſi ſapit, ullus erit.</foreign></l>
+               <l>QUas nunc vindicias, &amp; quæ præconia <lb/>velles</l>
+               <l rend="indent">In vivis læſæ reddere livor iners?</l>
+               <l>Fruſtra tentarunt dubiæ mendacia vocis:</l>
+               <l rend="indent">Illæſum ſervat poſt ſua fata decus.</l>
+               <l>Quæquæ manent vitam caſtè &amp; ſinceriter actam,</l>
+               <l rend="indent">Præmia pars melior non peritura tenet.</l>
+               <l>Improbe, ſed diſcas aliàs compeſere linguam:</l>
+               <l rend="indent">Non, Tibi qui credit, ſi ſapit, ullus erit.</l>
             </lg>
          </div>
+         <note place="bottom" type="pencil">17999354096</note>
       </body>
    </text>
 </TEI>

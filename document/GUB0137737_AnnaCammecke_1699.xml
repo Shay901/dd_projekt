@@ -74,12 +74,16 @@
                   föregående ord med ett mellanslag.</p>
             </punctuation>
             <hyphenation>
-               <p>OBS! VI MÅSTE FATTA ETT BESLUT OM RADBRYTANDE BINDESTRECK. HÅRDKODA ELLER MJUKKODA?</p>
+               <p>Radbrytande bindestreck kodas med tecknet för sådana (U+00AD), och dess radbrytning kodas
+               med attributet break="no" för att markera att ordet i fråga inte avbryts.</p>
             </hyphenation>
          </editorialDecl>
       </encodingDesc>
 
       <profileDesc>
+         <langUsage>
+            <language ident="sv-Latf">Tidigmodern svenska, skriven med frakturstil</language>
+         </langUsage>
          <textClass>
             <classCode scheme="https://id.kb.se/term/sao/SAB-systemet">Hc.03</classCode>
             <classCode scheme="https://id.kb.se/term/sao/Dewey%20decimalklassifikation"
@@ -91,6 +95,35 @@
          </textClass>
       </profileDesc>
    </teiHeader>
+   
+   <standOff>
+      <listPerson>
+         <person xml:id="DavidKammecker"><p>David Kammecker, 1667-1715. Handelsman i Stockholm
+               och bruksägare i Ovansjö socken. Gift 1695 med Christina MacKey.</p></person>
+         <person xml:id="AnnaKammecker"><p>Anna Kammecker, 1696-1699. Första barnet till
+               David Kammecker och Christina MacKey. Död före tre års ålder.</p></person>
+         <person xml:id="MPA"><p>Okänd diktare med initialerna M.P.A.</p></person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="Stockholm"><p>Stockholm. Sveriges huvudstad och största stad.</p>
+            <idno type="URI">https://sv.wikipedia.org/wiki/Stockholm</idno>
+         </place>
+         <place xml:id="OvansjöKyrka"><p>Sockenkyrkan i Ovansjö socken, Gästrikland.
+               Ingår idag i tätorten Kungsgården inom Sandvikens kommun. Kyrkan fick en 
+               omfattande ombyggnad i mitten av 1700-talet och var på David Kammeckers tid 
+               mycket mindre än idag.</p>
+            <idno type="URI">https://sv.wikipedia.org/wiki/Ovansj%C3%B6_kyrka</idno>
+         </place>
+      </listPlace>
+      <listBibl>
+         <bibl xml:id="bibel1">Psaltaren kap 103 vers 15-16: 
+            "Människans dagar är som gräset, som en blomma på fältet blomstrar hon. 
+            Vinden drar förbi över den och den är borta, dess plats är inte längre känd."</bibl>
+         <bibl xml:id="bibel2">Markusevangeliet kap 10 vers 12:
+            "När Jesus såg detta blev han upprörd och sa till dem: 'Hindra inte barnen
+            att komma till mig, för Guds kungarike tillhör sådana som de."</bibl>
+      </listBibl>
+   </standOff>
 
 
    <text rend="fraktur">
@@ -99,25 +132,25 @@
             <head> Klage-Dicht / 
                <lb/>Öfwer
                <lb/>Dän i Lifstjden täcka och Behageliga lilla Jungfrun / 
-               <lb/><name type="person">ANNA CAMMERECKER</name>, 
+               <lb/><span rend="roman"><name type="person" ref="#AnnaKammecker">ANNA CAMMECKER</name></span>,
                <lb/>Dän Äreborne och Högachtade Herrens / 
-               <lb/><name type="person">DAVID CAMMERECKERS</name>, 
-               <lb/>Förnäm Handelsmans i Stockholm 
+               <lb/><span rend="roman"><name type="person" ref="#DavidKammecker">DAVID CAMMECKERS</name></span>,
+               <lb/>Förnäm Handelsmans i <name type="place" ref="#Stockholm">Stockholm</name> 
                <lb/> Kärälſkelige Dotter;<lb/>
             </head>
             <dateline>Då däs Lekamen / ſedan dän ifrån ſin kära' Själ / efter ett i 2 Åhr hafde ſammanboende skild / war / af förnämt
-               <lb/>Medföllje till ſin Graf och Hwilo-Rum uti <name type="place">Ofwanſjö Kyrkja</name> den <date when="1699-03-14">14 
-                  <foreign xml:lang="la" rend="roman">Martii</foreign> Åhr 1699</date> wederbörligen beledſagat blef</dateline>
+               <lb/>Medföllje till ſin Graf och Hwilo-Rum uti <name type="place" ref="#OvansjöKyrka">Ofwanſjö Kyrkja</name> den <date when="1699-03-14">14 
+                  <foreign xml:lang="la" rend="roman">Martii</foreign> Åhr 1699</date> wederbörligen beledſagat blef </dateline>
             <byline>J några Rim med haſt författad<lb/> Af
-               <lb/><docAuthor><name type="person">M. P. A.</name></docAuthor></byline>
+               <lb/><docAuthor><name type="person" ref="#MPA">M. P. A.</name></docAuthor></byline>
          </div>
          <div>
             <epigraph>
                <cit>
-                  <bibl rend="roman">Pſalm 103: 15. 16.</bibl>
+                  <bibl rend="roman" ref="#bibel1">Pſalm 103: 15. 16.</bibl>
                   <quote><lb/>En Menniſkia är i sitt Lefwande 
                      <lb/>ſåſom Gräs / hon blomſtras ſåſom 
-                     <lb/>ett Blomſter på Marckene. När Wä-
+                     <lb/>ett Blomſter på Marckene. När Wä­
                      <lb break="no"/>dret ther öfwer går / så är thet intet 
                      <lb/>meer ther / och theß Rum känner thet 
                      <lb/>intet meer.
@@ -129,9 +162,9 @@
             <cb/>
             <epigraph>
                <cit>
-                  <bibl rend="roman">Marc. 10: 14.</bibl>
+                  <bibl rend="roman" ref="#bibel2">Marc. 10: 14.</bibl>
                   <quote><lb/>Låter Barnen komma til mig / 
-                     <lb/>och förmener them icke / ty sådana hö-
+                     <lb/>och förmener them icke / ty sådana hö­
                      <lb break="no"/>rer Himmelriket till.
                   </quote>
                </cit>
@@ -171,8 +204,8 @@
                <l rend="indent">At dätta unga Lif / hwars Kropp här ligger kull /</l>
                <l rend="indent">Så snart äi blifwit ſläckt / och molmat uti Mull /</l>
                <cb/>
-               <l>Men Döden är äi wan <unclear>ett från</unclear> dät andra ſkillja;</l>
-               <l>Ty <unclear>rätt</unclear> så snart hans Hand en ſkön och fager Lillja /</l>
+               <l>Men Döden är äi wan <unclear resp="#JT">ett från</unclear> dät andra ſkillja;</l>
+               <l>Ty <unclear resp="JT">rätt</unclear> så snart hans Hand en ſkön och fager Lillja /</l>
                <l rend="indent">Som annat ringa Gräs med Lijan hugger af;</l>
                <l rend="indent">Alt / alt han / när han wil / för neder i sin Graf.</l>
                <l>Enär en Trägårdsman uti sin Trägård kommer /</l>
@@ -201,6 +234,9 @@
                <l rend="indent">Så är doch Roten friſk ännu i Jorden qwar.</l>
             </lg>
          </div>
+         <note place="bottom" type="pencil">1699</note>
+         <pb/>
+         <note place="bottom" type="pencil">17999354102</note>
       </body>
    </text>
 </TEI>

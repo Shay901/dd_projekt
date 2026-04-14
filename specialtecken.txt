@@ -4,3 +4,4 @@ Specialtecken:
 - Svansad z		ʒ	U+0292
 - Versal svansad Z	Ʒ	U+01B7
 		æ	U+00E6
+Mjukt bindestreck	­	U+00AD
