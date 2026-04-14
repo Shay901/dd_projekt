@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title>Digital version av begravningsdikt för <persName>Gunborg Kinnmundt</persName>:
+               "En Sorgbunden Mans Tårar och Tankar öfwer ſin Salige Huſtrus Oförmodelige och alt
+               för haſtige Frånfälle [...] </title>
+            <editor>Thorelli, Cederström och Tortosa</editor>
+            <respStmt>
+               <resp>TEI-kodning</resp>
+               <name xml:id="CC">Cecilia Cederström</name>
+            </respStmt>
+         </titleStmt>
+
+         <extent>
+            <measure unit="rows" quantity="40">40 rader</measure>
+         </extent>
+
+         <publicationStmt>
+            <p>Digitaliseringen av verket är en del av kursen "Digitalisering för bevarande och
+               tillgänglighet" vårterminen 2026 vid Högskolan i Borås, i samarbete med Göteborgs
+               universitet.</p>
+            <p>Verket innefattas inte av någon upphovsrätt utan är fullständigt tillgängligt.</p>
+         </publicationStmt>
+
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>En Sorgbunden Mans Tårar och Tankar öfwer ſin Salige Huſtrus Oförmodelige
+                     och alt för haſtige Frånfälle</title>
+                  <author>Sophia Elisabet Brenner</author>
+                  <imprint>
+                     <publisher>Kongl. Booktryckerijet/ hoos <name>Sal. Wankijfs
+                        Änckia.</name></publisher>
+                     <pubPlace>Stockholm</pubPlace>
+                     <date when="1694-11-25">25 november 1694</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <projectDesc>
+            <p>Projektet ingår i kursen "Digitalisering för bevarande och tilgänglighet" (C3IDB1),
+               en del av masterprogrammet i biblioteks- och informationsvetenskap vid Borås
+               högskola. Syftet är att skapa en kritisk digitalisering av ett
+               kulturarvsmaterial.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Urvalkriterier: Begravningsdikt från sent 1600-tal som behandlar kvinnor eller
+               barn.Valda ur Göteborgs universitetsbiblioteks samlingar.</p>
+         </samplingDecl>
+
+         <editorialDecl>
+            <p>Eftersom texten är på svenska har vi valt att låta språket för metadata och
+               kringinformation också vara svenska.</p>
+            <p>Vårt fokus ligger på text och kontext, inte de poetiska och materiella
+               aspekterna.</p>
+            <correction>
+               <p>Felstavningar i originalet har inte rättats, men markerats med en "sic"-tagg.</p>
+               <p>Ord som delvis försvunnit genom skador i originaldokumentet har återställts, men
+                  markerats med taggen "unclear".</p>
+            </correction>
+            <normalization>
+               <p>Texten har inte normaliserats utan den ursprungliga stavningen är bevarad,
+                  inklusive tidsperiodstypiska tecken som dubbel-s (ß), långa s (ſ) och z med svans
+                  (ʒ).</p>
+            </normalization>
+            <punctuation>
+               <p>Originalets punktuering har bevarats.</p>
+               <p>Punktueringen är standardiserad såtillvida att alla idag vanliga skiljetecken
+                  skrivs direkt efter det föregående ordet utan mellanslag, medan det tidstypiska
+                  snedstrecket (/) avskiljs från närmast föregående ord med ett mellanslag.</p>
+            </punctuation>
+            <hyphenation>
+               <p>Radbrytande bindestreck kodas med tecknet för sådana (U+00AD), och dess
+                  radbrytning kodas med attributet break="no" för att markera att ordet i fråga inte
+                  avbryts.</p>
+            </hyphenation>
+         </editorialDecl>
+
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="sv-Latf">Tidig modern svenska, skriven med frakturstil.</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://id.kb.se/term/sao/SAB-systemet">Hc.03</classCode>
+            <classCode scheme="https://id.kb.se/term/sao/Dewey%20decimalklassifikation"
+               >839.71</classCode>
+            <keywords scheme="https://id.kb.se/term/saogf">
+               <term>Begravningsdikter</term>
+               <term>Verk före 1800</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+
+   <standOff>
+      <listPerson>
+         <person xml:id="GunborgKinnmundt">
+            <p>Gunborg Kinnmundt, gift med Jöran Stiernhoff, död 1694.</p>
+         </person>
+         <person xml:id="JöranStiernhoff">
+            <p>Jöran Stiernhoff, gift med Gunborg Kinnmundt.</p>
+         </person>
+         <person xml:id="SophiaElisabetBrenner">
+            <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare.Pionjär
+               i skönlitterär framställning av kvinnliga erfarenheter.</p>
+            <p><idno type="URI">http://viaf.org/viaf/45123310</idno></p>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="Riddarholmskyrkan">
+            <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka.</p>
+            <idno type="URI">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno>
+         </place>
+         <place xml:id="OvansjöKyrka">
+            <p>Sockenkyrkan i Ovansjö socken, Gästrikland. Ingår idag i tätorten Kungsgården inom
+               Sandvikens kommun. Kyrkan fick en omfattande ombyggnad i mitten av 1700-talet och var
+               på David Kammeckers tid mycket mindre än idag.</p>
+            
+         </place>
+      </listPlace>
+
+
+   </standOff>
+
+   <text rend="fraktur">
+      <front>
+         <div>
+            <head> En Sorgbunden Mans <lb/>Tårar och Tankar <lb/>öfwer ſin Salige Huſtrus
+               <lb/>Oförmodelige och alt för haſtige Frånfälle/ <lb/>under deß egen Perſon
+               ſorgeligen föreſtälte <lb/>Då <lb/>Hans <choice>
+                  <abbr>Kongl. May:tʒ</abbr>
+                  <expan>Konglige Mayestätʒ</expan>
+               </choice>wår Allernådigſte Konungʒ
+                  <lb/><sic>Undderånigſte</sic><corr>underdånigſte</corr> Tienare och Slotfʒogde wid
+               deß <choice>
+                  <abbr>Kongl.</abbr>
+                  <expan>Konglige</expan>
+               </choice>
+               <lb/><foreign xml:lang="fr" rend="roman">Reſidence i Stockholm /</foreign>
+               <lb/>Edle och <choice>
+                  <abbr>Wälb:ne</abbr>
+                  <expan>Wälborne</expan>
+               </choice>
+               <lb/>Herr <persName>Jöran Stiernhoff</persName><lb/>Lärt Begrafwa sin Salige Fru /
+               <lb/>Edle och <choice>
+                  <abbr>Wälb:ne</abbr>
+                  <expan>Wälborne</expan>
+               </choice>
+               <lb/><choice>
+                  <abbr>Fr.</abbr>
+                  <expan>Fru</expan>
+               </choice>
+               <persName>Gunborg Kinnmundt</persName>/<lb/></head>
+            <lb/>
+            <dateline>Som ſkedde i <placeName>Ridderholms Kyrkian</placeName><date when="1694-11-25"
+                  >Den 25 <span rend="roman">No-<lb break="no"/>vember, ANNO 1694.
+               </span></date><lb/></dateline>
+
+            <p>Tryckt uti <placeName><choice>
+                     <abbr>Kong.</abbr>
+                     <expan>Konglige</expan>
+                  </choice>Booktryckerije</placeName>/ hoos <name><choice>
+                     <abbr>Sal.</abbr>
+                     <expan>Salige</expan>
+                  </choice> Wankijfs Änckia</name>.</p>
+
+         </div>
+      </front>
+
+
+
+
+      <body>
+         <div>
+
+            <lg>
+               <l>SÅ blir deth då för mig ett o-undwiſkligt Öde / /</l>
+               <l rend="indent">En ewig-grundat lag / et o-mootſägligt ſlut /</l>
+               <l>At gråta til min Död och lämna hoos de döde /</l>
+               <l rend="indent">Twå ſom på lijka ſätt, mit Hierta kåhrat ut!</l>
+            </lg>
+            <lg>
+               <l>Twå som på lijka ſätt / med lijka wedermöda /</l>
+               <l rend="indent">Dock lijka full' af Troo / ſagdt Werlden ſidſt god Natt /</l>
+               <l>Då dee till detta Lijf ſitt Foſter tänkte föda /</l>
+               <l rend="indent">Då galt deth bägges Lijf och mig min bästa Skatt /</l>
+            </lg>
+            <lg>
+               <l>Obootligt Hierte-Såår / beklagligt Sorgeminne /</l>
+               <l>Ach at Gudʒ Dom och Rätt ey mina domar tåhl!</l>
+               <l>Men hur kan Kött och Blod ſå noga ſKränkas inne /</l>
+               <l>Mon någon wäl tilmodʒ / har pröfwat makan skåål?</l>
+            </lg>
+            <lg>
+               <l>Mån ingen annan ſig ſå högdt moot Gud förſyndat?</l>
+               <l rend="indent">Ändock hoo weet hur när min död och ändalykt /</l>
+               <l>Den Högſte har / kan ſkee / min Maka hädan-ſkyndat /</l>
+               <l rend="indent">På deth hon effter mig ey lefde undertrykt.</l>
+            </lg>
+            <lg>
+               <l>Jag weet deß rena Siäl har Gudi wäl behagat /</l>
+               <l rend="indent">Ty hon til Synd och Wärld förachtligt Öga ſlog /</l>
+               <l>Sant är / Den högſte har mig mehr än många agat /</l>
+               <l rend="indent">Dock weet iag at hon nögd och Säll i Chriſto doog.</l>
+            </lg>
+            <lg>
+               <l>Jag wet fordenſkul wiſt / at hon hos Chriſtum leſwer,</l>
+               <l rend="indent">Föruthan ändalykt / dens högſtes åſyn ſeer /</l>
+               <l>Och iämte Änglarna ſin röſt för Gud uphäfwer /</l>
+               <l rend="indent">Sitt helig ſtämmer an ſom alla helgon gör' /</l>
+               <l>Slijkt</l>
+            </lg>
+            <pb/>
+            <lg>
+               <l>Slijkt wore mächtigt noch mit ſorgſe hierta ſtilla /</l>
+               <l rend="indent">Jag ärnar mången gång at kyßa herrens Riis /</l>
+               <l>Men när iag ſedan hör / ſig Barnen iämra illa /</l>
+               <l rend="indent">Då ängſlas iag pä nytt / uppå ett annat wijs.</l>
+            </lg>
+            <lg>
+               <l>Jag tänker / Store Gud om dig behagat lähna /</l>
+               <l rend="indent">Mig än på någon tijd min ſåta ächta Wän /</l>
+               <l>Jag hade kunnat Dig / ſå och min Konung tiena /</l>
+               <l rend="indent">I ſtörre roligheet; ſtraxt tänker iag igän</l>
+            </lg>
+            <lg>
+               <l>Aldz-wåldig ſtore Gud / förlåt de ſnöde Tankar /</l>
+               <l rend="indent">Hwij will en ſyndig Man med dig til rätta ſtåå ?</l>
+               <l>Jag tror du ingen Laſt på mina Skuldror ſankar /</l>
+               <l rend="indent">För än du pröfwar förſt / hwad tyngd iag tåla må.</l>
+            </lg>
+            <lg>
+               <l>Sa blandas Tröſt och Gråt /til deß iag måhlet hinner /</l>
+               <l rend="indent">Så ömſa Tankarna otalig mången gång /</l>
+               <l>Till deß hoo weet hur ſnart mitt Tijmeglas uthrinner /</l>
+               <l rend="indent">Och iag i ängla Liud förbytt min Swane-sång.</l>
+            </lg>
+
+            <byline>Wälmeent af<lb/><docAuthor><span rend="roman"><persName><choice>
+                           <abbr>Soph. E. Br</abbr>
+                           <expan>Sophia Elisabet Brenner</expan>
+                        </choice></persName></span></docAuthor></byline>
+         </div>
+
+
+      </body>
+   </text>
+</TEI>
