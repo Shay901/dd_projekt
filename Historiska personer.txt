@@ -1,0 +1,38 @@
+         <person xml:id="SophiaBrenner"><p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande
+            tillfällesdiktare.</p>
+         <p><idno type="URI">https://skbl.se/sv/artikel/SophiaElisabetBrenner</idno></p>
+         </person>
+         <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med 
+               Boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet 
+               fram till 1705.</p>
+            <p><idno type="URI">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
+         </person>
+         <person xml:id="BritaBååt"><p>Brita Beata Bååt, 1677-1697. Dotter till friherre
+            Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 20 års ålder.</p>
+            <p><idno type="URI">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
+         </person>
+         <person xml:id="ElisabetBååt"><p>Elisabet Magdalena Bååt, 1681-1697. Dotter till friherre
+               Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 15 års ålder.
+               Förlovad med Guftaf Stiernhöök.</p>
+            <p><idno type="URI">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
+         </person>
+         <person xml:id="JöranStiernhoff"><p>Georg Hircinius Stiernhoff, 1631-1710. 
+               Slottsfogde och underståthållare i Stockholm. Adlad med namnet Stiernhoff 1682.
+               Gift 4 gånger. Många barn under de första två äktenskapen, men de flesta dog unga.</p>
+            <p><idno type="URI">https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
+         </person>
+         <person xml:id="GunborgKinnmundt"><p>Gunborg Kinninmundt, 1655-1694. 
+               Gift 1680 med Jöran/Georg Hircinius, två år senare adlad Stiernhoff, i dennes
+               andra äktenskap.</p>
+            <p><idno type="URI">https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
+         </person>
+         <person xml:id="DavidKammecker"><p>David Kammecker, 1667-1715. Handelsman i Stockholm
+               och bruksägare i Ovansjö socken. Gift 1695 med Christina MacKey.</p>
+            <p><idno type="URI">https://strangs.weebly.com/gresilia-strang.html</idno></p>
+         </person>
+         <person xml:id="AnnaKammecker"><p>Anna Kammecker, 1696-1699. Första barnet till
+               David Kammecker och Christina MacKey. Död före tre års ålder.</p>
+            <p><idno type="URI">https://strangs.weebly.com/gresilia-strang.html</idno></p>
+         </person>
+         <person xml:id="MPA"><p>Okänd diktare med initialerna M.P.A.</p>
+         </person>
