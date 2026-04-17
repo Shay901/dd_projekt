@@ -7,10 +7,13 @@
 
       <fileDesc>
          <titleStmt>
-            <title>Digital version av begravningsdikt för <persName>Gunborg Kinnmundt</persName>:
-               "En Sorgbunden Mans Tårar och Tankar öfwer ſin Salige Huſtrus Oförmodelige och alt
-               för haſtige Frånfälle [...] </title>
-            <editor>Thorelli, Cederström och Tortosa</editor>
+            <title>Digital version av "En Sorgbunden Mans Tårar och Tankar öfwer ſin Salige Huſtrus Oförmodelige och alt
+               för haſtige Frånfälle / under deß egen Perſon ſorgeligen föreſtälte Då Hans Kongl.
+               May:tʒ wår Allernådigſte Konungʒ Undderånigſte Tienare och Slotʒfogde wid deß Kongl.
+               Reſidence i Stockholm / Edle och Wälb:ne Herr Jöran Stiernhoff Lätt Begrafwa sin
+               Salige Fru / Edle och Wälb:ne F.r Gunborg Kinnmundt"</title>
+            <author>Sophia Elisabet Brenner</author>
+            <editor>Cederström, Thorelli och Tortosa</editor>
             <respStmt>
                <resp>TEI-kodning</resp>
                <name xml:id="CC">Cecilia Cederström</name>
@@ -31,12 +34,15 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
-                  <title>En Sorgbunden Mans Tårar och Tankar öfwer ſin Salige Huſtrus Oförmodelige
-                     och alt för haſtige Frånfälle</title>
+                  <title>En Sorgbunden Mans Tårar och Tankar öfwer ſin Salige Huſtrus Oförmodelige och alt
+                     för haſtige Frånfälle / under deß egen Perſon ſorgeligen föreſtälte Då Hans Kongl.
+                     May:tʒ wår Allernådigſte Konungʒ Undderånigſte Tienare och Slotʒfogde wid deß Kongl.
+                     Reſidence i Stockholm / Edle och Wälb:ne Herr Jöran Stiernhoff Lätt Begrafwa sin
+                     Salige Fru / Edle och Wälb:ne F.r Gunborg Kinnmundt</title>
                   <author>Sophia Elisabet Brenner</author>
                   <imprint>
-                     <publisher>Kongl. Booktryckerijet/ hoos <name>Sal. Wankijfs
-                        Änckia.</name></publisher>
+                     <publisher>Kungliga Boktryckeriet hos Salige Wankijfs
+                        Änka</publisher>
                      <pubPlace>Stockholm</pubPlace>
                      <date when="1694-11-25">25 november 1694</date>
                   </imprint>
@@ -105,11 +111,18 @@
 
    <standOff>
       <listPerson>
-         <person xml:id="GunborgKinnmundt">
-            <p>Gunborg Kinnmundt, gift med Jöran Stiernhoff, död 1694.</p>
-         </person>
          <person xml:id="JöranStiernhoff">
-            <p>Jöran Stiernhoff, gift med Gunborg Kinnmundt.</p>
+            <p>Georg Hircinius Stiernhoff, 1631-1710. Slottsfogde och underståthållare i Stockholm.
+               Adlad med namnet Stiernhoff 1682. Gift 4 gånger. Många barn under de första två
+               äktenskapen, men de flesta dog unga.</p>
+            <p><idno type="URI"
+               >https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
+         </person>
+         <person xml:id="GunborgKinnmundt">
+            <p>Gunborg Kinninmundt, 1655-1694. Gift 1680 med Jöran/Georg Hircinius, två år senare
+               adlad Stiernhoff, i dennes andra äktenskap.</p>
+            <p><idno type="URI"
+               >https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
          </person>
          <person xml:id="SophiaElisabetBrenner">
             <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare.Pionjär
@@ -119,15 +132,12 @@
       </listPerson>
       <listPlace>
          <place xml:id="Riddarholmskyrkan">
-            <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka.</p>
+            <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida
+               klosterkyrka.</p>
             <idno type="URI">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno>
          </place>
-         <place xml:id="OvansjöKyrka">
-            <p>Sockenkyrkan i Ovansjö socken, Gästrikland. Ingår idag i tätorten Kungsgården inom
-               Sandvikens kommun. Kyrkan fick en omfattande ombyggnad i mitten av 1700-talet och var
-               på David Kammeckers tid mycket mindre än idag.</p>
-            
-         </place>
+
+
       </listPlace>
 
 
@@ -142,7 +152,7 @@
                   <abbr>Kongl. May:tʒ</abbr>
                   <expan>Konglige Mayestätʒ</expan>
                </choice>wår Allernådigſte Konungʒ
-                  <lb/><sic>Undderånigſte</sic><corr>underdånigſte</corr> Tienare och Slotfʒogde wid
+                  <lb/><sic>Undderånigſte</sic> Tienare och Slotfʒogde wid
                deß <choice>
                   <abbr>Kongl.</abbr>
                   <expan>Konglige</expan>
