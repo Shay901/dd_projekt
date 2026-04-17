@@ -99,10 +99,15 @@
    <standOff>
       <listPerson>
          <person xml:id="DavidKammecker"><p>David Kammecker, 1667-1715. Handelsman i Stockholm
-               och bruksägare i Ovansjö socken. Gift 1695 med Christina MacKey.</p></person>
+               och bruksägare i Ovansjö socken. Gift 1695 med Christina MacKey.</p>
+            <p><idno type="URI">https://strangs.weebly.com/gresilia-strang.html</idno></p>
+         </person>
          <person xml:id="AnnaKammecker"><p>Anna Kammecker, 1696-1699. Första barnet till
-               David Kammecker och Christina MacKey. Död före tre års ålder.</p></person>
-         <person xml:id="MPA"><p>Okänd diktare med initialerna M.P.A.</p></person>
+               David Kammecker och Christina MacKey. Död före tre års ålder.</p>
+            <p><idno type="URI">https://strangs.weebly.com/gresilia-strang.html</idno></p>
+         </person>
+         <person xml:id="MPA"><p>Okänd diktare med initialerna M.P.A.</p>
+         </person>
       </listPerson>
       <listPlace>
          <place xml:id="Stockholm"><p>Stockholm. Sveriges huvudstad och största stad.</p>

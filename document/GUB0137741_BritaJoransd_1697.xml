@@ -99,8 +99,11 @@
 
    <standOff>
       <listPerson>
-         <person xml:id="BritaJöransdotter"><p>Brita Jöransdotter.</p></person>
-         <person xml:id="PetterHall"><p>Petter Hall.</p></person>
+         <person xml:id="BritaJöransdotter"><p>Brita Jöransdotter. Petter Halls hustru.</p></person>
+         <person xml:id="PetterHall"><p>Petter Hall. Proviantmästare vid Amiralitetet 
+               i Stockholm från december 1675 och åtminstone till 1680.</p>
+            <p><idno type="URI">https://sv.wikisource.org/wiki/Sida:Zettersten-Svenska_flottans_historia_%C3%A5ren_1635-1680.djvu/624</idno></p>
+         </person>
       </listPerson>
       <listPlace>
          <place xml:id="JakobsKyrka"><p>Sankt Jakobs kyrka. En av församlingskyrkorna i Stockholm.
@@ -198,6 +201,7 @@
                   <l>Som Månan när een Hund på honom ſkiäller</l>
                   <l rend="longindent">Jag trygger geck.</l>
                   </lg>
+               <fw type="catch" place="bot-right">Ja</fw>
              <pb/>
                <lg type="stanza">
                   <l>Ja ſom een Palm ſtår grön båd' Höſt och Sommar</l>
@@ -247,6 +251,7 @@
                   <l>Min ſåta Siähla-Wän: ſom skulle blifwa</l>
                   <l rend="longindent">Min Tröſt i Nöd.</l>
                   </lg>
+               <fw type="catch" place="bot-right">Mitt</fw>
              <pb/>
                <lg type="stanza">
                <l>Mitt Hiärta ſom i Andaktʒ-Böner waka</l>
