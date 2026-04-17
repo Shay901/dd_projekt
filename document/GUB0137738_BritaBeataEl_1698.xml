@@ -7,17 +7,25 @@
      
       <fileDesc>
          <titleStmt>
+<<<<<<< Updated upstream
             <title>Digital version av begravningsdikt för Brita och Elisabet Bååth: "Samtaal Emellan de Sörjande Föräldrarne / Den Naturliga Empfindtligheten /
                Och ett Ehrifteligit Tålamod.[...]"</title>
          <author>SOPHIA E. BRENNER.</author>
             <editor>Thorelli, Cederström och Tortosa</editor>
+=======
+            <title>Digital version av: "Samtaal Emellan de Söriande Föräldrarne / Den Naturliga Empfindtligheten /
+               Och ett Chriſteligit Tålamod. Hållit Då De fordom högwälborde nu hoos Gud Ewinnerligen Salige Jungfrur BRITA Beata Och ELISABET Magdalena Bååth
+               Med anſenlig Heder till ſitt Hwijlorum beledſagades i Stockholm uti Kongl. Ridderholms Körkan"</title>
+            <author>Sophia Elisabet Brenner</author>
+            <editor>Cederström, Thorelli och Tortosa</editor>
+>>>>>>> Stashed changes
             <respStmt>
                <resp>TEI-kodning</resp>
                <name xml:id="CT">Clara Tortosa</name>
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="rows" quantity="00">00 rader</measure>
+            <measure unit="rows" quantity="96">96 rader</measure>
          </extent>
          <publicationStmt>
             <p>Digitaliseringen av verket är en del av kursen "Digitalisering för bevarande och
@@ -29,12 +37,21 @@
          <sourceDesc>
             <biblStruct>
                <monogr>
+<<<<<<< Updated upstream
                   <title>Samtaal Emellan de Sörjande Föräldrarne / Den Naturliga Empfindtligheten / Och ett Ehrifteligit Tålamod. Hållit
                      Då De fordom högwälborde nu hoos Gud Ewinnerligen Salige Jungfrur BRITA Beata Och ELISABET Magdalena Bååth</title>
                   <author>SOPHIA E. BRENNER.</author>
                   <imprint>
                   <publisher>Kongl. Booktryckerijet hoos <name>Sal. Wankijfs
                         Enkia.</name></publisher>
+=======
+                  <title>Samtaal Emellan de Söriande Föräldrarne / Den Naturliga Empfindtligheten / Och ett Chriſteligit Tålamod. Hållit
+                     Då De fordom högwälborde nu hoos Gud Ewinnerligen Salige Jungfrur BRITA Beata Och ELISABET Magdalena Bååth
+                     Med anſenlig Heder till ſitt Hwijlorum beledſagades i Stockholm uti Kongl. Ridderholms Körkan</title>
+                  <author>Sophia Elisabet Brenner</author>
+                  <imprint>
+                  <publisher>Kungliga Boktryckeriet hos Salige Wankijfs Änka</publisher>
+>>>>>>> Stashed changes
                   <pubPlace>Stockholm</pubPlace>
                   <date when="1698-02-27">27 februari 1698</date>
                   </imprint>
@@ -145,8 +162,13 @@
                <lb/>Magdalena Bååth</name><lb/>
             </head>
             <dateline>Med anſenlig Heder till ſitt Hwijlorum be-
+<<<<<<< Updated upstream
                <lb/>Ledsagades i Stockholm uti Kongl. Ridder-
                <lb/>Holms Körkan den
+=======
+               <lb/>Ledſagades i Stockholm uti Kongl. Ridder-
+               <lb/>holms Körkan den
+>>>>>>> Stashed changes
                <foreign xml:lang="la" rend="roman">27 Febr. 1698 .<date when="1698-02-27"> </date></foreign></dateline>
             <lb/><p>STOCKHOLM
                <lb/>Tryckt i Kongl. Boktryckerijet hoos Sal. <name>Wantifs</name> Enkia.</p>
@@ -157,7 +179,11 @@
          <div type="poem">
             
             <lg>
+<<<<<<< Updated upstream
                <l>De Sörjande Föräldrar.</l>
+=======
+               <l><head>De Sörjande Föräldrar.</l></head>
+>>>>>>> Stashed changes
                <l><name>JOb</name> roſas än i dag utav det Hielte-mod /</l>
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
                <l rend="indent">At han lijk Klippan ſatſ och <sic>oförandrat</sic><lb/>ſtod /</l>
@@ -191,7 +217,11 @@
                <l rend="indent">Ty ingen annan tröſt ell' roo är oß beſkärd</l>
                <l>Fö'rn oß den ſamma mull ſom wåra Döttrar täkker.</l>
                <l><fw type="catch">Den</fw></l>
+<<<<<<< Updated upstream
                <l>Den Naturlige Empfindtligheten.</l>
+=======
+               <l><head>Den Naturlige Empfindtligheten.</l></head>
+>>>>>>> Stashed changes
                <l>FUllföljien som ſig bör hwad Ehr er ängſlan rår /</l>
                <l>Hwem kan med ſtörre fog och mera billigt ſöria?</l>
                <l rend="indent">I ha twå döttrar miſt i deras Ålders wåhr:</l>
@@ -220,7 +250,11 @@
                <l>Ehr plicht ehr minna på och ſorg på ſorgen ſpäda.</l>
                <l rend="indent">Och om ehr kärlek ey ſkal kallas alt för ſwag /</l>
                <l>Så bör ehr ingen ting i werden mehra gläda.</l>
+<<<<<<< Updated upstream
                <l>Det Chriſteliga Tålamod.</l>
+=======
+               <l><head>Det Chriſteliga Tålamod.</l></head>
+>>>>>>> Stashed changes
                <l>HÅlt inne med ditt taal det är ey alt ſå klart;</l>
                <l>Hwem är ſom ikke wet hwad de föräldrar lijda:</l>
                <l rend="indent">Som ſakna enda barn / och at det alt för rart /</l>
@@ -251,7 +285,11 @@
                <l>Den ſkär och hwijt och ren til deras wandel ſwarar.</l>
                <l rend="indent">Ach tron I ha en alt för ringa kärlek tedt </l>
                <l>Om eder ſorg ännu wid deras glädje wahrar.</l>
+<<<<<<< Updated upstream
                <l>Föräldrarna.</l>
+=======
+               <l><head>Föräldrarna.</l></head>
+>>>>>>> Stashed changes
                <l>JA Ja wij märka at ingen klage-låt</l>
                <l>Oß wåra kära barn tilbaka läror bringa /</l>
                <l rend="indent">At all wår egendom och hela werdens ſtåt /</l>
