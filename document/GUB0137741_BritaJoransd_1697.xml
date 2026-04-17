@@ -128,16 +128,20 @@
                <lb/>Nu mera hoos Gud Sahlige MATRONANS,
                <lb/><name type="person">Huſtro BRITA
                <lb/>Jörans-Dotters</name> /
-               <lb/>Profwiant-Mäſstarens wid Kongl. <span rend="roman">Ammiralitetet</span>,
+               <lb/>Profwiant-Mäſstarens wid <choice><abbr>Kongl.</abbr><expan>Konglige</expan></choice> <span rend="roman">Ammiralitetet</span>,
                <lb/>Den
                <lb/>Ehreborne och Wählbetrodde Herrens /
                <lb/><name type="person">Herr PETTER Halls</name> /
                <lb/>För detta Kiärälſkeliga Makas ſidſta Tancka / 
             </head>
             <dateline>ſom wijd des döda<lb/> Lekamens Grafſsättning uthi <name type="place"><span rend="roman">S:t Jacobs</span> Kyrckia</name> den 
-               <span rend="roman"><date when="1699-12-19">19. Decemb:<lb/> ANNO 1697.</date></span> frammwijſtes.</dateline>
+               <span rend="roman"><date when="1699-12-19">19. <choice><abbr>Decemb:</abbr><expan>December</expan></choice><lb/> ANNO 1697.</date></span> frammwijſtes.</dateline>
          </div>
             <div type="frontispiece">
+               <figure><figDesc>
+                     Bild av en palm med kungakrona, under den finns ormar, paddor och ett spindelnät. 
+                     Himlen har mörka moln men ljus skiner ner på palmen. 
+                     Två av molnen har banér men versrader på.</figDesc>
                <lg type="banners" rend="italic">
                <lg>
                   <l>Som ſpindlar ſina nät på bäſta blomſter ſträckia:</l>
@@ -148,6 +152,7 @@
                   <l>Och ſtörter Odygd ned uthi ſin egen skam.</l>
                </lg>
                </lg>
+               </figure>
             </div>
       </front>
       <note place="bottom" type="pencil">1697</note>
