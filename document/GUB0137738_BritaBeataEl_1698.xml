@@ -10,6 +10,7 @@
             <title>Digital version av begravningsdikt för Brita och Elisabet Bååth: "Samtaal Emellan de Sörjande Föräldrarne / Den Naturliga Empfindtligheten /
                Och ett Ehrifteligit Tålamod.[...]"</title>
          <author>SOPHIA E. BRENNER.</author>
+            <editor>Thorelli, Cederström och Tortosa</editor>
             <respStmt>
                <resp>TEI-kodning</resp>
                <name xml:id="CT">Clara Tortosa</name>
@@ -24,40 +25,62 @@
                universitet.</p>
             <p>Verket innefattas inte av någon upphovsrätt utan är fullständigt tillgängligt.</p>
          </publicationStmt>
+         
          <sourceDesc>
-            <biblFull>
-               <titleStmt>
+            <biblStruct>
+               <monogr>
                   <title>Samtaal Emellan de Sörjande Föräldrarne / Den Naturliga Empfindtligheten / Och ett Ehrifteligit Tålamod. Hållit
                      Då De fordom högwälborde nu hoos Gud Ewinnerligen Salige Jungfrur BRITA Beata Och ELISABET Magdalena Bååth</title>
                   <author>SOPHIA E. BRENNER.</author>
-               </titleStmt>
-               <publicationStmt>
-                  <p>Kongl. Boktrycterijet hoos Sal. Wantifs Enkia.</p>
-               </publicationStmt>
-            </biblFull>
+                  <imprint>
+                  <publisher>Kongl. Booktryckerijet hoos <name>Sal. Wankijfs
+                        Enkia.</name></publisher>
+                  <pubPlace>Stockholm</pubPlace>
+                  <date when="1698-02-27">27 februari 1698</date>
+                  </imprint>
+               </monogr>
+               
+            </biblStruct>
          </sourceDesc>
       </fileDesc>
      
      <encodingDesc>
         <projectDesc>
-           <p>(project description) describes in detail the aim or purpose for which an electronic
-              file was encoded, together with any other relevant information concerning the process
-              by which it was assembled or collected.</p>
+           <p>Projektet ingår i kursen "Digitalisering för bevarande och tilgänglighet" (C3IDB1),
+              en del av masterprogrammet i biblioteks- och informationsvetenskap vid Borås högskola vårterminen 2026.
+              Syftet är att skapa en kritisk digitalisering av ett kulturarvsmaterial.</p>
         </projectDesc>
         <samplingDecl>
-           <p>Urvalkriterier: Begravningsdikt från sent 1600-tal som behandlar kvinnor eller
-              barn.</p>
+           <p>Urvalskriterier: Begravningsdikter i tryck från sent 1600-tal, som behandlar kvinnor eller barn.
+              Valda ur Göteborgs universitetsbiblioteks samlingar.</p>
         </samplingDecl>
         <editorialDecl>
-           <p>Språk för metadata och kringinformation ska vara på svenska.</p>
-           <p>Fokus på text och kontext över det poetiska och materiella.</p>
-           <p>Vi skriver av texterna som de är utan att normalisera.</p>
-           <p>(editorial practice declaration) provides details of editorial principles and
-              practices applied during the encoding of a text.</p>
-           <p>Exempelvis: "correction", "normalization", "punctuation", "quotation", "hyphenation",
-              "segmentation", "interpretation" och annat listas.</p>
+           <p>Eftersom texten är på svenska har vi valt att låta språket för metadata och kringinformation
+              också vara svenska.</p>
+           <p>Vårt fokus ligger på text och kontext, inte de poetiska och materiella aspekterna.</p>
+           <correction>
+              <p>Felstavningar i originalet har inte rättats, men markerats med en "sic"-tagg.</p>
+              <p>Ord som delvis försvunnit genom skador i originaldokumentet har återställts, men markerats med
+                 taggen "unclear".</p>
+           </correction>
+           <normalization>
+              <p>Texten har inte normaliserats utan den ursprungliga stavningen är bevarad, inklusive 
+                 tidsperiodstypiska tecken som dubbel-s (ß), långa s (ſ) och z med svans (ʒ).</p>
+           </normalization>
+           <punctuation>
+              <p>Originalets punktuering har bevarats.</p>
+              <p>Punktueringen är standardiserad såtillvida att alla idag vanliga skiljetecken skrivs direkt efter
+                 det föregående ordet utan mellanslag, medan det tidstypiska snedstrecket (/) avskiljs från närmast 
+                 föregående ord med ett mellanslag.</p>
+           </punctuation>
+           <hyphenation>
+              <p>Radbrytande bindestreck kodas med tecknet för sådana (U+00AD), och dess
+                 radbrytning kodas med attributet break="no" för att markera att ordet i fråga inte
+                 avbryts.</p>
+           </hyphenation>
         </editorialDecl>
      </encodingDesc>
+     
      <profileDesc>
         <textClass>
            <classCode scheme="https://id.kb.se/term/sao/SAB-systemet">Hc.03</classCode>
@@ -70,6 +93,37 @@
      </profileDesc>
   </teiHeader>
    
+   <standOff>
+      <listPerson>
+         <person xml:id="BritaBååt"><p>Brita Beata Bååt, 1677-1697. Dotter till friherre
+               Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 20 års ålder.</p>
+            <p><idno type="URI">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
+         </person>
+         <person xml:id="ElisabetBååt"><p>Elisabet Magdalena Bååt, 1681-1697. Dotter till friherre
+               Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 15 års ålder.
+               Förlovad med Guftaf Stiernhöök.</p>
+            <p><idno type="URI">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
+         </person>
+         <person xml:id="SophiaElisabetBrenner">
+            <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare.Pionjär
+               i skönlitterär framställning av kvinnliga erfarenheter.</p>
+            <p><idno type="URI">http://viaf.org/viaf/45123310</idno></p>
+         </person>
+         <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med 
+               Boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet 
+               fram till 1705.</p>
+            <p><idno type="URI">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
+         </person>
+      </listPerson>
+      
+      <listPlace>
+         <place xml:id="Riddarholmskyrkan">
+            <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka.</p>
+            <idno type="URI">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno>
+         </place>
+      </listPlace>     
+   </standOff>
+   
    <text rend="fraktur">
       <front>
          <div>
@@ -79,125 +133,136 @@
                <lb/>Den
                <lb/>Naturliga Empfindtligheten /
                <lb/>Och ett
-               <lb/>Chrifteligit Tålamod.
+               <lb/>Chriſteligit Tålamod.
                <lb/>Hållit
                <lb/>Då
                <lb/>De fordom Högwälborne nu hoos Gud
                <lb/>Ewinnerligen Salige
                <lb/>Jungfrur
-               <lb/>BRITA Beata
+               <lb/><name type="person">BRITA Beata</name>
                <lb/>Och
-               <lb/>ELISABET
-               <lb/>Magdalena Bååth<lb/>
+               <lb/><name type="person">ELISABET
+               <lb/>Magdalena Bååth</name><lb/>
             </head>
-            <dateline>Med ansenlig Heder till sitt Hwijlorum be-Ledsagades i Stockholm uti Kongl. Ridder-Holms Körkan den
+            <dateline>Med anſenlig Heder till ſitt Hwijlorum be-
+               <lb/>Ledsagades i Stockholm uti Kongl. Ridder-
+               <lb/>Holms Körkan den
                <foreign xml:lang="la" rend="roman">27 Febr. 1698 .<date when="1698-02-27"> </date></foreign></dateline>
-            <byline>STOCKHOLM
-               <lb/>Tryckt i Kongl. Boktryckerijet hoos Sal. Wantifs Enkia. 
-              </byline>
+            <lb/><p>STOCKHOLM
+               <lb/>Tryckt i Kongl. Boktryckerijet hoos Sal. <name>Wantifs</name> Enkia.</p>
          </div>
       </front>
       
       <body>
          <div type="poem">
+            
             <lg>
                <l>De Sörjande Föräldrar.</l>
-               <l>JOb rosas än I dag utav det Hielte-mod /</l>
-               <l>Hwar med han oförskräckt sin Motgång möta wiste;</l>
-               <l>Ut han lijk klippan sats och oförändrat stod /</l>
-               <l>Den wågor stöta på / då han sitt goda miste /</l>
-               <l>At där hans egen kropp af sår och swull-nad swed.</l>
-               <l>Där han i askan satt / ett lijka sinne tedde;</l>
+               <l><name>JOb</name> roſas än i dag utav det Hielte-mod /</l>
+               <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
+               <l rend="indent">At han lijk Klippan ſatſ och <sic>oförandrat</sic><lb/>ſtod /</l>
+               <l>Den wågor ſtöta på / då han ſitt goda miſte /</l>
+               <l>At där hans egen kropp af ſår och ſwull<lb/>-nad vwed.</l>
+               <l>Där han i aſkan satt / ett lijka ſinne tedde;</l>
+               <l rend="indent">Men barnen / barnen ach! ehur' han tåligt led /</l>
                <l>Wid detta får / hwem weet / om ikke hjertat blödde?</l>
-               <l>För ingen Fiende / för intet wildiur skufwat;</l>
-               <l>Men när af många barn han endast mister ett /</l>
-               <l>Hielp Gud hur’ har han sig / hur’ har sig Jacob grufwat;</l>
-               <l>Då han om Josephs död ett osant rychte spordt /</l>
-               <l>Hwem rättsint wil då oss en billig sorg försänka?</l>
-               <l>Där Ödet alt med ett oss barnelösa gjordt?</l>
-               <l>Och wij med twenne lijk alt hopp i grafwen sänka!</l>
-               <l>Fördenskul fast wår sorg är oförjlijklig stor /</l>
-               <l>Fast wij igenom gråt oss natt och dag förswaga /</l>
-               <l>Så tro wij dock at en bedröfwat Far och Mor /</l>
-               <l>Sig aldrig fyllest kan i sådant fall beklaga;</l>
-               <l>Wir weta alt för wäl at icke kött och blod</l>
+               <l rend="indent">Sij David war en man / hwars kända tapperhet</l>
+               <l>För ingen Fiende / för intet wildiur ſkufwat;</l>
+               <l rend="indent">Men när af många barn han endast miſter ett /</l>
+               <l>Hielp Gud hur' har han sig / hur' har ſig <name>Jacob</name> grufwat;</l>
+               <l rend="indent">Då han om <name>Josephs</name> död ett oſant rychte ſpordt /</l>
+               <l>Hwem rättſint wil då oß en billig ſorg förtänka?</l>
+               <l rend="indent">Där Ödet alt med ett oß barnelöſa gjordt?</l>
+               <l>Och wij med twenne lijk alt hopp i grafwen ſänka!</l>
+               <l rend="indent">Fördenſkul fast wår ſorg är oförjlijklig ſtor /</l>
+               <l>Faſt wij igenom gråt oss natt och dag förſwaga /</l>
+               <l rend="indent">Så tro wij dock at en bedröfwat Far och Mor /</l>
+               <l>Sig aldrig fylleſt kan i ſådant fall beklaga;</l>
+               <l rend="indent">Wij weta alt för wäl at icke kött och blod</l>
                <l>Bör hafwa öfwerhand och andan undertrykka;</l>
-               <l>Men finna likwäl sant / ju större tåreflod</l>
+               <l rend="indent">Men finna likwäl ſant / ju ſtörre tåreflod</l>
                <l>Ju mehra lindring i en wederwärdig lykka.</l>
-               <l>Den al ting går i hand / en den af lyckan mätt</l>
-               <l>Kan lätt för sörjande en ymnig tröst bereda /</l>
-               <l>Och wårt förnuft går minst i motgång regelrätt /</l>
-               <l>Fast om det andra förr u'r willan kunnat leda:</l>
-               <l>Dock hur det vara må wår sorg är tårar wärd /</l>
-               <l>Och billigt ay den jämt med såra dagar räkker /</l>
-               <l>Ty ingen annan tröst ell' roo är oss beskärd</l>
-               <l>Fö´rn oss den samma mull som såra Döttrar täkker.</l>
-               <l>Den</l>
+               <l rend="indent">Den al ting går i hand / en den af lyckan mätt</l>
+               <l>Kan lätt för ſörjande en ymnig tröſt bereda /</l>
+               <l rend="indent">Och wårt förnuft går minſt i motgång regelrätt /</l>
+               <l>Faſt om det andra förr u'r willan kunnat leda:</l>
+               <l rend="indent">Dock hur det vara må wår ſorg är tårar wärd /</l>
+               <l>Och billigt at den jämt med wåra dagar räkker /</l>
+               <l rend="indent">Ty ingen annan tröſt ell' roo är oß beſkärd</l>
+               <l>Fö'rn oß den ſamma mull ſom wåra Döttrar täkker.</l>
+               <l><fw type="catch">Den</fw></l>
                <l>Den Naturlige Empfindtligheten.</l>
-               <l>FUllföljien som sig bör head Ehr er ängslan rår /</l>
-               <l>Hwem kan med större fog och mera billigt sörja?</l>
-               <l>I ha två döttrar mist i deras Ålders wåhr:</l>
-               <l>Då de med alfwar först sin lijfstijd tänkte börja</l>
-               <l>Två döttrar hwilkas art och rena wandels låp /</l>
-               <l>Sin härkomst lijka så som stämman bägge prydde /</l>
-               <l>Dem dygden båda två så sedligt fostrats op /</l>
-               <l>At de föräldrars råd mer än sitt nöije lydde.</l>
-               <l>Hos dem naturen shelf med runda händer delt /</l>
-               <l>Hwad Rahel angenehm och Esther större gjorde /</l>
-               <l>Så at på ingen ting  dem eljest slagit felt;</l>
-               <l>An at de äldre blir och längre lefwa borde.</l>
-               <l>Hur kan en häftig sorg ehe här wid illa stå</l>
-               <l>Ehr som för kortan tijd man skattade för sälla /</l>
-               <l>Men skylt under moln och förr än afton gwälla.</l>
-               <l>Ur glädjen oss förunt hwarföre sorgen ey?</l>
-               <l>Bör den som älskar sitt / i kakan tijd berömmas /</l>
-               <l>Så bör (ehwem som här mot enwijst säger ney)</l>
-               <l>Det som wij hållit kärt för hastigt icke glömmas /</l>
-               <l>Hwem Wähler det? At när wårt hierta sårt och ömt /</l>
+               <l>FUllföljien som ſig bör hwad Ehr er ängſlan rår /</l>
+               <l>Hwem kan med ſtörre fog och mera billigt ſöria?</l>
+               <l rend="indent">I ha twå döttrar miſt i deras Ålders wåhr:</l>
+               <l>Då de med alfwar förſt ſin lijfstijd tänkte börja</l>
+               <l rend="indent">Twå döttrar hwilkas art och rena wandels låp /</l>
+               <l>Sin härkomſt lijka ſå ſom ſtämman bägge prydde /</l>
+               <l rend="indent">Dem dygden båda twå ſå ſedigt foſtrats op /</l>
+               <l>At de föräldrars råd mer än ſitt nöije lydde.</l>
+               <l rend="indent">Hos dem naturen ſielf med runda händer delt /</l>
+               <l>Hwad <name>Rahel</name> angenehm och <name>Esther</name> ſtörre gjorde /</l>
+               <l rend="indent">Så at på ingen ting  dem eljeſt ſlagit felt;</l>
+               <l>Än at de äldre blij och längre lefwa borde.</l>
+               <l rend="indent">Hur kan en heftig ſorg ehr här wid illa ſtå</l>
+               <l>Ehr ſom för kortan tijd man ſkattade för ſälla /</l>
+               <l rend="indent">Som ſedt ehr glädie-ſol uprunnen i de twå;</l>
+               <l>Men ſkylt inunder moln och förr än afton qwälla.</l>
+               <l rend="indent">Är glädien oß förunt hwarföre ſorgen ey?</l>
+               <l>Bör den ſom älskar ſitt / i allan tijd berömmas /</l>
+               <l rend="indent">Så bör (ehwem som här mot enwijſt ſäger ney)</l>
+               <l>Det ſom wij hållit kärt för haſtigt icke glömmas /</l>
+               <l rend="indent">Hwem wåller det? at när wårt hierta ſårt och ömt /</l>
                <l>Sig tårarna så lätt och utan möda finna /</l>
-               <l>Naturen! Som med flijt dem til den ändan gömt</l>
-               <l>At de wid slijka fall må ouphörligt rinna /</l>
-               <l>Ty faren här wid fort jag will alt dag från dag /</l>
-               <l>Ehr plicht ehe minna på och sorg på sorgen späda.</l>
-               <l>Och om ehr kärlek ey skal kallas alt för swag /</l>
-               <l>Så bör ehe ingen ting i werden mehra gläda.</l>
-               <l>Det Christeliga Tålamod</l>
-               <l>HÅlt inne med ditt taal det är en alt få klart;</l>
-               <l>Hwem är som ikke wet hwad de föräldrar lijda:</l>
-               <l>Som sakna enda barn / och at det alt få at strida /</l>
-               <l>Men head för hefftig nöd oss nånsin stöter till /</l>
-               <l>Fast</l>
-               <l>Fast hopp och tålamod sig läto nederquäfwa</l>
-               <l>Och fast Förnuftet ey oss handen räcka will /</l>
-               <l>Så måste andan ock sig op från jorden häfwa!</l>
-               <l>Ja detta är wäl lätt (som mången menar) sagt /</l>
-               <l>Men kostar något mehr at rätt i wärket ställa /</l>
-               <l>Rätt så! Men Herrans hand har bördan på ehe lagt /</l>
-               <l>Det går för alla skäl och måste fyllest gälla!</l>
-               <l>Och som i detta lijf ehe intet war så kärt</l>
-               <l>Det J för edra barn ey hade låtit fara /</l>
-               <l>Så öfwerwägen rätt om deras himmelsfärd;</l>
-               <l>Med skäl en orsak må till ehe begravning wara .</l>
-               <l>Betänken ock där hos at deras BÅÅTH i hamn</l>
-               <l>Där eder alt ännu bland böljor måste swäfwa /</l>
-               <l>At ingen mehr af dem skils ifrån JEsu famn /</l>
-               <l>Hwad högre brudgum had' J kunnat eftersträfwa ?</l>
-               <l>En brudgum hufwudzijrat mehr än alla kronor wärd /</l>
-               <l>Där stiernor uti sta'n för Diamanter blänka /</l>
-               <l>En härlig klädesdrächt af Englar tilberedt /</l>
-               <l>Ach tron I ha en alt för ringa kärlek text </l>
-               <l>Om eder sorg ännu wid deras glädje wahrar.</l>
+               <l rend="indent">Naturen! ſom med flijt dem til den ändan gömt</l>
+               <l>At de wid ſlijka fall må ouphörligt rinna /</l>
+               <l rend="indent">Ty faren här wid fort jag will alt dag från dag /</l>
+               <l>Ehr plicht ehr minna på och ſorg på ſorgen ſpäda.</l>
+               <l rend="indent">Och om ehr kärlek ey ſkal kallas alt för ſwag /</l>
+               <l>Så bör ehr ingen ting i werden mehra gläda.</l>
+               <l>Det Chriſteliga Tålamod.</l>
+               <l>HÅlt inne med ditt taal det är ey alt ſå klart;</l>
+               <l>Hwem är ſom ikke wet hwad de föräldrar lijda:</l>
+               <l rend="indent">Som ſakna enda barn / och at det alt för rart /</l>
+               <l>Så framt med kött och blod de intet få at ſtrida /</l>
+               <l rend="indent">Men hwad för hefftig nöd oß nånſin ſtöter till /</l>
+               <l>Faſtull ſom wåra Döttrar täkker.</l>
+               <l><fw type="catch">Den</fw></l>
+               <l>Faſt hopp och tålamod ſig läto nederquäfwa</l>
+               <l rend="indent">Och faſt Förnuftet ey oß handen räcka will /</l>
+               <l>Så måſte andan dock ſig op från jorden häfwa!</l>
+               <l rend="indent">Ja detta är wäl lätt (ſom mången menar) ſagt /</l>
+               <l>Men koſtar något mehr at rätt i wärket ſtälla /</l>
+               <l rend="indent">Rätt ſå! Men Herrans hand har bördan på ehr lagt /</l>
+               <l>Det går för alla ſkäl och måſte fylleſt gälla!</l>
+               <l rend="indent">Och ſom i detta lijf ehr intet war ſå kärt</l>
+               <l>Det I för edra barn ey hade låtit fara /</l>
+               <l rend="indent">Så öfwerwägen rätt om deras himmelsfärd;</l>
+               <l>Med ſkäl en orſak må till ehr begravning wara .</l>
+               <l rend="indent">Betänken ock där hos at deras <name>BÅÅTH</name> i hamn</l>
+               <l>Där eder alt ännu bland böljor måſte ſwäfwa /</l>
+               <l rend="indent">At ingen mehr af dem ſkils ifrån <name>JEſu</name> famn /</l>
+               <l>Hwad högre brudgum had' I kunnat efterſträfwa ?</l>
+               <l rend="indent">En brudgum hwilkens gunſt dem gåfwor har förährd /</l>
+               <l>På dem wij endaſt få i dödligheten tänka</l>
+               <l rend="indent">En hufwudzijrat mehr än alla kronor wärd /</l>
+               <l>Där ſtiernor uti ſta'n för Diamanter blänka /</l>
+               <l rend="indent">En härlig klädedrächt af Englar tilberedt /</l>
+               <l>Den ſkär och hwijt och ren til deras wandel ſwarar.</l>
+               <l rend="indent">Ach tron I ha en alt för ringa kärlek tedt </l>
+               <l>Om eder ſorg ännu wid deras glädje wahrar.</l>
                <l>Föräldrarna.</l>
                <l>JA Ja wij märka at ingen klage-låt</l>
-               <l>Oss wåra kära barn tilbaka läror bringa /</l>
-               <l>At all wår egendom ochhela Redens ståt /</l>
-               <l>Mot deras salighet bör skattas alt för ringa /</l>
-               <l>Och at den högste GUD fördenskull begge twå</l>
-               <l>Så snart och alt med ett har selat hädan flytta /</l>
-               <l>På det som nogast syns, han framgent ensam må</l>
-               <l>Wårt hierta inne haa/ och hinderlöst besitta.</l>
-               <lb/><docAuthor>SOPHIA E. BRENNER.</docAuthor>
-            </lg>
+               <l>Oß wåra kära barn tilbaka läror bringa /</l>
+               <l rend="indent">At all wår egendom och hela werdens ſtåt /</l>
+               <l>Mot deras ſalighet bör ſkattas alt för ringa /</l>
+               <l rend="indent">Och at den högſte GUD fördenſkul begge twå</l>
+               <l>Så ſnart och alt med ett har welat hädan flytta /</l>
+               <l rend="indent">På det som nogſamt ſyns / han framgent enſam må</l>
+               <l>Wårt hierta inne haa / och hinderlöſt beſitta.</l></lg>
+               <lb/><byline><docAuthor><span rend="roman">
+                        SOPHIA E. BRENNER.</span></docAuthor></byline>
+            
          </div>
       </body>
   </text>
