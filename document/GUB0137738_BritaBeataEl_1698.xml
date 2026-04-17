@@ -145,9 +145,9 @@
                <lb/><name type="person">ELISABET
                <lb/>Magdalena Bååth</name><lb/>
             </head>
-            <dateline>Med anſenlig Heder till ſitt Hwijlorum be-
-               <lb/>Ledſagades i Stockholm uti Kongl. Ridder-
-               <lb/>holms Körkan den
+            <dateline>Med anſenlig Heder till ſitt Hwijlorum be­
+               <lb break="no"/>ledſagades i Stockholm uti Kongl. Ridder­
+               <lb break="no"/>holms Körkan den
                <foreign xml:lang="la" rend="roman">27 Febr. 1698 .<date when="1698-02-27"> </date></foreign></dateline>
             <lb/><p>STOCKHOLM
                <lb/>Tryckt i Kongl. Boktryckerijet hoos Sal. <name>Wantifs</name> Enkia.</p>
@@ -163,7 +163,7 @@
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
                <l rend="indent">At han lijk Klippan ſatſ och <sic>oförandrat</sic><lb/>ſtod /</l>
                <l>Den wågor ſtöta på / då han ſitt goda miſte /</l>
-               <l>At där hans egen kropp af ſår och ſwull<lb/>-nad vwed.</l>
+               <l>At där hans egen kropp af ſår och ſwull­<lb break="no"/>nad ſwed.</l>
                <l>Där han i aſkan satt / ett lijka ſinne tedde;</l>
                <l rend="indent">Men barnen / barnen ach! ehur' han tåligt led /</l>
                <l>Wid detta får / hwem weet / om ikke hjertat blödde?</l>
