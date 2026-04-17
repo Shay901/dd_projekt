@@ -183,6 +183,7 @@
             <dateline>Som ſkedde i <name type="place" ref="#Riddarholmskyrkan">Ridderholms Kyrkian</name> Den <date when="1694-11-25"
                   >25 <span rend="roman">No­<lb break="no"/>vember, ANNO 1694.
                </span></date><lb/></dateline>
+            <figure><figDesc>En linje med abstrakta symboler.</figDesc></figure>
 
             <p>Tryckt uti <name><choice>
                      <abbr>Kongl.</abbr>
@@ -194,13 +195,16 @@
 
          </div>
       </front>
-
+      <note place="bottom" type="pencil">1694</note>
+      
+<pb/>
 
 
 
       <body>
          <div>
-
+<figure><figDesc>Dekorativ illustration med detaljer såsom lövverk, fåglar, krona och lagerkrans.</figDesc></figure>
+            
             <lg>
                <l>SÅ blir deth då för mig ett o-undwiſkligt Öde / /</l>
                <l rend="indent">En ewig-grundat lag / et o-mootſägligt ſlut /</l>
@@ -268,7 +272,10 @@
                            <abbr>Soph. E. Br</abbr>
                            <expan>Sophia Elisabet Brenner</expan>
                         </choice></name></span></docAuthor></byline>
+            <figure><figDesc>Dekorativ illustration med urna, keruber, kors och jesus med törnekrona.</figDesc></figure>
          </div>
+         <pb/>
+         <note place="bottom" type="pencil">17999354090</note>
 
 
       </body>
