@@ -129,6 +129,11 @@
                i skönlitterär framställning av kvinnliga erfarenheter.</p>
             <p><idno type="URI">http://viaf.org/viaf/45123310</idno></p>
          </person>
+         <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med 
+               Boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet 
+               fram till 1705.</p>
+            <p><idno type="URI">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
+         </person>
       </listPerson>
       <listPlace>
          <place xml:id="Riddarholmskyrkan">
