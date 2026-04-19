@@ -119,7 +119,10 @@
                fram till 1705.</p>
             <p><idno type="URL">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
          </person>
-         <person xml:id="David"><p>David är en Israels viktigaste gestalter, enligt Bibeln. Han var Israels andra kung.</p>
+         <person xml:id="Job"><p>Job är i judisk och kristen mytologi en gestalt som utsätts för Guds prövningar genom att Satan tillåts ta ifrån honom hans rikedom, barn och hälsa.</p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Job</idno></p>
+         </person>
+        <person xml:id="David"><p>David är en Israels viktigaste gestalter, enligt Bibeln. Han var Israels andra kung.</p>
             <p><idno type="URL">https://sv.wikipedia.org/wiki/Kung_David</idno></p>
             <p><idno type="URI">http://viaf.org/viaf/4145857119022922650</idno></p>
          </person>
@@ -154,7 +157,7 @@
          <div>
             <head> Samtaal
                <lb/>Emellan de
-               <lb/>Sörjande Föräldrarne /
+               <lb/>Söriande Föräldrarne /
                <lb/>Den
                <lb/>Naturliga Empfindtligheten /
                <lb/>Och ett
@@ -176,7 +179,10 @@
                      <expan>Konglige</expan>
                </choice> Ridder­
                   <lb break="no"/>holms Körkan</name> den
-               <foreign xml:lang="la" rend="roman"><date when="1698-02-27">27 Febr. 1698</date>.</foreign></dateline>
+               <foreign xml:lang="la" rend="roman"><date when="1698-02-27">27 <choice>
+                        <abbr>Febr.</abbr>
+                        <expan>Februari</expan>
+               </choice> 1698</date>.</foreign></dateline>
            <figure>
               <figDesc>En rad av abstrakta symboler med ett frågetecken i mitten</figDesc>
            </figure>
@@ -197,12 +203,12 @@
          <div type="poem">
             <div><head>De Sörjande Föräldrar.</head>
             <lg>
-               <l><name>JOb</name> roſas än i dag utav det Hielte-mod /</l>
+               <l><name ref="#Job">JOb</name> roſas än i dag utaf det Hielte-mod /</l>
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
                <l rend="indent">At han lijk Klippan ſatſ och <sic>oförandrat</sic><lb/>ſtod /</l>
                <l>Den wågor ſtöta på / då han ſitt goda miſte /</l>
                <l>At där hans egen kropp af ſår och ſwull­<lb break="no"/>nad ſwed.</l>
-               <l>Där han i aſkan satt / ett lijka ſinne tedde;</l>
+               <l>Där han i aſkan ſatt / ett lijka ſinne tedde;</l>
                <l rend="indent">Men barnen / barnen ach! ehur' han tåligt led /</l>
                <l>Wid detta får / hwem weet / om ikke hjertat blödde?</l>
                <l rend="indent">Sij <name ref="#David">David</name> war en man / hwars kända tapperhet</l>
@@ -211,7 +217,7 @@
                <l>Hielp Gud hur' har han sig / hur' har ſig <name ref="#Jacob">Jacob</name> grufwat;</l>
                <l rend="indent">Då han om <name ref="#Joseph">Josephs</name> död ett oſant rychte ſpordt /</l>
                <l>Hwem rättſint wil då oß en billig ſorg förtänka?</l>
-               <l rend="indent">Där Ödet alt med ett oß barnelöſa gjordt?</l>
+               <l rend="indent">Där Ödet alt med ett oß barnelöſa gjordt</l>
                <l>Och wij med twenne lijk alt hopp i grafwen ſänka!</l>
                <l rend="indent">Fördenſkul fast wår ſorg är oförjlijklig ſtor /</l>
                <l>Faſt wij igenom gråt oss natt och dag förſwaga /</l>
@@ -298,7 +304,7 @@
             
                <div><head>Föräldrarna.</head>
             <lg>
-               <l>JA Ja wij märka at ingen klage-låt</l>
+               <l>JA Ja wij märka wäl at ingen klage-låt</l>
                <l>Oß wåra kära barn tilbaka läror bringa /</l>
                <l rend="indent">At all wår egendom och hela werdens ſtåt /</l>
                <l>Mot deras ſalighet bör ſkattas alt för ringa /</l>
