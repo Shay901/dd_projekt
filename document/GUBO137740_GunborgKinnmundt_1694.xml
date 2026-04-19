@@ -95,7 +95,7 @@
 
       <profileDesc>
          <langUsage>
-            <language ident="sv-Latf">Tidig modern svenska, skriven med frakturstil.</language>
+            <language ident="sv-Latf">Tidigmodern svenska, skriven med frakturstil.</language>
          </langUsage>
          <textClass>
             <classCode scheme="https://id.kb.se/term/sao/SAB-systemet">Hc.03</classCode>
@@ -115,33 +115,35 @@
             <p>Georg Hircinius Stiernhoff, 1631-1710. Slottsfogde och underståthållare i Stockholm.
                Adlad med namnet Stiernhoff 1682. Gift 4 gånger. Många barn under de första två
                äktenskapen, men de flesta dog unga.</p>
-            <p><idno type="URI"
+            <p><idno type="URL"
                >https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
          </person>
          <person xml:id="GunborgKinnmundt">
             <p>Gunborg Kinninmundt, 1655-1694. Gift 1680 med Jöran/Georg Hircinius, två år senare
                adlad Stiernhoff, i dennes andra äktenskap.</p>
-            <p><idno type="URI"
+            <p><idno type="URL"
                >https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
          </person>
          <person xml:id="SophiaElisabetBrenner">
             <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare.Pionjär
                i skönlitterär framställning av kvinnliga erfarenheter.</p>
             <p><idno type="URI">http://viaf.org/viaf/45123310</idno></p>
+            <p><idno type="URL">https://skbl.se/sv/artikel/SophiaElisabetBrenner</idno></p>
          </person>
          <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med 
                Boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet 
                fram till 1705.</p>
-            <p><idno type="URI">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
          </person>
       </listPerson>
       <listPlace>
          <place xml:id="Riddarholmskyrkan">
             <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida
-               klosterkyrka.</p>
-            <idno type="URI">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno>
+               klosterkyrka, kallades tidigare för Gråmunkeholmskyrkan.</p>
+            <idno type="URL">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno></place>
+            <place xml:id="Stockholm"><p>Stockholm. Sveriges huvudstad och största stad.</p>
+               <idno type="URL">https://sv.wikipedia.org/wiki/Stockholm</idno>
          </place>
-
 
       </listPlace>
 
@@ -162,12 +164,12 @@
                   <abbr>Kongl.</abbr>
                   <expan>Konglige</expan>
                </choice>
-               <lb/><foreign xml:lang="fr" rend="roman">Reſidence i Stockholm /</foreign>
+               <lb/><foreign xml:lang="fr" rend="roman">Reſidence i <name type="place" ref="#Stockholm">Stockholm</name> /</foreign>
                <lb/>Edle och <choice>
                   <abbr>Wälb:ne</abbr>
                   <expan>Wälborne</expan>
                </choice>
-               <lb/>Herr <persName>Jöran Stiernhoff</persName><lb/>Lärt Begrafwa sin Salige Fru /
+               <lb/>Herr <name type="person" ref="#JöranStiernhoff">Jöran Stiernhoff</name><lb/>Lärt Begrafwa sin Salige Fru /
                <lb/>Edle och <choice>
                   <abbr>Wälb:ne</abbr>
                   <expan>Wälborne</expan>
@@ -176,29 +178,33 @@
                   <abbr>Fr.</abbr>
                   <expan>Fru</expan>
                </choice>
-               <persName>Gunborg Kinnmundt</persName>/<lb/></head>
+               <name type="person" ref="#GunborgKinnmundt">Gunborg Kinnmundt</name>/<lb/></head>
             <lb/>
-            <dateline>Som ſkedde i <placeName>Ridderholms Kyrkian</placeName><date when="1694-11-25"
-                  >Den 25 <span rend="roman">No­<lb break="no"/>vember, ANNO 1694.
+            <dateline>Som ſkedde i <name type="place" ref="#Riddarholmskyrkan">Ridderholms Kyrkian</name> Den <date when="1694-11-25"
+                  >25 <span rend="roman">No­<lb break="no"/>vember, ANNO 1694.
                </span></date><lb/></dateline>
+            <figure><figDesc>En linje med abstrakta symboler.</figDesc></figure>
 
-            <p>Tryckt uti <placeName><choice>
-                     <abbr>Kong.</abbr>
+            <p>Tryckt uti <name><choice>
+                     <abbr>Kongl.</abbr>
                      <expan>Konglige</expan>
-                  </choice>Booktryckerije</placeName>/ hoos <name><choice>
+                  </choice>Booktryckerijet</name>/ hoos <name><choice>
                      <abbr>Sal.</abbr>
                      <expan>Salige</expan>
-                  </choice> Wankijfs Änckia</name>.</p>
+                  </choice> <name type="person" ref="#WankijfsÄnka">Wankijfs Änckia</name></name>.</p>
 
          </div>
       </front>
-
+      <note place="bottom" type="pencil">1694</note>
+      
+<pb/>
 
 
 
       <body>
          <div>
-
+<figure><figDesc>Dekorativ illustration med detaljer såsom lövverk, fåglar, krona och lagerkrans.</figDesc></figure>
+            
             <lg>
                <l>SÅ blir deth då för mig ett o-undwiſkligt Öde / /</l>
                <l rend="indent">En ewig-grundat lag / et o-mootſägligt ſlut /</l>
@@ -262,11 +268,14 @@
                <l rend="indent">Och iag i ängla Liud förbytt min Swane-sång.</l>
             </lg>
 
-            <byline>Wälmeent af<lb/><docAuthor><span rend="roman"><persName><choice>
+            <byline>Wälmeent af<lb/><docAuthor><span rend="roman"><name type="person" ref="#SophiaElisabetBrenner"><choice>
                            <abbr>Soph. E. Br</abbr>
                            <expan>Sophia Elisabet Brenner</expan>
-                        </choice></persName></span></docAuthor></byline>
+                        </choice></name></span></docAuthor></byline>
+            <figure><figDesc>Dekorativ illustration med urna, keruber, kors och jesus med törnekrona.</figDesc></figure>
          </div>
+         <pb/>
+         <note place="bottom" type="pencil">17999354090</note>
 
 
       </body>

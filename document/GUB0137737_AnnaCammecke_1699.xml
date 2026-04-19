@@ -11,7 +11,7 @@
                ANNA CAMMERECKER, Dän Äreborne och Högachtade Herrens / Herr DAVID CAMMERECKERS, Förnäm Handelsmans
                i Stockholm Kärälſkelige Dotter"</title>
             <author>M. P. A.</author>
-            <editor>Thorelli, Cederström och Tortosa</editor>
+            <editor>Cederström, Thorelli och Tortosa</editor>
             <respStmt>
                <resp>TEI-kodning</resp>
                <name xml:id="JT">Johanna Thorelli</name>
@@ -36,7 +36,7 @@
                   <author>M. P. A.</author>
                   <imprint>
                      <publisher>(Okänd)</publisher>
-                     <pubPlace>Ovansjö kyrka</pubPlace>
+                     <pubPlace>Ovansjö</pubPlace>
                      <date when="1699-03-14">14 mars 1699</date>
                   </imprint>
                </monogr>
@@ -100,24 +100,24 @@
       <listPerson>
          <person xml:id="DavidKammecker"><p>David Kammecker, 1667-1715. Handelsman i Stockholm
                och bruksägare i Ovansjö socken. Gift 1695 med Christina MacKey.</p>
-            <p><idno type="URI">https://strangs.weebly.com/gresilia-strang.html</idno></p>
+            <p><idno type="URL">https://strangs.weebly.com/gresilia-strang.html</idno></p>
          </person>
          <person xml:id="AnnaKammecker"><p>Anna Kammecker, 1696-1699. Första barnet till
                David Kammecker och Christina MacKey. Död före tre års ålder.</p>
-            <p><idno type="URI">https://strangs.weebly.com/gresilia-strang.html</idno></p>
+            <p><idno type="URL">https://strangs.weebly.com/gresilia-strang.html</idno></p>
          </person>
          <person xml:id="MPA"><p>Okänd diktare med initialerna M.P.A.</p>
          </person>
       </listPerson>
       <listPlace>
          <place xml:id="Stockholm"><p>Stockholm. Sveriges huvudstad och största stad.</p>
-            <idno type="URI">https://sv.wikipedia.org/wiki/Stockholm</idno>
+            <idno type="URL">https://sv.wikipedia.org/wiki/Stockholm</idno>
          </place>
-         <place xml:id="OvansjöKyrka"><p>Sockenkyrkan i Ovansjö socken, Gästrikland.
+         <place xml:id="OvansjöKyrka"><p>Ovansjö kyrka. Sockenkyrkan i Ovansjö socken, Gästrikland.
                Ingår idag i tätorten Kungsgården inom Sandvikens kommun. Kyrkan fick en 
                omfattande ombyggnad i mitten av 1700-talet och var på David Kammeckers tid 
                mycket mindre än idag.</p>
-            <idno type="URI">https://sv.wikipedia.org/wiki/Ovansj%C3%B6_kyrka</idno>
+            <idno type="URL">https://sv.wikipedia.org/wiki/Ovansj%C3%B6_kyrka</idno>
          </place>
       </listPlace>
       <listBibl>
@@ -163,7 +163,9 @@
                </cit>
             </epigraph>
             <cb/>
-            <div type="frontispiece"/>
+            <figure>
+               <figDesc>En bild av en liten barnkista.</figDesc>
+            </figure>
             <cb/>
             <epigraph>
                <cit>
