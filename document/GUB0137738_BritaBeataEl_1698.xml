@@ -83,12 +83,16 @@
      </encodingDesc>
      
      <profileDesc>
+        <langUsage>
+           <language ident="sv-Latf">Tidigmodern svenska, skriven med frakturstil</language>
+        </langUsage>
         <textClass>
            <classCode scheme="https://id.kb.se/term/sao/SAB-systemet">Hc.03</classCode>
            <classCode scheme="https://id.kb.se/term/sao/Dewey%20decimalklassifikation"
               >839.71</classCode>
            <keywords scheme="https://id.kb.se/term/saogf">
               <term>Begravningsdikter</term>
+              <term>Verk före 1800</term>
            </keywords>
         </textClass>
      </profileDesc>
@@ -98,12 +102,12 @@
       <listPerson>
          <person xml:id="BritaBååt"><p>Brita Beata Bååt, 1677-1697. Dotter till friherre
                Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 20 års ålder.</p>
-            <p><idno type="URI">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
+            <p><idno type="URL">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
          </person>
          <person xml:id="ElisabetBååt"><p>Elisabet Magdalena Bååt, 1681-1697. Dotter till friherre
                Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 15 års ålder.
                Förlovad med Guftaf Stiernhöök.</p>
-            <p><idno type="URI">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
+            <p><idno type="URL">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
          </person>
          <person xml:id="SophiaElisabetBrenner">
             <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare.Pionjär
@@ -113,14 +117,34 @@
          <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med 
                Boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet 
                fram till 1705.</p>
-            <p><idno type="URI">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
+         </person>
+         <person xml:id="David"><p>David är en Israels viktigaste gestalter, enligt Bibeln. Han var Israels andra kung.</p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Kung_David</idno></p>
+            <p><idno type="URI">http://viaf.org/viaf/4145857119022922650</idno></p>
+         </person>
+         <person xml:id="Jacob"><p>Jakob var enligt Första Moseboken i den hebreiska Bibeln israeliternas anfader.</p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Jakob_(patriark)</idno></p>
+         </person>
+         <person xml:id="Joseph"><p>Josef är en av de mest kända personerna i Gamla Testamentet, berömd för sin färggranna dräkt och sin gudomliga förmåga att kunna tolka drömmar.</p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Josef,_Jakobs_son</idno></p>
+         </person>
+         <person xml:id="Esther"><p>Ester beskrivs som en av de sju kvinnliga judiska profeterna i Bibeln. Hon är titelgivande huvudperson för Ester bok.</p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Ester_(biblisk_person)</idno></p>
+         </person>
+         <person xml:id="Rahel"><p>Rakel förekommer i Första Moseboken och var gift med Jakob</p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Rakel_(Bibeln)</idno></p>
          </person>
       </listPerson>
       
       <listPlace>
+         <place xml:id="Stockholm"><p>Stockholm. Sveriges huvudstad och största stad.</p>
+            <idno type="URI">https://sv.wikipedia.org/wiki/Stockholm</idno>
+         </place>
          <place xml:id="Riddarholmskyrkan">
-            <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka.</p>
-            <idno type="URI">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno>
+            <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka. 
+               Kallades tidigare för Gråmunkeholmskyrkan.</p>
+            <idno type="URL">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno>
          </place>
       </listPlace>     
    </standOff>
@@ -135,30 +159,44 @@
                <lb/>Naturliga Empfindtligheten /
                <lb/>Och ett
                <lb/>Chriſteligit Tålamod.
-               <lb/>Hållit
+               <lb/>hållit
                <lb/>Då
                <lb/>De fordom Högwälborne nu hoos Gud
-               <lb/>Ewinnerligen Salige
+               <lb/>ewinnerligen Salige
                <lb/>Jungfrur
-               <lb/><name type="person">BRITA Beata</name>
+               <lb/><name type="person" ref="#BritaBååt">BRITA Beata</name>
                <lb/>Och
-               <lb/><name type="person">ELISABET
+               <lb/><name type="person" ref="#ElisabetBååt">ELISABET
                <lb/>Magdalena Bååth</name><lb/>
             </head>
             <dateline>Med anſenlig Heder till ſitt Hwijlorum be­
-               <lb break="no"/>ledſagades i Stockholm uti Kongl. Ridder­
-               <lb break="no"/>holms Körkan den
-               <foreign xml:lang="la" rend="roman">27 Febr. 1698 .<date when="1698-02-27"> </date></foreign></dateline>
-            <lb/><p>STOCKHOLM
-               <lb/>Tryckt i Kongl. Boktryckerijet hoos Sal. <name>Wantifs</name> Enkia.</p>
+               <lb break="no"/>ledſagades i <name type="place" ref="#Stockholm">Stockholm</name> 
+               uti <name type="place" ref="#Riddarholmskyrkan"><choice>
+                     <abbr>Kongl.</abbr>
+                     <expan>Konglige</expan>
+               </choice> Ridder­
+                  <lb break="no"/>holms Körkan</name> den
+               <foreign xml:lang="la" rend="roman"><date when="1698-02-27">27 Febr. 1698</date>.</foreign></dateline>
+           <figure>
+              <figDesc>En rad av abstrakta symboler med ett frågetecken i mitten</figDesc>
+           </figure>
+            <lb/><p><name type="place" ref="#Stockholm">STOCKHOLM</name>
+               <lb/>Tryckt i <choice>
+                  <abbr>Kongl.</abbr>
+                  <expan>Konglige</expan>
+               </choice> Boktryckerijet hoos <choice>
+                  <abbr>Sal.</abbr>
+                  <expan>Salige</expan>
+               </choice> <name type="person" ref="#WankijfsÄnka"><name>Wankijfs Enkia</name></name>.</p>
          </div>
       </front>
-      
+      <note place="top" type="ink">36</note>
+      <note place="bottom" type="pencil">1698</note>
+      <pb/>
       <body>
          <div type="poem">
-            
+            <div><head>De Sörjande Föräldrar.</head>
             <lg>
-               <l>De Sörjande Föräldrar.</l>
                <l><name>JOb</name> roſas än i dag utav det Hielte-mod /</l>
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
                <l rend="indent">At han lijk Klippan ſatſ och <sic>oförandrat</sic><lb/>ſtod /</l>
@@ -167,11 +205,11 @@
                <l>Där han i aſkan satt / ett lijka ſinne tedde;</l>
                <l rend="indent">Men barnen / barnen ach! ehur' han tåligt led /</l>
                <l>Wid detta får / hwem weet / om ikke hjertat blödde?</l>
-               <l rend="indent">Sij David war en man / hwars kända tapperhet</l>
+               <l rend="indent">Sij <name ref="#David">David</name> war en man / hwars kända tapperhet</l>
                <l>För ingen Fiende / för intet wildiur ſkufwat;</l>
                <l rend="indent">Men när af många barn han endast miſter ett /</l>
-               <l>Hielp Gud hur' har han sig / hur' har ſig <name>Jacob</name> grufwat;</l>
-               <l rend="indent">Då han om <name>Josephs</name> död ett oſant rychte ſpordt /</l>
+               <l>Hielp Gud hur' har han sig / hur' har ſig <name ref="#Jacob">Jacob</name> grufwat;</l>
+               <l rend="indent">Då han om <name ref="#Joseph">Josephs</name> död ett oſant rychte ſpordt /</l>
                <l>Hwem rättſint wil då oß en billig ſorg förtänka?</l>
                <l rend="indent">Där Ödet alt med ett oß barnelöſa gjordt?</l>
                <l>Och wij med twenne lijk alt hopp i grafwen ſänka!</l>
@@ -191,8 +229,10 @@
                <l>Och billigt at den jämt med wåra dagar räkker /</l>
                <l rend="indent">Ty ingen annan tröſt ell' roo är oß beſkärd</l>
                <l>Fö'rn oß den ſamma mull ſom wåra Döttrar täkker.</l>
-               <l><fw type="catch">Den</fw></l>
-               <l>Den Naturlige Empfindtligheten.</l>
+               <l><fw type="catch">Den</fw></l> </lg></div>
+            <pb/>
+               <div><head>Den Naturlige Empfindtligheten.</head>
+            <lg>
                <l>FUllföljien som ſig bör hwad Ehr er ängſlan rår /</l>
                <l>Hwem kan med ſtörre fog och mera billigt ſöria?</l>
                <l rend="indent">I ha twå döttrar miſt i deras Ålders wåhr:</l>
@@ -202,7 +242,7 @@
                <l rend="indent">Dem dygden båda twå ſå ſedigt foſtrats op /</l>
                <l>At de föräldrars råd mer än ſitt nöije lydde.</l>
                <l rend="indent">Hos dem naturen ſielf med runda händer delt /</l>
-               <l>Hwad <name>Rahel</name> angenehm och <name>Esther</name> ſtörre gjorde /</l>
+               <l>Hwad <name ref="#Rahel">Rahel</name> angenehm och <name ref="#Esther">Esther</name> ſtörre gjorde /</l>
                <l rend="indent">Så at på ingen ting  dem eljeſt ſlagit felt;</l>
                <l>Än at de äldre blij och längre lefwa borde.</l>
                <l rend="indent">Hur kan en heftig ſorg ehr här wid illa ſtå</l>
@@ -220,15 +260,18 @@
                <l rend="indent">Ty faren här wid fort jag will alt dag från dag /</l>
                <l>Ehr plicht ehr minna på och ſorg på ſorgen ſpäda.</l>
                <l rend="indent">Och om ehr kärlek ey ſkal kallas alt för ſwag /</l>
-               <l>Så bör ehr ingen ting i werden mehra gläda.</l>
-               <l>Det Chriſteliga Tålamod.</l>
+               <l>Så bör ehr ingen ting i werden mehra gläda.</l></lg></div>
+            
+               <div><head>Det Chriſteliga Tålamod.</head>
+            <lg>
                <l>HÅlt inne med ditt taal det är ey alt ſå klart;</l>
                <l>Hwem är ſom ikke wet hwad de föräldrar lijda:</l>
                <l rend="indent">Som ſakna enda barn / och at det alt för rart /</l>
                <l>Så framt med kött och blod de intet få at ſtrida /</l>
                <l rend="indent">Men hwad för hefftig nöd oß nånſin ſtöter till /</l>
                <l>Faſtull ſom wåra Döttrar täkker.</l>
-               <l><fw type="catch">Den</fw></l>
+               <fw type="catch">Den</fw>
+               <pb/>
                <l>Faſt hopp och tålamod ſig läto nederquäfwa</l>
                <l rend="indent">Och faſt Förnuftet ey oß handen räcka will /</l>
                <l>Så måſte andan dock ſig op från jorden häfwa!</l>
@@ -240,9 +283,9 @@
                <l>Det I för edra barn ey hade låtit fara /</l>
                <l rend="indent">Så öfwerwägen rätt om deras himmelsfärd;</l>
                <l>Med ſkäl en orſak må till ehr begravning wara .</l>
-               <l rend="indent">Betänken ock där hos at deras <name>BÅÅTH</name> i hamn</l>
+               <l rend="indent">Betänken ock där hos at deras <name ref="#BritaBååt">BÅÅTH</name> i hamn</l>
                <l>Där eder alt ännu bland böljor måſte ſwäfwa /</l>
-               <l rend="indent">At ingen mehr af dem ſkils ifrån <name>JEſu</name> famn /</l>
+               <l rend="indent">At ingen mehr af dem ſkils ifrån JEſu famn /</l>
                <l>Hwad högre brudgum had' I kunnat efterſträfwa ?</l>
                <l rend="indent">En brudgum hwilkens gunſt dem gåfwor har förährd /</l>
                <l>På dem wij endaſt få i dödligheten tänka</l>
@@ -251,8 +294,10 @@
                <l rend="indent">En härlig klädedrächt af Englar tilberedt /</l>
                <l>Den ſkär och hwijt och ren til deras wandel ſwarar.</l>
                <l rend="indent">Ach tron I ha en alt för ringa kärlek tedt </l>
-               <l>Om eder ſorg ännu wid deras glädje wahrar.</l>
-               <l>Föräldrarna.</l>
+               <l>Om eder ſorg ännu wid deras glädje wahrar.</l></lg></div>
+            
+               <div><head>Föräldrarna.</head>
+            <lg>
                <l>JA Ja wij märka at ingen klage-låt</l>
                <l>Oß wåra kära barn tilbaka läror bringa /</l>
                <l rend="indent">At all wår egendom och hela werdens ſtåt /</l>
@@ -260,11 +305,14 @@
                <l rend="indent">Och at den högſte GUD fördenſkul begge twå</l>
                <l>Så ſnart och alt med ett har welat hädan flytta /</l>
                <l rend="indent">På det som nogſamt ſyns / han framgent enſam må</l>
-               <l>Wårt hierta inne haa / och hinderlöſt beſitta.</l></lg>
-               <lb/><byline><docAuthor><span rend="roman">
-                        SOPHIA E. BRENNER.</span></docAuthor></byline>
-            
-         </div>
+               <l>Wårt hierta inne haa / och hinderlöſt beſitta.</l></lg></div>
+            </div>
+               <lb/><byline><docAuthor><span rend="roman">             
+                        <name type="person" ref="#SophiaElisabetBrenner">"SOPHIA E. BRENNER</name>.</span></docAuthor></byline>
+         <figure>
+            <figDesc>En rad av nio små asterixer</figDesc>
+         </figure>  
+         <note place="bottom" type="pencil">17999354099</note>
       </body>
   </text>
 </TEI>
