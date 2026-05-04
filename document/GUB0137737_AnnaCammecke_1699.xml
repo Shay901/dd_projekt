@@ -10,7 +10,7 @@
             <title>Digital version av "Klage-dicht / Öfwer Dän i Lifstjden täcka och Behageliga lilla Jungfrun / 
                ANNA CAMMERECKER, Dän Äreborne och Högachtade Herrens / Herr DAVID CAMMERECKERS, Förnäm Handelsmans
                i Stockholm Kärälſkelige Dotter"</title>
-            <author>M. P. A.</author>
+            <author>M. P. A. (identitet okänd)</author>
             <editor>Cederström, Thorelli och Tortosa</editor>
             <respStmt>
                <resp>TEI-kodning</resp>
@@ -36,7 +36,7 @@
                   <author>M. P. A.</author>
                   <imprint>
                      <publisher>(Okänd)</publisher>
-                     <pubPlace>Ovansjö</pubPlace>
+                     <pubPlace>Ovansjö kyrka</pubPlace>
                      <date when="1699-03-14">14 mars 1699</date>
                   </imprint>
                </monogr>
@@ -98,25 +98,20 @@
    
    <standOff>
       <listPerson>
-         <person xml:id="DavidKammecker"><p>David Kammecker, 1667-1715. Handelsman i Stockholm
-               och bruksägare i Ovansjö socken. Gift 1695 med Christina MacKey.</p>
+         <person xml:id="DavidKammecker"><p>David Kammecker, 1667-1715. Handelsman i Stockholm och bruksägare i Ovansjö socken. Gift 1695 med Christina MacKey.</p>
             <p><idno type="URL">https://strangs.weebly.com/gresilia-strang.html</idno></p>
          </person>
-         <person xml:id="AnnaKammecker"><p>Anna Kammecker, 1696-1699. Första barnet till
-               David Kammecker och Christina MacKey. Död före tre års ålder.</p>
+         <person xml:id="AnnaKammecker"><p>Anna Kammecker, 1696-1699. Första barnet till David Kammecker och Christina MacKey. Död före tre års ålder.</p>
             <p><idno type="URL">https://strangs.weebly.com/gresilia-strang.html</idno></p>
          </person>
          <person xml:id="MPA"><p>Okänd diktare med initialerna M.P.A.</p>
          </person>
       </listPerson>
       <listPlace>
-         <place xml:id="Stockholm"><p>Stockholm. Sveriges huvudstad och största stad.</p>
+         <place xml:id="Stockholm"><desc>Stockholm. Sveriges huvudstad och största stad.</desc>
             <idno type="URL">https://sv.wikipedia.org/wiki/Stockholm</idno>
          </place>
-         <place xml:id="OvansjöKyrka"><p>Ovansjö kyrka. Sockenkyrkan i Ovansjö socken, Gästrikland.
-               Ingår idag i tätorten Kungsgården inom Sandvikens kommun. Kyrkan fick en 
-               omfattande ombyggnad i mitten av 1700-talet och var på David Kammeckers tid 
-               mycket mindre än idag.</p>
+         <place xml:id="OvansjöKyrka"><desc>Ovansjö kyrka. Sockenkyrkan i Ovansjö socken, Gästrikland. Ingår idag i tätorten Kungsgården inom Sandvikens kommun. Kyrkan fick en omfattande ombyggnad i mitten av 1700-talet och var på David Kammeckers tid mycket mindre än idag.</desc>
             <idno type="URL">https://sv.wikipedia.org/wiki/Ovansj%C3%B6_kyrka</idno>
          </place>
       </listPlace>
@@ -130,16 +125,25 @@
       </listBibl>
    </standOff>
 
+   <facsimile>
+      <surface xml:id="AnnaCamm-1">
+         <graphic url="assets/img/GUB0137737_AnnaCammecke_1699_01.jpg"/>
+      </surface>
+      <surface xml:id="AnnaCamm-2">
+         <graphic url="assets/img/GUB0137737_AnnaCammecke_1699_02.jpg"/>
+      </surface>
+   </facsimile>
 
    <text rend="fraktur">
       <front>
+         <div type="page" facs="#AnnaCamm-1">
          <div>
             <head> Klage-Dicht / 
                <lb/>Öfwer
                <lb/>Dän i Lifstjden täcka och Behageliga lilla Jungfrun / 
-               <lb/><span rend="roman"><name type="person" ref="#AnnaKammecker">ANNA CAMMECKER</name></span>,
+               <lb/><span type="headername"><name type="person" ref="#AnnaKammecker"><choice><abbr>Jf:</abbr><expan>Jungfru</expan></choice> <span rend="roman">ANNA CAMMECKER</span></name></span>,
                <lb/>Dän Äreborne och Högachtade Herrens / 
-               <lb/><span rend="roman"><name type="person" ref="#DavidKammecker">DAVID CAMMECKERS</name></span>,
+               <lb/><span type="headername"><name type="person" ref="#DavidKammecker">Herr <span rend="roman">DAVID CAMMECKERS</span></name></span>,
                <lb/>Förnäm Handelsmans i <name type="place" ref="#Stockholm">Stockholm</name> 
                <lb/> Kärälſkelige Dotter;<lb/>
             </head>
@@ -149,17 +153,17 @@
             <byline>J några Rim med haſt författad<lb/> Af
                <lb/><docAuthor><name type="person" ref="#MPA">M. P. A.</name></docAuthor></byline>
          </div>
-         <div>
+         <div type="3-split">
             <epigraph>
-               <cit>
-                  <bibl rend="roman" ref="#bibel1">Pſalm 103: 15. 16.</bibl>
+               <cit><bibl ref="#bibel1">
+                  <span rend="roman">Pſalm 103: 15. 16.</span>
                   <quote><lb/>En Menniſkia är i sitt Lefwande 
                      <lb/>ſåſom Gräs / hon blomſtras ſåſom 
-                     <lb/>ett Blomſter på Marckene. När Wä­
+                     <lb/>ett Blomſter på Marckene. När Wä-
                      <lb break="no"/>dret ther öfwer går / så är thet intet 
                      <lb/>meer ther / och theß Rum känner thet 
                      <lb/>intet meer.
-                  </quote>
+                  </quote></bibl>
                </cit>
             </epigraph>
             <cb/>
@@ -168,20 +172,23 @@
             </figure>
             <cb/>
             <epigraph>
-               <cit>
-                  <bibl rend="roman" ref="#bibel2">Marc. 10: 14.</bibl>
+               <cit><bibl ref="#bibel2">
+                  <span rend="roman">Marc. 10: 14.</span>
                   <quote><lb/>Låter Barnen komma til mig / 
-                     <lb/>och förmener them icke / ty sådana hö­
+                     <lb/>och förmener them icke / ty sådana hö-
                      <lb break="no"/>rer Himmelriket till.
-                  </quote>
+                  </quote></bibl>
                </cit>
             </epigraph>
+         </div>
          </div>
       </front>
 
       <body>
-         <div type="poem">
-            <lg>
+         <div type="page" facs="#AnnaCamm-2">
+         <div type="2-split">
+            <lg type="mainpoem">
+               <lg type="side">
                <l>SÅ är dän täcka Ros / ſom war sin Faders Löye /</l>
                <l>Sin Moders fägnad och däs kära ljufwa Nöye /</l>
                <l rend="indent">Däs Ro och Tidfördrif / däs wackra Ögnalust /</l>
@@ -210,9 +217,11 @@
                <l>Förmå mot dödſens trug / ſå ſwär jag nu på ſtunde /</l>
                <l rend="indent">At dätta unga Lif / hwars Kropp här ligger kull /</l>
                <l rend="indent">Så snart äi blifwit ſläckt / och molmat uti Mull /</l>
+                  </lg>
                <cb/>
-               <l>Men Döden är äi wan <unclear resp="#JT">ett från</unclear> dät andra ſkillja;</l>
-               <l>Ty <unclear resp="JT">rätt</unclear> så snart hans Hand en ſkön och fager Lillja /</l>
+               <lg type="side">
+               <l>Men Döden är äi wan <damage resp="#JT">ett från</damage> dät andra ſkillja;</l>
+               <l>Ty <damage resp="JT">rätt</damage> så snart hans Hand en ſkön och fager Lillja /</l>
                <l rend="indent">Som annat ringa Gräs med Lijan hugger af;</l>
                <l rend="indent">Alt / alt han / när han wil / för neder i sin Graf.</l>
                <l>Enär en Trägårdsman uti sin Trägård kommer /</l>
@@ -239,11 +248,19 @@
                <l>At man med nöye ſkal få se wälſignadt blifwa</l>
                <l rend="indent">Ehrt Hus; ty oansedt at Blomman wiſnadt har</l>
                <l rend="indent">Så är doch Roten friſk ännu i Jorden qwar.</l>
+                  </lg>
             </lg>
          </div>
+            <figure>
+               <figDesc>Texten är dekorativt omgärdad på alla sidor. En tunn linje med dekorativa mönster 
+               finns ovanför och mellan spalterna; en tjockare mönstrad linje finns under dem, och till
+               höger och vänster om texten är utritade pelare, krönta med blommor och med ett änglaansikte på
+               fundamentet.</figDesc>
+            </figure>
          <note place="bottom" type="pencil">1699</note>
          <pb/>
          <note place="bottom" type="pencil">17999354102</note>
+       </div>
       </body>
    </text>
 </TEI>

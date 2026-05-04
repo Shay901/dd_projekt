@@ -1,0 +1,136 @@
+body {
+  background-color: #FDF5E6;
+  font-size: 1.15rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Calibri;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.intro {
+    margin: 50px;
+    max-width: 800px;
+    font-size: 1rem;
+    font-family: Calibri;
+}
+
+table {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+th {
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+}
+
+table.split {
+    width: 100%;
+    padding: 0px;
+}
+
+td {
+    vertical-align: top;
+}
+
+td.narrow {
+    width: 8%;
+}
+
+td.smaller {
+    font-size: 1rem;
+    text-align: center;
+}
+
+tr {
+    padding-top: 30px;
+}
+
+.roman {
+    font-family: courier, fixed, monospace;
+}
+
+span.bigname {
+    font-size: 3rem;
+    color: blue;
+}
+
+span.person {
+    color: blue;
+}
+
+span.plats {
+    color: blue;
+}
+
+td.faksimil {
+    max-width: 50%;
+    vertical-align: top;
+}
+
+img.faksimil {
+    width: 100%;
+}
+
+td.text {
+    width: 50%;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+td.spalt {
+    vertical-align: top;
+    font-size: 1.05rem;
+}
+
+.front {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p.figDesc {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+div.banners {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bigverse {
+    font-size: 1.5rem;
+}
+
+.indent {
+    margin-left: 40px;
+}
+
+.longindent {
+    margin-left: 200px;
+}
+
+.catch {
+    text-align: right;
+}
+
+div.note {
+    text-align: center;
+    color: lightgray;
+    padding-top: 40px;
+}

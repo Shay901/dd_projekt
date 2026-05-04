@@ -99,18 +99,14 @@
 
    <standOff>
       <listPerson>
-         <person xml:id="BritaJöransdotter"><p>Brita Jöransdotter. Petter Halls hustru.</p></person>
-         <person xml:id="PetterHall"><p>Petter Hall. Proviantmästare vid Amiralitetet 
-               i Stockholm från december 1675 och åtminstone till 1680.</p>
-            <p><idno type="URI">https://sv.wikisource.org/wiki/Sida:Zettersten-Svenska_flottans_historia_%C3%A5ren_1635-1680.djvu/624</idno></p>
+         <person xml:id="BritaJoransdotter"><p>Brita Jöransdotter. Petter Halls hustru.</p></person>
+         <person xml:id="PetterHall"><p>Petter Hall. Proviantmästare vid Amiralitetet i Stockholm från december 1675 och åtminstone till 1680.</p>
+            <p><idno type="URL">https://sv.wikisource.org/wiki/Sida:Zettersten-Svenska_flottans_historia_%C3%A5ren_1635-1680.djvu/624</idno></p>
          </person>
       </listPerson>
       <listPlace>
-         <place xml:id="JakobsKyrka"><p>Sankt Jakobs kyrka. En av församlingskyrkorna i Stockholm.
-               Ligger på Norrmalm på västra sidan om Kungsträdgården. Kyrkan brann 1723 och byggdes om
-               kraftigt flera gånger efter det, så den kyrka vi ser idag är inte helt lik den som Brita 
-               Jöransdotter såg.</p>
-            <idno type="URI">https://sv.wikipedia.org/wiki/Jacobs_kyrka</idno>
+         <place xml:id="JakobsKyrka"><desc>Sankt Jakobs kyrka. En av församlingskyrkorna i Stockholm. Ligger på Norrmalm på västra sidan om Kungsträdgården. Kyrkan brann 1723 och byggdes omkraftigt flera gånger efter det, så den kyrka vi ser idag är inte helt lik den som Brita Jöransdotter såg.</desc>
+            <idno type="URL">https://sv.wikipedia.org/wiki/Jacobs_kyrka</idno>
          </place>
       </listPlace>
       <listBibl>
@@ -119,33 +115,48 @@
             och min försvarare finns i höjden."</bibl>
       </listBibl>
    </standOff>
+   
+   <facsimile>
+      <surface xml:id="BritaJoransd-1" ulx="0" uly="0" lrx="3470" lry="5536">
+         <graphic url="assets/img/GUB0137741_BritaJoransd_1697_01.jpg"/>
+      </surface>
+      <surface xml:id="BritaJoransd-2">
+         <graphic url="assets/img/GUB0137741_BritaJoransd_1697_02.jpg"/>
+      </surface>
+      <surface xml:id="BritaJoransd-3">
+         <graphic url="assets/img/GUB0137741_BritaJoransd_1697_03.jpg"/>
+      </surface>
+      <surface xml:id="BritaJoransd-4">
+         <graphic url="assets/img/GUB0137741_BritaJoransd_1697_04.jpg"/>
+      </surface>
+   </facsimile>
 
    <text rend="fraktur">
       <front>
-         <div>
+         <div type="page" facs="#BritaJoransd-1">
+            <div>
             <head> Den 
                <lb/>Ehreborne Gudfruchtige och Dygdeſamma
-               <lb/>Nu mera hoos Gud Sahlige MATRONANS,
-               <lb/><name type="person">Huſtro BRITA
-               <lb/>Jörans-Dotters</name> /
+               <lb/>Nu mera hoos Gud Sahlige <span rend="roman">MATRONANS</span>,
+               <lb/><span type="headername"><name type="person" ref="#BritaJoransdotter">Huſtro BRITA
+                  <lb/>Jörans-Dotters</name></span> /
                <lb/>Profwiant-Mäſstarens wid <choice><abbr>Kongl.</abbr><expan>Konglige</expan></choice> <span rend="roman">Ammiralitetet</span>,
                <lb/>Den
                <lb/>Ehreborne och Wählbetrodde Herrens /
-               <lb/><name type="person">Herr PETTER Halls</name> /
+               <lb/><span type="headername"><name type="person" ref="#PetterHall">Herr PETTER Halls</name></span> /
                <lb/>För detta Kiärälſkeliga Makas ſidſta Tancka / 
             </head>
-            <dateline>ſom wijd des döda<lb/> Lekamens Grafſsättning uthi <name type="place"><span rend="roman">S:t Jacobs</span> Kyrckia</name> den 
+            <dateline>ſom wijd des döda<lb/> Lekamens Grafſsättning uthi <name type="place" ref="#JakobsKyrka"><span rend="roman">S:t Jacobs</span> Kyrckia</name> den 
                <span rend="roman"><date when="1699-12-19">19. <choice><abbr>Decemb:</abbr><expan>December</expan></choice><lb/> ANNO 1697.</date></span> frammwijſtes.</dateline>
          </div>
             <div type="frontispiece">
-               <figure><figDesc>
-                     Bild av en palm med kungakrona, under den finns ormar, paddor och ett spindelnät. 
+               <figure><figDesc>Bild av en palm med kungakrona. Under den finns ormar, paddor och ett spindelnät. 
                      Himlen har mörka moln men ljus skiner ner på palmen. 
-                     Två av molnen har banér men versrader på.</figDesc>
+                     Två av molnen har banér med versrader på.</figDesc>
                <lg type="banners" rend="italic">
                <lg>
                   <l>Som ſpindlar ſina nät på bäſta blomſter ſträckia:</l>
-                  <l>Så wil odygens mun hwad dygigt är befläckia.</l>
+                  <l>Så wil odygens mun hwad dygdigt är befläckia.</l>
                </lg>
                <lg>
                   <l>Men Himlen ſkyddar ſielf och Cröner Dygdens ſtam;</l>
@@ -154,18 +165,20 @@
                </lg>
                </figure>
             </div>
+            <note place="bottom" type="pencil">1697</note>
+         </div>
       </front>
-      <note place="bottom" type="pencil">1697</note>
-  <pb/>    
-      <body>
-         <head rend="roman">TEXTEN</head>
-         <epigraph><cit>
-            <bibl rend="roman" ref="#bibel3">Hiob 16 Cap. 19. v.</bibl>
-         <quote>Och ſij nu mitt Wittne är i Himmelen /
-            <lb/>Och den mig känner bor i Högdenne.</quote>
-         </cit></epigraph>
-         <div type="poem">
-            <lg>
+      <pb/>
+      
+  <body>
+     <div type="page" facs="#BritaJoransd-2">
+        <head><span rend="roman">TEXTEN,</span></head>
+        <epigraph><cit><bibl ref="#bibel3">
+            <span rend="roman">Hiob 16 Cap. 19. v.</span>
+               <quote><lg><l>Och ſij nu mitt Wittne är i Himmelen /</l>
+                     <l>Och den mig känner bor i Högdenne.</l></lg></quote></bibl>
+         </cit></epigraph>    
+            <lg type="mainpoem">
                <lg type="stanza">
                   <l>Så har den Dag ſig äntlig wehlat wiſa</l>
                   <l>Som med ſig brakt min högſta Siäle-Ljſa</l>
@@ -206,8 +219,12 @@
                   <l>Som Månan när een Hund på honom ſkiäller</l>
                   <l rend="longindent">Jag trygger geck.</l>
                   </lg>
+               </lg>
                <fw type="catch" place="bot-right">Ja</fw>
-             <pb/>
+        </div>
+<pb/>
+     <div type="page" facs="#BritaJoransd-3">
+        <lg type="mainpoem">
                <lg type="stanza">
                   <l>Ja ſom een Palm ſtår grön båd' Höſt och Sommar</l>
                   <l>Och achtar ey hwar ifrån Wädret kommer</l>
@@ -256,37 +273,45 @@
                   <l>Min ſåta Siähla-Wän: ſom skulle blifwa</l>
                   <l rend="longindent">Min Tröſt i Nöd.</l>
                   </lg>
-               <fw type="catch" place="bot-right">Mitt</fw>
-             <pb/>
-               <lg type="stanza">
+           </lg>
+        <fw type="catch" place="bot-right">Mitt</fw>
+     </div>
+
+               
+<pb/>
+     <div type="page" facs="#BritaJoransd-4">
+        <lg type="mainpoem">
+            <lg type="stanza">
                <l>Mitt Hiärta ſom i Andaktʒ-Böner waka</l>
                <l>Till JEſum min dett will' han ey förſaka</l>
                <l rend="indent">Min Jämmer war min JEſu wähl bekant:</l>
                <l>Ty lät Han mig i dröm een Crono ſkåda /</l>
                <l>Som ſkull' mig gie förſäkran och bebåda</l>
                <l rend="longindent">Min Frihetʒ Pant.</l>
-                  </lg>
-               <lg type="stanza">
+            </lg>
+            <lg type="stanza">
                <l>Jag tar den moot med Glädie uthan ända</l>
                <l>Och will mig från alt jordiſkt Tummel wända</l>
                <l rend="indent">Som oppfylt är med Argheet Lögn och Swjk</l>
                <l>Min Lefnadʒ-Tjd fast denn än kort har warit</l>
                <l>Har jag med Jemmer ſtoor (hwar på) förfarit</l>
                <l rend="longindent">Du Werld är rjk.</l>
-                  </lg>
-               <lg type="stanza">
+            </lg>
+            <lg type="stanza">
                <l>Jag tar den moot och tig min JEſu priſar</l>
                <l>Tig JEſu ſom min Siähl med Glädie ſpiſar</l>
                <l rend="indent">Tig Lifʒens Drått jag föllier i dit Tiäll</l>
                <l>Jag är nu Crönt min Sohl den är uprunnen</l>
                <l>Min Sorge-ſky deß Dimma är förſwunnen</l>
                <l rend="indent">Och jag är ſäll.</l>
-                  </lg>
             </lg>
-            </div>
+         </lg>
          
-               <div type="poem" xml:lang="la" rend="roman">
-            <lg>
+        <figure><figDesc>Några asterisker bildar en skiljelinje.</figDesc>
+           </figure>
+         
+            <div type="poem" xml:lang="la" rend="roman">
+            <lg type="latinpoem">
                <l>QUas nunc vindicias, &amp; quæ præconia <lb/>velles</l>
                <l rend="indent">In vivis læſæ reddere livor iners?</l>
                <l>Fruſtra tentarunt dubiæ mendacia vocis:</l>
@@ -296,8 +321,13 @@
                <l>Improbe, ſed diſcas aliàs compeſere linguam:</l>
                <l rend="indent">Non, Tibi qui credit, ſi ſapit, ullus erit.</l>
             </lg>
-         </div>
+            </div>
+               <figure><figDesc>En liten blomsterdekoration. I mitten omgärdad av en lagerkrans syns
+               ett lysande kvinnoansikte.</figDesc>
+               </figure>
+               
          <note place="bottom" type="pencil">17999354096</note>
+        </div>
       </body>
    </text>
 </TEI>
