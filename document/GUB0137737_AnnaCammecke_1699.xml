@@ -141,9 +141,9 @@
             <head> Klage-Dicht / 
                <lb/>Öfwer
                <lb/>Dän i Lifstjden täcka och Behageliga lilla Jungfrun / 
-               <lb/><span type="headername"><name type="person" ref="#AnnaKammecker"><choice><abbr>Jf:</abbr><expan>Jungfru</expan></choice> <span rend="roman">ANNA CAMMECKER</span></name></span>,
+               <lb/><span type="bigname"><name type="person" ref="#AnnaKammecker"><choice><abbr>Jf:</abbr><expan>Jungfru</expan></choice> <span rend="roman">ANNA CAMMECKER</span></name></span>,
                <lb/>Dän Äreborne och Högachtade Herrens / 
-               <lb/><span type="headername"><name type="person" ref="#DavidKammecker">Herr <span rend="roman">DAVID CAMMECKERS</span></name></span>,
+               <lb/><span type="bigname"><name type="person" ref="#DavidKammecker">Herr <span rend="roman">DAVID CAMMECKERS</span></name></span>,
                <lb/>Förnäm Handelsmans i <name type="place" ref="#Stockholm">Stockholm</name> 
                <lb/> Kärälſkelige Dotter;<lb/>
             </head>

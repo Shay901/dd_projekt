@@ -101,7 +101,7 @@
             <xsl:apply-templates/></span>
     </xsl:template>
 
-    <xsl:template match="tei:head/tei:span[@type='headername']">
+    <xsl:template match="tei:head/tei:span[@type='bigname']">
         <span class="bigname">
             <xsl:apply-templates/>
         </span>
