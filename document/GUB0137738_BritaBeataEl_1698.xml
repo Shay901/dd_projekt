@@ -152,9 +152,24 @@
       </listPlace>     
    </standOff>
    
+   <facsimile>
+      <surface xml:id="BritaBeata-1">
+         <graphic url="assets/img/GUB0137738_BritaBeataEl_1698_01.jpg"/>
+      </surface>
+      <surface xml:id="BritaBeata-2">
+         <graphic url="assets/img/GUB0137738_BritaBeataEl_1698_02.jpg"/>
+      </surface>
+      <surface xml:id="BritaBeata-3">
+         <graphic url="assets/img/GUB0137738_BritaBeataEl_1698_03.jpg"/>
+      </surface>
+      <surface xml:id="BritaBeata-4">
+         <graphic url="assets/img/GUB0137738_BritaBeataEl_1698_04.jpg"/>
+      </surface>
+   </facsimile>
+   
    <text rend="fraktur">
       <front>
-         <div>
+         <div type="page" facs="#BritaBeata-1">
             <head> Samtaal
                <lb/>Emellan de
                <lb/>Söriande Föräldrarne /
@@ -194,12 +209,14 @@
                   <abbr>Sal.</abbr>
                   <expan>Salige</expan>
                </choice> <name type="person" ref="#WankijfsÄnka"><name>Wankijfs Enkia</name></name>.</p>
+            <note place="top" type="ink">36</note>
+            <note place="bottom" type="pencil">1698</note>
          </div>
       </front>
-      <note place="top" type="ink">36</note>
-      <note place="bottom" type="pencil">1698</note>
+    
       <pb/>
       <body>
+         
          <div type="poem">
             <div><head>De Sörjande Föräldrar.</head>
             <lg>
