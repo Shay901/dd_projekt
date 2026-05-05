@@ -1,21 +1,26 @@
 body {
   background-color: #FDF5E6;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 h1 {
     text-align: center;
-    font-size: 2rem;
-    font-family: Calibri;
+    font-size: 3rem;
+    font-family: Calibri, Verdana, sans-serif;
     padding-right: 10%;
-    padding-left: 10%;
+    padding-left: 10%; 
 }
 
 .intro {
     margin: 50px;
-    max-width: 800px;
-    font-size: 1rem;
-    font-family: Calibri;
+    max-width: 900px;
+    font-size: 1.15rem;
+    font-family: Calibri, Verdana, sans-serif;
+    margin-left: 200px;
+}
+
+ul {
+    list-style-type: circle;
 }
 
 table {
@@ -30,7 +35,9 @@ table {
 }
 
 th {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-family: verdana;
+    color: gray;
 }
 
 table.split {
