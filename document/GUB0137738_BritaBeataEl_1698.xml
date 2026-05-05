@@ -182,17 +182,17 @@
                <lb/>De fordom Högwälborne nu hoos Gud
                <lb/>ewinnerligen Salige
                <lb/>Jungfrur
-               <lb/><name type="person" ref="#BritaBååt">BRITA Beata</name>
+               <lb/><span type="bigname"><name type="person" ref="#BritaBååt">BRITA Beata</name></span>
                <lb/>Och
-               <lb/><name type="person" ref="#ElisabetBååt">ELISABET
-               <lb/>Magdalena Bååth</name><lb/>
+               <lb/><span type="bigname"><name type="person" ref="#ElisabetBååt">ELISABET
+                     <lb/>Magdalena Bååth</name></span><lb/>
             </head>
-            <dateline>Med anſenlig Heder till ſitt Hwijlorum be­
+            <dateline>Med anſenlig Heder till ſitt Hwijlorum be-
                <lb break="no"/>ledſagades i <name type="place" ref="#Stockholm">Stockholm</name> 
                uti <name type="place" ref="#Riddarholmskyrkan"><choice>
                      <abbr>Kongl.</abbr>
                      <expan>Konglige</expan>
-               </choice> Ridder­
+               </choice> Ridder-
                   <lb break="no"/>holms Körkan</name> den
                <foreign xml:lang="la" rend="roman"><date when="1698-02-27">27 <choice>
                         <abbr>Febr.</abbr>
@@ -201,14 +201,14 @@
            <figure>
               <figDesc>En rad av abstrakta symboler med ett frågetecken i mitten</figDesc>
            </figure>
-            <lb/><p><name type="place" ref="#Stockholm">STOCKHOLM</name>
+            <lb/><div type="printing"><p><name type="place" ref="#Stockholm">STOCKHOLM</name>
                <lb/>Tryckt i <choice>
                   <abbr>Kongl.</abbr>
                   <expan>Konglige</expan>
                </choice> Boktryckerijet hoos <choice>
                   <abbr>Sal.</abbr>
                   <expan>Salige</expan>
-               </choice> <name type="person" ref="#WankijfsÄnka"><name>Wankijfs Enkia</name></name>.</p>
+               </choice> <name type="person" ref="#WankijfsÄnka"><name>Wankijfs Enkia</name></name>.</p></div>
             <note place="top" type="ink">36</note>
             <note place="bottom" type="pencil">1698</note>
          </div>
@@ -218,7 +218,8 @@
       <body>
          
          <div type="poem">
-            <div><head>De Sörjande Föräldrar.</head>
+            <div type="page" facs="#BritaBeata-2">
+               <head>De Sörjande Föräldrar.</head>
             <lg>
                <l><name ref="#Job">JOb</name> roſas än i dag utaf det Hielte-mod /</l>
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
