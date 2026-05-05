@@ -6,11 +6,7 @@ body {
 h1 {
     text-align: center;
     font-size: 3rem;
-<<<<<<< Updated upstream
     font-family: Calibri, Verdana, sans-serif;
-=======
-    font-family: Calibri, Verdana;
->>>>>>> Stashed changes
     padding-right: 10%;
     padding-left: 10%; 
 }
@@ -19,11 +15,7 @@ h1 {
     margin: 50px;
     max-width: 900px;
     font-size: 1rem;
-<<<<<<< Updated upstream
     font-family: Calibri, Verdana, sans-serif;
-=======
-    font-family: Calibri, Verdana;
->>>>>>> Stashed changes
 }
 
 table {
