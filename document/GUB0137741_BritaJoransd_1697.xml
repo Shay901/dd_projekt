@@ -117,7 +117,7 @@
    </standOff>
    
    <facsimile>
-      <surface xml:id="BritaJoransd-1" ulx="0" uly="0" lrx="3470" lry="5536">
+      <surface xml:id="BritaJoransd-1">
          <graphic url="assets/img/GUB0137741_BritaJoransd_1697_01.jpg"/>
       </surface>
       <surface xml:id="BritaJoransd-2">
