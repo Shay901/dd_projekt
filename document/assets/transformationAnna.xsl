@@ -10,7 +10,7 @@
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-                <link rel="stylesheet" type="text/css" href="assets/css/poemstyle.css"/>
+                <link rel="stylesheet" type="text/css" href="assets/css/poemstyleAnna.css"/>
                 <title>
                     <xsl:value-of select="//tei:monogr/tei:title"/>
                 </title>

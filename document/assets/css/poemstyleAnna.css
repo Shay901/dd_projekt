@@ -1,6 +1,6 @@
 body {
   background-color: #FDF5E6;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
 }
 
 h1 {
@@ -30,8 +30,7 @@ table {
 }
 
 th {
-    font-size: 1.5rem;
-    border-bottom: 1px solid black;
+    font-size: 3rem;
 }
 
 table.split {
@@ -62,15 +61,15 @@ tr {
 
 span.bigname {
     font-size: 3rem;
-    color: blue;
+    color: brown;
 }
 
 span.person {
-    color: blue;
+    color: brown;
 }
 
 span.plats {
-    color: blue;
+    color: brown;
 }
 
 td.faksimil {

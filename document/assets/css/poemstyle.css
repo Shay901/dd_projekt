@@ -20,18 +20,18 @@ h1 {
 
 table {
     width: 100%;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 80px;
+    padding-left: 80px;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 50px;
     border-collapse: separate;
-    border-spacing: 30px;
+    border-spacing: 100px;
 }
 
 th {
-    font-size: 1.5rem;
-    border-bottom: 1px solid black;
+    font-size: 3rem;
+    font-family: verdana;
 }
 
 table.split {
@@ -62,15 +62,15 @@ tr {
 
 span.bigname {
     font-size: 3rem;
-    color: blue;
+    color: brown;
 }
 
 span.person {
-    color: blue;
+    color: brown;
 }
 
 span.plats {
-    color: blue;
+    color: brown;
 }
 
 td.faksimil {
@@ -99,6 +99,11 @@ td.spalt {
 
 h2 {
     text-align: center;
+}
+
+h2.mid {
+    text-align: left;
+    margin-left: 40px;
 }
 
 p.figDesc {
@@ -133,4 +138,8 @@ div.note {
     text-align: center;
     color: lightgray;
     padding-top: 40px;
+}
+div.notetop {
+    text-align: right;
+    color: lightgray;
 }

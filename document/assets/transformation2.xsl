@@ -106,7 +106,13 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
+    <xsl:template match="tei:head[@type='mid']">
+        <h2 class="mid">
+            <xsl:apply-templates/>
+        </h2>
+    </xsl:template>
+
     <xsl:template match="tei:bibl">
         <xsl:variable name="ref" select="@ref"/>
         <span class="citat">
@@ -136,6 +142,12 @@
         <div class="front">
             <xsl:apply-templates/>
         </div>
+    </xsl:template>
+
+    <xsl:template match="tei:span[@type='big']">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
     </xsl:template>
 
     <xsl:template match="tei:byline">
@@ -186,20 +198,20 @@
         </p>
     </xsl:template>   
 
-    <xsl:template match="tei:epigraph">
-        <div class="front">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-
     <xsl:template match="tei:quote/tei:lg/tei:l">
         <div class="bigverse">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
 
-    <xsl:template match="tei:note">
+    <xsl:template match="tei:note[@place='bottom']">
         <div class="note">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
+    <xsl:template match="tei:note[@place='top']">
+        <div class="notetop">
             <xsl:apply-templates/>
         </div>
     </xsl:template>

@@ -172,7 +172,7 @@
       
   <body>
      <div type="page" facs="#BritaJoransd-2">
-        <head><span rend="roman">TEXTEN,</span></head>
+        <head type="mid"><span rend="roman">TEXTEN,</span></head>
         <epigraph><cit><bibl ref="#bibel3">
             <span rend="roman">Hiob 16 Cap. 19. v.</span>
                <quote><lg><l>Och ſij nu mitt Wittne är i Himmelen /</l>
