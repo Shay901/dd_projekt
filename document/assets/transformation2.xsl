@@ -127,7 +127,13 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    
+
+    <xsl:template match="tei:speaker">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
+    </xsl:template>
+
     <xsl:template match="tei:*[@rend='roman']">
         <span class="roman"><xsl:apply-templates/></span>
     </xsl:template>
@@ -151,7 +157,7 @@
     </xsl:template>
 
     <xsl:template match="tei:byline">
-        <div class="front">
+        <div class="right">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
