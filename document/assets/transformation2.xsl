@@ -24,8 +24,8 @@
                         <ul>
                             <li>En tillfällesdikt från <xsl:value-of select="//tei:pubPlace"
                             />, den <xsl:value-of select="//tei:imprint/tei:date"/>.</li>
-                            <li>Dikten har <xsl:value-of select="count(//tei:lg[@type='mainpoem']/tei:lg/tei:l)"/> rader.</li>
                             <li>Författaren är <xsl:value-of select="//tei:author"/>.</li>
+                            <li>Dikten har <xsl:value-of select="count(//tei:lg[@type='mainpoem']/tei:lg/tei:l)"/> rader.</li>
                             <li>Transkriberad och kodad av <xsl:value-of
                                     select="//tei:respStmt/tei:name"/> inom arbetsgruppen
                                     <xsl:value-of select="//tei:titleStmt/tei:editor"/>.</li>
