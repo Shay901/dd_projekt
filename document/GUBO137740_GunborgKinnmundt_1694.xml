@@ -112,34 +112,27 @@
    <standOff>
       <listPerson>
          <person xml:id="JöranStiernhoff">
-            <p>Georg Hircinius Stiernhoff, 1631-1710. Slottsfogde och underståthållare i Stockholm.
-               Adlad med namnet Stiernhoff 1682. Gift 4 gånger. Många barn under de första två
-               äktenskapen, men de flesta dog unga.</p>
+            <p>Georg Hircinius Stiernhoff, 1631-1710. Slottsfogde och underståthållare i Stockholm. Adlad med namnet Stiernhoff 1682. Gift 4 gånger. Många barn under de första två äktenskapen, men de flesta dog unga.</p>
             <p><idno type="URL"
                >https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
          </person>
          <person xml:id="GunborgKinnmundt">
-            <p>Gunborg Kinninmundt, 1655-1694. Gift 1680 med Jöran/Georg Hircinius, två år senare
-               adlad Stiernhoff, i dennes andra äktenskap.</p>
+            <p>Gunborg Kinninmundt, 1655-1694. Gift 1680 med Jöran/Georg Hircinius, två år senare adlad Stiernhoff, i dennes andra äktenskap.</p>
             <p><idno type="URL"
                >https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
          </person>
          <person xml:id="SophiaElisabetBrenner">
-            <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare.Pionjär
-               i skönlitterär framställning av kvinnliga erfarenheter.</p>
+            <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare.Pionjär i skönlitterär framställning av kvinnliga erfarenheter.</p>
             <p><idno type="URI">http://viaf.org/viaf/45123310</idno></p>
             <p><idno type="URL">https://skbl.se/sv/artikel/SophiaElisabetBrenner</idno></p>
          </person>
-         <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med 
-               Boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet 
-               fram till 1705.</p>
+         <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet fram till 1705.</p>
             <p><idno type="URL">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
          </person>
       </listPerson>
       <listPlace>
          <place xml:id="Riddarholmskyrkan">
-            <desc>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida
-               klosterkyrka, kallades tidigare för Gråmunkeholmskyrkan.</desc>
+            <desc>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka, kallades tidigare för Gråmunkeholmskyrkan.</desc>
             <idno type="URL">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno></place>
             <place xml:id="Stockholm"><desc>Stockholm. Sveriges huvudstad och största stad.</desc>
                <idno type="URL">https://sv.wikipedia.org/wiki/Stockholm</idno>
@@ -194,7 +187,7 @@
                      Gunborg Kinnmundt/<lb/></name></span></head>
             <lb/>
             <dateline>Som ſkedde i <name type="place" ref="#Riddarholmskyrkan">Ridderholms Kyrkian</name> Den <date when="1694-11-25"
-                  >25 <span rend="roman">No­<lb break="no"/>vember, ANNO 1694.
+                  >25 <span rend="roman">No-<lb break="no"/>vember, ANNO 1694.
                </span></date><lb/></dateline>
             <figure><figDesc>En linje med abstrakta symboler.</figDesc></figure>
 
@@ -215,7 +208,7 @@
 
 
       <body>
-         <div type="Gunnborg2">
+         <div type="page" facs="#Gunnborg2">
 <figure><figDesc>Dekorativ illustration med detaljer såsom lövverk, fåglar, krona och lagerkrans.</figDesc></figure>
             
             <lg type="mainpoem">
@@ -254,10 +247,11 @@
                <l rend="indent">Föruthan ändalykt / dens högſtes åſyn ſeer /</l>
                <l>Och iämte Änglarna ſin röſt för Gud uphäfwer /</l>
                <l rend="indent">Sitt helig ſtämmer an ſom alla helgon gör' /</l>
-               <l><fw type="catch"/>Slijkt</l>
-            </lg></lg></div>
+            </lg></lg>
+               <fw type="catch">Slijkt</fw>
+            </div>
             <pb/>
-         <div type="Gunnborg3">
+         <div type="page" facs="#Gunnborg3">
             <lg type="mainpoem">
                <lg>
                <l>Slijkt wore mächtigt noch mit ſorgſe hierta ſtilla /</l>
@@ -288,7 +282,7 @@
                            <abbr>Soph. E. Br</abbr>
                            <expan>Sophia Elisabet Brenner</expan>
                         </choice></name></span></docAuthor></byline>
-            <figure><figDesc>Dekorativ illustration med urna, keruber, kors och jesus med törnekrona.</figDesc></figure>
+            <figure><figDesc>Dekorativ illustration med urna, keruber, kors och Jesus med törnekrona.</figDesc></figure>
          </div>
          <pb/>
          <note place="bottom" type="pencil">17999354090</note>
