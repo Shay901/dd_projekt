@@ -220,6 +220,7 @@
          <div type="poem">
             <div type="page" facs="#BritaBeata-2">
                <head>De Sörjande Föräldrar.</head>
+               <lg type="mainpoem">
             <lg>
                <l><name ref="#Job">JOb</name> roſas än i dag utaf det Hielte-mod /</l>
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
@@ -253,10 +254,11 @@
                <l>Och billigt at den jämt med wåra dagar räkker /</l>
                <l rend="indent">Ty ingen annan tröſt ell' roo är oß beſkärd</l>
                <l>Fö'rn oß den ſamma mull ſom wåra Döttrar täkker.</l>
-               <l><fw type="catch">Den</fw></l> </lg></div>
+               <l><fw type="catch">Den</fw></l></lg></lg></div>
             <pb/>
-               <div><head>Den Naturlige Empfindtligheten.</head>
-            <lg>
+            <div type="page" facs="#BritaBeata-3"><head>Den Naturlige Empfindtligheten.</head>
+            <lg type="mainpoem">
+               <lg>
                <l>FUllföljien som ſig bör hwad Ehr er ängſlan rår /</l>
                <l>Hwem kan med ſtörre fog och mera billigt ſöria?</l>
                <l rend="indent">I ha twå döttrar miſt i deras Ålders wåhr:</l>
@@ -284,18 +286,22 @@
                <l rend="indent">Ty faren här wid fort jag will alt dag från dag /</l>
                <l>Ehr plicht ehr minna på och ſorg på ſorgen ſpäda.</l>
                <l rend="indent">Och om ehr kärlek ey ſkal kallas alt för ſwag /</l>
-               <l>Så bör ehr ingen ting i werden mehra gläda.</l></lg></div>
+               <l>Så bör ehr ingen ting i werden mehra gläda.</l>
+            </lg></lg>
             
-               <div><head>Det Chriſteliga Tålamod.</head>
+               <span type="big">Det Chriſteliga Tålamod.</span>
+            
             <lg>
                <l>HÅlt inne med ditt taal det är ey alt ſå klart;</l>
                <l>Hwem är ſom ikke wet hwad de föräldrar lijda:</l>
                <l rend="indent">Som ſakna enda barn / och at det alt för rart /</l>
                <l>Så framt med kött och blod de intet få at ſtrida /</l>
                <l rend="indent">Men hwad för hefftig nöd oß nånſin ſtöter till /</l>
-               <l>Faſtull ſom wåra Döttrar täkker.</l>
-               <fw type="catch">Den</fw>
+               <l>Faſtull ſom wåra Döttrar täkker.</l></lg>
+               <fw type="catch">Faſt</fw>
                <pb/>
+               </div>
+               <div type="page" facs="#BritaBeata-4">
                <l>Faſt hopp och tålamod ſig läto nederquäfwa</l>
                <l rend="indent">Och faſt Förnuftet ey oß handen räcka will /</l>
                <l>Så måſte andan dock ſig op från jorden häfwa!</l>
