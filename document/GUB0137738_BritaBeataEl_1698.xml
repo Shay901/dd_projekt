@@ -182,17 +182,17 @@
                <lb/>De fordom Högwälborne nu hoos Gud
                <lb/>ewinnerligen Salige
                <lb/>Jungfrur
-               <lb/><name type="person" ref="#BritaBååt">BRITA Beata</name>
+               <lb/><span type="bigname"><name type="person" ref="#BritaBååt">BRITA Beata</name></span>
                <lb/>Och
-               <lb/><name type="person" ref="#ElisabetBååt">ELISABET
-               <lb/>Magdalena Bååth</name><lb/>
+               <lb/><span type="bigname"><name type="person" ref="#ElisabetBååt">ELISABET
+                     <lb/>Magdalena Bååth</name></span><lb/>
             </head>
-            <dateline>Med anſenlig Heder till ſitt Hwijlorum be­
+            <dateline>Med anſenlig Heder till ſitt Hwijlorum be-
                <lb break="no"/>ledſagades i <name type="place" ref="#Stockholm">Stockholm</name> 
                uti <name type="place" ref="#Riddarholmskyrkan"><choice>
                      <abbr>Kongl.</abbr>
                      <expan>Konglige</expan>
-               </choice> Ridder­
+               </choice> Ridder-
                   <lb break="no"/>holms Körkan</name> den
                <foreign xml:lang="la" rend="roman"><date when="1698-02-27">27 <choice>
                         <abbr>Febr.</abbr>
@@ -201,14 +201,14 @@
            <figure>
               <figDesc>En rad av abstrakta symboler med ett frågetecken i mitten</figDesc>
            </figure>
-            <lb/><p><name type="place" ref="#Stockholm">STOCKHOLM</name>
+            <lb/><div type="printing"><p><name type="place" ref="#Stockholm">STOCKHOLM</name>
                <lb/>Tryckt i <choice>
                   <abbr>Kongl.</abbr>
                   <expan>Konglige</expan>
                </choice> Boktryckerijet hoos <choice>
                   <abbr>Sal.</abbr>
                   <expan>Salige</expan>
-               </choice> <name type="person" ref="#WankijfsÄnka"><name>Wankijfs Enkia</name></name>.</p>
+               </choice> <name type="person" ref="#WankijfsÄnka"><name>Wankijfs Enkia</name></name>.</p></div>
             <note place="top" type="ink">36</note>
             <note place="bottom" type="pencil">1698</note>
          </div>
@@ -218,7 +218,9 @@
       <body>
          
          <div type="poem">
-            <div><head>De Sörjande Föräldrar.</head>
+            <div type="page" facs="#BritaBeata-2">
+               <head>De Sörjande Föräldrar.</head>
+               <lg type="mainpoem">
             <lg>
                <l><name ref="#Job">JOb</name> roſas än i dag utaf det Hielte-mod /</l>
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
@@ -252,10 +254,11 @@
                <l>Och billigt at den jämt med wåra dagar räkker /</l>
                <l rend="indent">Ty ingen annan tröſt ell' roo är oß beſkärd</l>
                <l>Fö'rn oß den ſamma mull ſom wåra Döttrar täkker.</l>
-               <l><fw type="catch">Den</fw></l> </lg></div>
+               <l><fw type="catch">Den</fw></l></lg></lg></div>
             <pb/>
-               <div><head>Den Naturlige Empfindtligheten.</head>
-            <lg>
+            <div type="page" facs="#BritaBeata-3"><head>Den Naturlige Empfindtligheten.</head>
+            <lg type="mainpoem">
+               <lg>
                <l>FUllföljien som ſig bör hwad Ehr er ängſlan rår /</l>
                <l>Hwem kan med ſtörre fog och mera billigt ſöria?</l>
                <l rend="indent">I ha twå döttrar miſt i deras Ålders wåhr:</l>
@@ -283,18 +286,22 @@
                <l rend="indent">Ty faren här wid fort jag will alt dag från dag /</l>
                <l>Ehr plicht ehr minna på och ſorg på ſorgen ſpäda.</l>
                <l rend="indent">Och om ehr kärlek ey ſkal kallas alt för ſwag /</l>
-               <l>Så bör ehr ingen ting i werden mehra gläda.</l></lg></div>
+               <l>Så bör ehr ingen ting i werden mehra gläda.</l>
+            </lg></lg>
             
-               <div><head>Det Chriſteliga Tålamod.</head>
+               <span type="big">Det Chriſteliga Tålamod.</span>
+            
             <lg>
                <l>HÅlt inne med ditt taal det är ey alt ſå klart;</l>
                <l>Hwem är ſom ikke wet hwad de föräldrar lijda:</l>
                <l rend="indent">Som ſakna enda barn / och at det alt för rart /</l>
                <l>Så framt med kött och blod de intet få at ſtrida /</l>
                <l rend="indent">Men hwad för hefftig nöd oß nånſin ſtöter till /</l>
-               <l>Faſtull ſom wåra Döttrar täkker.</l>
-               <fw type="catch">Den</fw>
+               <l>Faſtull ſom wåra Döttrar täkker.</l></lg>
+               <fw type="catch">Faſt</fw>
                <pb/>
+               </div>
+               <div type="page" facs="#BritaBeata-4">
                <l>Faſt hopp och tålamod ſig läto nederquäfwa</l>
                <l rend="indent">Och faſt Förnuftet ey oß handen räcka will /</l>
                <l>Så måſte andan dock ſig op från jorden häfwa!</l>

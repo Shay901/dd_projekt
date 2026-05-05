@@ -138,10 +138,10 @@
       </listPerson>
       <listPlace>
          <place xml:id="Riddarholmskyrkan">
-            <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida
-               klosterkyrka, kallades tidigare för Gråmunkeholmskyrkan.</p>
+            <desc>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida
+               klosterkyrka, kallades tidigare för Gråmunkeholmskyrkan.</desc>
             <idno type="URL">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno></place>
-            <place xml:id="Stockholm"><p>Stockholm. Sveriges huvudstad och största stad.</p>
+            <place xml:id="Stockholm"><desc>Stockholm. Sveriges huvudstad och största stad.</desc>
                <idno type="URL">https://sv.wikipedia.org/wiki/Stockholm</idno>
          </place>
 
@@ -149,10 +149,23 @@
 
 
    </standOff>
-
+   
+   <facsimile>
+      <surface xml:id="Gunnborg1">
+         <graphic url="assets/img/GUB0137740_GunborgKinn_1694_01.jpg"/>
+      </surface>
+      <surface xml:id="Gunnborg2">
+         <graphic url="assets/img/GUB0137740_GunborgKinn_1694_02.jpg"/>
+      </surface>
+      <surface xml:id="Gunnborg3">
+         <graphic url="assets/img/GUB0137740_GunborgKinn_1694_03.jpg"/>
+      </surface>
+   </facsimile>
+   
    <text rend="fraktur">
       <front>
-         <div>
+       
+            <div type="page" facs="#Gunnborg1">
             <head> En Sorgbunden Mans <lb/>Tårar och Tankar <lb/>öfwer ſin Salige Huſtrus
                <lb/>Oförmodelige och alt för haſtige Frånfälle/ <lb/>under deß egen Perſon
                ſorgeligen föreſtälte <lb/>Då <lb/>Hans <choice>
@@ -169,43 +182,44 @@
                   <abbr>Wälb:ne</abbr>
                   <expan>Wälborne</expan>
                </choice>
-               <lb/>Herr <name type="person" ref="#JöranStiernhoff">Jöran Stiernhoff</name><lb/>Lärt Begrafwa sin Salige Fru /
+               <lb/><span type="bigname"><name type="person" ref="#JöranStiernhoff">Herr Jöran Stiernhoff</name></span><lb/>Lärt Begrafwa sin Salige Fru /
                <lb/>Edle och <choice>
                   <abbr>Wälb:ne</abbr>
                   <expan>Wälborne</expan>
                </choice>
-               <lb/><choice>
+               <lb/><span type="bigname"><name type="person" ref="#GunborgKinnmundt"><choice>
                   <abbr>Fr.</abbr>
                   <expan>Fru</expan>
                </choice>
-               <name type="person" ref="#GunborgKinnmundt">Gunborg Kinnmundt</name>/<lb/></head>
+                     Gunborg Kinnmundt/<lb/></name></span></head>
             <lb/>
             <dateline>Som ſkedde i <name type="place" ref="#Riddarholmskyrkan">Ridderholms Kyrkian</name> Den <date when="1694-11-25"
                   >25 <span rend="roman">No­<lb break="no"/>vember, ANNO 1694.
                </span></date><lb/></dateline>
             <figure><figDesc>En linje med abstrakta symboler.</figDesc></figure>
 
-            <p>Tryckt uti <name><choice>
+               <div type="printing"><p>Tryckt uti <name><choice>
                      <abbr>Kongl.</abbr>
                      <expan>Konglige</expan>
                   </choice>Booktryckerijet</name>/ hoos <name><choice>
                      <abbr>Sal.</abbr>
                      <expan>Salige</expan>
-                  </choice> <name type="person" ref="#WankijfsÄnka">Wankijfs Änckia</name></name>.</p>
-
+                  </choice> <name type="person" ref="#WankijfsÄnka">Wankijfs Änckia</name></name>.</p></div>
+               <note place="bottom" type="pencil">1694</note>
          </div>
       </front>
-      <note place="bottom" type="pencil">1694</note>
+      
       
 <pb/>
 
 
 
       <body>
-         <div>
+         <div type="Gunnborg2">
 <figure><figDesc>Dekorativ illustration med detaljer såsom lövverk, fåglar, krona och lagerkrans.</figDesc></figure>
             
-            <lg>
+            <lg type="mainpoem">
+               <lg>
                <l>SÅ blir deth då för mig ett o-undwiſkligt Öde / /</l>
                <l rend="indent">En ewig-grundat lag / et o-mootſägligt ſlut /</l>
                <l>At gråta til min Död och lämna hoos de döde /</l>
@@ -241,9 +255,11 @@
                <l>Och iämte Änglarna ſin röſt för Gud uphäfwer /</l>
                <l rend="indent">Sitt helig ſtämmer an ſom alla helgon gör' /</l>
                <l><fw type="catch"/>Slijkt</l>
-            </lg>
+            </lg></lg></div>
             <pb/>
-            <lg>
+         <div type="Gunnborg3">
+            <lg type="mainpoem">
+               <lg>
                <l>Slijkt wore mächtigt noch mit ſorgſe hierta ſtilla /</l>
                <l rend="indent">Jag ärnar mången gång at kyßa herrens Riis /</l>
                <l>Men när iag ſedan hör / ſig Barnen iämra illa /</l>
@@ -266,7 +282,7 @@
                <l rend="indent">Så ömſa Tankarna otalig mången gång /</l>
                <l>Till deß hoo weet hur ſnart mitt Tijmeglas uthrinner /</l>
                <l rend="indent">Och iag i ängla Liud förbytt min Swane-sång.</l>
-            </lg>
+            </lg></lg>
 
             <byline>Wälmeent af<lb/><docAuthor><span rend="roman"><name type="person" ref="#SophiaElisabetBrenner"><choice>
                            <abbr>Soph. E. Br</abbr>
