@@ -218,7 +218,8 @@
          <div type="Gunnborg2">
 <figure><figDesc>Dekorativ illustration med detaljer såsom lövverk, fåglar, krona och lagerkrans.</figDesc></figure>
             
-            <lg>
+            <lg type="mainpoem">
+               <lg>
                <l>SÅ blir deth då för mig ett o-undwiſkligt Öde / /</l>
                <l rend="indent">En ewig-grundat lag / et o-mootſägligt ſlut /</l>
                <l>At gråta til min Död och lämna hoos de döde /</l>
@@ -254,9 +255,11 @@
                <l>Och iämte Änglarna ſin röſt för Gud uphäfwer /</l>
                <l rend="indent">Sitt helig ſtämmer an ſom alla helgon gör' /</l>
                <l><fw type="catch"/>Slijkt</l>
-            </lg>
+            </lg></lg></div>
             <pb/>
-            <lg>
+         <div type="Gunnborg3">
+            <lg type="mainpoem">
+               <lg>
                <l>Slijkt wore mächtigt noch mit ſorgſe hierta ſtilla /</l>
                <l rend="indent">Jag ärnar mången gång at kyßa herrens Riis /</l>
                <l>Men när iag ſedan hör / ſig Barnen iämra illa /</l>
@@ -279,7 +282,7 @@
                <l rend="indent">Så ömſa Tankarna otalig mången gång /</l>
                <l>Till deß hoo weet hur ſnart mitt Tijmeglas uthrinner /</l>
                <l rend="indent">Och iag i ängla Liud förbytt min Swane-sång.</l>
-            </lg>
+            </lg></lg>
 
             <byline>Wälmeent af<lb/><docAuthor><span rend="roman"><name type="person" ref="#SophiaElisabetBrenner"><choice>
                            <abbr>Soph. E. Br</abbr>
