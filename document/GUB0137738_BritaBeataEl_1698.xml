@@ -100,23 +100,17 @@
    
    <standOff>
       <listPerson>
-         <person xml:id="BritaBååt"><p>Brita Beata Bååt, 1677-1697. Dotter till friherre
-               Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 20 års ålder.</p>
+         <person xml:id="BritaBååt"><p>Brita Beata Bååt, 1677-1697. Dotter till friherre Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 20 års ålder.</p>
             <p><idno type="URL">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
          </person>
-         <person xml:id="ElisabetBååt"><p>Elisabet Magdalena Bååt, 1681-1697. Dotter till friherre
-               Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 15 års ålder.
-               Förlovad med Guftaf Stiernhöök.</p>
+         <person xml:id="ElisabetBååt"><p>Elisabet Magdalena Bååt, 1681-1697. Dotter till friherre Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 15 års ålder. Förlovad med Guftaf Stiernhöök.</p>
             <p><idno type="URL">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
          </person>
          <person xml:id="SophiaElisabetBrenner">
-            <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare.Pionjär
-               i skönlitterär framställning av kvinnliga erfarenheter.</p>
+            <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare. Pionjär i skönlitterär framställning av kvinnliga erfarenheter.</p>
             <p><idno type="URI">http://viaf.org/viaf/45123310</idno></p>
          </person>
-         <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med 
-               Boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet 
-               fram till 1705.</p>
+         <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet fram till 1705.</p>
             <p><idno type="URL">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
          </person>
          <person xml:id="Job"><p>Job är i judisk och kristen mytologi en gestalt som utsätts för Guds prövningar genom att Satan tillåts ta ifrån honom hans rikedom, barn och hälsa.</p>
@@ -141,12 +135,11 @@
       </listPerson>
       
       <listPlace>
-         <place xml:id="Stockholm"><p>Stockholm. Sveriges huvudstad och största stad.</p>
+         <place xml:id="Stockholm"><desc>Stockholm. Sveriges huvudstad och största stad.</desc>
             <idno type="URI">https://sv.wikipedia.org/wiki/Stockholm</idno>
          </place>
          <place xml:id="Riddarholmskyrkan">
-            <p>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka. 
-               Kallades tidigare för Gråmunkeholmskyrkan.</p>
+            <desc>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka. Kallades tidigare för Gråmunkeholmskyrkan.</desc>
             <idno type="URL">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno>
          </place>
       </listPlace>     
@@ -170,6 +163,7 @@
    <text rend="fraktur">
       <front>
          <div type="page" facs="#BritaBeata-1">
+            <note place="top" type="ink">36</note>
             <head> Samtaal
                <lb/>Emellan de
                <lb/>Söriande Föräldrarne /
@@ -208,8 +202,8 @@
                </choice> Boktryckerijet hoos <choice>
                   <abbr>Sal.</abbr>
                   <expan>Salige</expan>
-               </choice> <name type="person" ref="#WankijfsÄnka"><name>Wankijfs Enkia</name></name>.</p></div>
-            <note place="top" type="ink">36</note>
+               </choice> <name type="person" ref="#WankijfsÄnka"><name>Wankijfs Enkia</name></name>.</p>
+            </div>
             <note place="bottom" type="pencil">1698</note>
          </div>
       </front>
@@ -217,7 +211,7 @@
       <pb/>
       <body>
          
-         <div type="poem">
+         
             <div type="page" facs="#BritaBeata-2">
                <head>De Sörjande Föräldrar.</head>
                <lg type="mainpoem">
@@ -226,7 +220,7 @@
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
                <l rend="indent">At han lijk Klippan ſatſ och <sic>oförandrat</sic><lb/>ſtod /</l>
                <l>Den wågor ſtöta på / då han ſitt goda miſte /</l>
-               <l>At där hans egen kropp af ſår och ſwull­<lb break="no"/>nad ſwed.</l>
+               <l>At där hans egen kropp af ſår och ſwull-<lb break="no"/>nad ſwed.</l>
                <l>Där han i aſkan ſatt / ett lijka ſinne tedde;</l>
                <l rend="indent">Men barnen / barnen ach! ehur' han tåligt led /</l>
                <l>Wid detta får / hwem weet / om ikke hjertat blödde?</l>
@@ -287,21 +281,21 @@
                <l>Ehr plicht ehr minna på och ſorg på ſorgen ſpäda.</l>
                <l rend="indent">Och om ehr kärlek ey ſkal kallas alt för ſwag /</l>
                <l>Så bör ehr ingen ting i werden mehra gläda.</l>
-            </lg></lg>
+            </lg></lg></div>
             
-               <span type="big">Det Chriſteliga Tålamod.</span>
+               <div><span type="big">Det Chriſteliga Tålamod.</span>
             
-            <lg>
+            
                <l>HÅlt inne med ditt taal det är ey alt ſå klart;</l>
                <l>Hwem är ſom ikke wet hwad de föräldrar lijda:</l>
                <l rend="indent">Som ſakna enda barn / och at det alt för rart /</l>
                <l>Så framt med kött och blod de intet få at ſtrida /</l>
                <l rend="indent">Men hwad för hefftig nöd oß nånſin ſtöter till /</l>
-               <l>Faſtull ſom wåra Döttrar täkker.</l></lg>
-               <fw type="catch">Faſt</fw>
+               <l>Faſtull ſom wåra Döttrar täkker.</l>
+               <fw type="catch">Faſt</fw></div>
                <pb/>
-               </div>
-               <div type="page" facs="#BritaBeata-4">
+ 
+            <div type="page" facs="#BritaBeata-4"><lg>
                <l>Faſt hopp och tålamod ſig läto nederquäfwa</l>
                <l rend="indent">Och faſt Förnuftet ey oß handen räcka will /</l>
                <l>Så måſte andan dock ſig op från jorden häfwa!</l>
@@ -324,9 +318,10 @@
                <l rend="indent">En härlig klädedrächt af Englar tilberedt /</l>
                <l>Den ſkär och hwijt och ren til deras wandel ſwarar.</l>
                <l rend="indent">Ach tron I ha en alt för ringa kärlek tedt </l>
-               <l>Om eder ſorg ännu wid deras glädje wahrar.</l></lg></div>
+               <l>Om eder ſorg ännu wid deras glädje wahrar.</l>
+               </lg></div>
             
-               <div><head>Föräldrarna.</head>
+                <div><span type="big">Föräldrarna.</span>
             <lg>
                <l>JA Ja wij märka wäl at ingen klage-låt</l>
                <l>Oß wåra kära barn tilbaka läror bringa /</l>
@@ -336,13 +331,14 @@
                <l>Så ſnart och alt med ett har welat hädan flytta /</l>
                <l rend="indent">På det som nogſamt ſyns / han framgent enſam må</l>
                <l>Wårt hierta inne haa / och hinderlöſt beſitta.</l></lg></div>
-            </div>
-               <lb/><byline><docAuthor><span rend="roman">             
+         
+        
+               <div><lb/><byline><docAuthor><span rend="roman">             
                         <name type="person" ref="#SophiaElisabetBrenner">"SOPHIA E. BRENNER</name>.</span></docAuthor></byline>
          <figure>
             <figDesc>En rad av nio små asterixer</figDesc>
          </figure>  
-         <note place="bottom" type="pencil">17999354099</note>
+         <note place="bottom" type="pencil">17999354099</note></div>
       </body>
   </text>
 </TEI>
