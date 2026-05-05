@@ -1,6 +1,6 @@
 body {
   background-color: #FDF5E6;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 h1 {
@@ -20,13 +20,13 @@ h1 {
 
 table {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 50px;
     border-collapse: separate;
-    border-spacing: 15px;
+    border-spacing: 50px;
 }
 
 th {
