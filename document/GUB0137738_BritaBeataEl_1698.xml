@@ -107,6 +107,9 @@
          <person xml:id="ElisabetBååt"><p>Elisabet Magdalena Bååt, 1681-1697. Dotter till friherre Carl Gabriel Bååt (1650-1698) och Christina Bielke (?-1711). Död ogift vid 15 års ålder. Förlovad med Guftaf Stiernhöök.</p>
             <p><idno type="URL">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12#TAB_2</idno></p>
          </person>
+         <person xml:id="Bååt"><p>Systrarna Brita Beata och Elisabet Magdalena tillhörde den friherrliga grenen av ätten Bååt. Deras föräldrar hade inga fler barn, och de hade inte heller några kusiner på farssidan, vilket gjorde att deras ättegren dog ut med dem och deras fars generation.</p>
+            <p><idno type="URL">https://www.adelsvapen.com/genealogi/B%C3%A5%C3%A5t_nr_12</idno></p>
+         </person>
          <person xml:id="SophiaElisabetBrenner">
             <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare. Pionjär i skönlitterär framställning av kvinnliga erfarenheter.</p>
             <p><idno type="URI">http://viaf.org/viaf/45123310</idno></p>
@@ -172,7 +175,7 @@
                <lb/>Naturliga Empfindtligheten /
                <lb/>Och ett
                <lb/>Chriſteligit Tålamod.
-               <lb/>hållit
+               <lb/>Hållit
                <lb/>Då
                <lb/>De fordom Högwälborne nu hoos Gud
                <lb/>ewinnerligen Salige
@@ -214,16 +217,16 @@
         
             <div type="page" facs="#BritaBeata-2">
                <head>De Sörjande Föräldrar.</head>
-               <lg type="mainpoem">
+          <lg type="mainpoem">
             <lg>
                <l><name type="person" ref="#Job">JOb</name> roſas än i dag utaf det Hielte-mod /</l>
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
-               <l rend="indent">At han lijk Klippan ſatſ och <sic>oförandrat</sic><lb/>ſtod /</l>
+               <l rend="indent">At han lijk Klippan ſaſt och <choice><sic>oförandrat</sic><corr>oförändrat</corr></choice><lb/>ſtod /</l>
                <l>Den wågor ſtöta på / då han ſitt goda miſte /</l>
                <l>At där hans egen kropp af ſår och ſwull-<lb break="no"/>nad ſwed.</l>
                <l>Där han i aſkan ſatt / ett lijka ſinne tedde;</l>
                <l rend="indent">Men barnen / barnen ach! ehur' han tåligt led /</l>
-               <l>Wid detta får / hwem weet / om ikke hjertat blödde?</l>
+               <l>Wid detta ſår / hwem weet / om ikke hjertat blödde?</l>
                <l rend="indent">Sij <name type="person" ref="#David">David</name> war en man / hwars kända tapperhet</l>
                <l>För ingen Fiende / för intet wildiur ſkufwat;</l>
                <l rend="indent">Men när af många barn han endast miſter ett /</l>
@@ -241,40 +244,40 @@
                <l rend="indent">Men finna likwäl ſant / ju ſtörre tåreflod</l>
                <l>Ju mehra lindring i en wederwärdig lykka.</l>
                <l rend="indent">Den al ting går i hand / en den af lyckan mätt</l>
-               <l>Kan lätt för ſörjande en ymnig tröſt bereda /</l>
+               <l>Kan lätt för ſöriande en ymnig tröſt bereda /</l>
                <l rend="indent">Och wårt förnuft går minſt i motgång regelrätt /</l>
                <l>Faſt om det andra förr u'r willan kunnat leda:</l>
-               <l rend="indent">Dock hur det vara må wår ſorg är tårar wärd /</l>
+               <l rend="indent">Dock hur' det vara må wår ſorg är tårar wärd /</l>
                <l>Och billigt at den jämt med wåra dagar räkker /</l>
                <l rend="indent">Ty ingen annan tröſt ell' roo är oß beſkärd</l>
                <l>Fö'rn oß den ſamma mull ſom wåra Döttrar täkker.</l>
-               <l><fw type="catch">Den</fw></l></lg></lg></div>
+               <fw type="catch">Den</fw></lg></lg></div>
             <pb/>
             <div type="page" facs="#BritaBeata-3"><head>Den Naturlige Empfindtligheten.</head>
             <lg type="mainpoem">
                <lg>
-               <l>FUllföljien som ſig bör hwad Ehr er ängſlan rår /</l>
+               <l>FUllfölien som ſig bör hwad Ehr er ängſlan rår /</l>
                <l>Hwem kan med ſtörre fog och mera billigt ſöria?</l>
                <l rend="indent">I ha twå döttrar miſt i deras Ålders wåhr:</l>
                <l>Då de med alfwar förſt ſin lijfstijd tänkte börja</l>
                <l rend="indent">Twå döttrar hwilkas art och rena wandels låp /</l>
                <l>Sin härkomſt lijka ſå ſom ſtämman bägge prydde /</l>
-               <l rend="indent">Dem dygden båda twå ſå ſedigt foſtrats op /</l>
+               <l rend="indent">Dem dygden båda twå ſå ſedigt foſtrat op /</l>
                <l>At de föräldrars råd mer än ſitt nöije lydde.</l>
                <l rend="indent">Hos dem naturen ſielf med runda händer delt /</l>
-                  <l>Hwad <name type="person" ref="#Rahel">Rahel</name> angenehm och <name type="person" ref="#Esther">Esther</name> ſtörre gjorde /</l>
-               <l rend="indent">Så at på ingen ting  dem eljeſt ſlagit felt;</l>
+               <l>Hwad <name type="person" ref="#Rahel">Rahel</name> angenähm och <name type="person" ref="#Esther">Esther</name> ſtörre gjorde /</l>
+               <l rend="indent">Så at på ingen ting dem elljeſt ſlagit felt;</l>
                <l>Än at de äldre blij och längre lefwa borde.</l>
                <l rend="indent">Hur kan en heftig ſorg ehr här wid illa ſtå</l>
                <l>Ehr ſom för kortan tijd man ſkattade för ſälla /</l>
                <l rend="indent">Som ſedt ehr glädie-ſol uprunnen i de twå;</l>
                <l>Men ſkylt inunder moln och förr än afton qwälla.</l>
                <l rend="indent">Är glädien oß förunt hwarföre ſorgen ey?</l>
-               <l>Bör den ſom älskar ſitt / i allan tijd berömmas /</l>
+               <l>Bör den ſom älſkar ſitt / i allan tijd berömmas /</l>
                <l rend="indent">Så bör (ehwem som här mot enwijſt ſäger ney)</l>
                <l>Det ſom wij hållit kärt för haſtigt icke glömmas /</l>
                <l rend="indent">Hwem wåller det? at när wårt hierta ſårt och ömt /</l>
-               <l>Sig tårarna så lätt och utan möda finna /</l>
+               <l>Sig tårarna ſå lätt och utan möda finna /</l>
                <l rend="indent">Naturen! ſom med flijt dem til den ändan gömt</l>
                <l>At de wid ſlijka fall må ouphörligt rinna /</l>
                <l rend="indent">Ty faren här wid fort jag will alt dag från dag /</l>
@@ -290,7 +293,6 @@
                <l rend="indent">Som ſakna enda barn / och at det alt för rart /</l>
                <l>Så framt med kött och blod de intet få at ſtrida /</l>
                <l rend="indent">Men hwad för hefftig nöd oß nånſin ſtöter till /</l>
-               <l>Faſtull ſom wåra Döttrar täkker.</l>
                <fw type="catch">Faſt</fw></div>
                <pb/>
  
@@ -300,30 +302,30 @@
                <l>Så måſte andan dock ſig op från jorden häfwa!</l>
                <l rend="indent">Ja detta är wäl lätt (ſom mången menar) ſagt /</l>
                <l>Men koſtar något mehr at rätt i wärket ſtälla /</l>
-               <l rend="indent">Rätt ſå! Men Herrans hand har bördan på ehr lagt /</l>
+               <l rend="indent">Rätt ſå! men Herrans hand har bördan på ehr lagt /</l>
                <l>Det går för alla ſkäl och måſte fylleſt gälla!</l>
                <l rend="indent">Och ſom i detta lijf ehr intet war ſå kärt</l>
                <l>Det I för edra barn ey hade låtit fara /</l>
-               <l rend="indent">Så öfwerwägen rätt om deras himmelsfärd;</l>
-               <l>Med ſkäl en orſak må till ehr begravning wara .</l>
-               <l rend="indent">Betänken ock där hos at deras <name ref="#BritaBååt">BÅÅTH</name> i hamn</l>
+               <l rend="indent">Så öfwerwägen rätt om deras himmelfärd;</l>
+               <l>Med ſkäl en orſak må till ehr begravning wara.</l>
+               <l rend="indent">Betänken ock där hos at deras <name type="person" ref="#Bååt">BÅÅTH</name> i hamn</l>
                <l>Där eder alt ännu bland böljor måſte ſwäfwa /</l>
                <l rend="indent">At ingen mehr af dem ſkils ifrån JEſu famn /</l>
-               <l>Hwad högre brudgum had' I kunnat efterſträfwa ?</l>
+               <l>Hwad högre brudgum had' I kunnat efterſträfwa?</l>
                <l rend="indent">En brudgum hwilkens gunſt dem gåfwor har förährd /</l>
                <l>På dem wij endaſt få i dödligheten tänka</l>
-               <l rend="indent">En hufwudzijrat mehr än alla kronor wärd /</l>
+               <l rend="indent">En hufwudʒijrat mehr än alla kronor wärd /</l>
                <l>Där ſtiernor uti ſta'n för Diamanter blänka /</l>
                <l rend="indent">En härlig klädedrächt af Englar tilberedt /</l>
                <l>Den ſkär och hwijt och ren til deras wandel ſwarar.</l>
-               <l rend="indent">Ach tron I ha en alt för ringa kärlek tedt </l>
-               <l>Om eder ſorg ännu wid deras glädje wahrar.</l>
+               <l rend="indent">Ach tron I ha en alt för ringa kärlek tedt /</l>
+               <l>Om eder ſorg ännu wid deras glädie wahrar.</l>
                </lg></div>
             
                 <div><span type="big">Föräldrarna.</span>
             <lg>
                <l>JA Ja wij märka wäl at ingen klage-låt</l>
-               <l>Oß wåra kära barn tilbaka läror bringa /</l>
+               <l>Oß wåra kära barn tilbaka lärer bringa /</l>
                <l rend="indent">At all wår egendom och hela werdens ſtåt /</l>
                <l>Mot deras ſalighet bör ſkattas alt för ringa /</l>
                <l rend="indent">Och at den högſte GUD fördenſkul begge twå</l>
@@ -334,7 +336,7 @@
                <div><lb/><byline><docAuthor><span rend="roman">             
                         <name type="person" ref="#SophiaElisabetBrenner">"SOPHIA E. BRENNER</name>.</span></docAuthor></byline>
          <figure>
-            <figDesc>En rad av nio små asterixer</figDesc>
+            <figDesc>En rad av nio små asterisker.</figDesc>
          </figure>  
          <note place="bottom" type="pencil">17999354099</note></div>
       </body>

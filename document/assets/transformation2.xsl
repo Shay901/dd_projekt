@@ -157,6 +157,7 @@
     </xsl:template>
     
     <xsl:template match="tei:expan"/>
+    <xsl:template match="tei:corr"/>
         
     <xsl:template match="tei:figure/tei:figDesc">
         <p class="figDesc"><i>(<xsl:apply-templates/>)</i></p>
