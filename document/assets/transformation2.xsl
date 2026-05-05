@@ -132,6 +132,12 @@
         </div>
     </xsl:template>
 
+    <xsl:template match="tei:div[@type='printing']">
+        <div class="front">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+
     <xsl:template match="tei:byline">
         <div class="front">
             <xsl:apply-templates/>
