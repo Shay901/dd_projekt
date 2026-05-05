@@ -28,6 +28,7 @@
          </publicationStmt>
          
          <sourceDesc>
+            <bibl>Brita Beata och Elisabet Magdalena Bååths begravningsdikt</bibl>
             <biblStruct>
                <monogr>
                   <title>Samtaal Emellan de Söriande Föräldrarne / Den Naturliga Empfindtligheten / Och ett Chriſteligit Tålamod. Hållit
@@ -210,13 +211,12 @@
     
       <pb/>
       <body>
-         
-         
+        
             <div type="page" facs="#BritaBeata-2">
                <head>De Sörjande Föräldrar.</head>
                <lg type="mainpoem">
             <lg>
-               <l><name ref="#Job">JOb</name> roſas än i dag utaf det Hielte-mod /</l>
+               <l><name type="person" ref="#Job">JOb</name> roſas än i dag utaf det Hielte-mod /</l>
                <l>Hwar med han oförskräckt sin Motgång<lb/>möta wiſte;</l>
                <l rend="indent">At han lijk Klippan ſatſ och <sic>oförandrat</sic><lb/>ſtod /</l>
                <l>Den wågor ſtöta på / då han ſitt goda miſte /</l>
@@ -224,11 +224,11 @@
                <l>Där han i aſkan ſatt / ett lijka ſinne tedde;</l>
                <l rend="indent">Men barnen / barnen ach! ehur' han tåligt led /</l>
                <l>Wid detta får / hwem weet / om ikke hjertat blödde?</l>
-               <l rend="indent">Sij <name ref="#David">David</name> war en man / hwars kända tapperhet</l>
+               <l rend="indent">Sij <name type="person" ref="#David">David</name> war en man / hwars kända tapperhet</l>
                <l>För ingen Fiende / för intet wildiur ſkufwat;</l>
                <l rend="indent">Men när af många barn han endast miſter ett /</l>
-               <l>Hielp Gud hur' har han sig / hur' har ſig <name ref="#Jacob">Jacob</name> grufwat;</l>
-               <l rend="indent">Då han om <name ref="#Joseph">Josephs</name> död ett oſant rychte ſpordt /</l>
+               <l>Hielp Gud hur' har han sig / hur' har ſig <name type="person" ref="#Jacob">Jacob</name> grufwat;</l>
+               <l rend="indent">Då han om <name type="person" ref="#Joseph">Josephs</name> död ett oſant rychte ſpordt /</l>
                <l>Hwem rättſint wil då oß en billig ſorg förtänka?</l>
                <l rend="indent">Där Ödet alt med ett oß barnelöſa gjordt</l>
                <l>Och wij med twenne lijk alt hopp i grafwen ſänka!</l>
@@ -262,7 +262,7 @@
                <l rend="indent">Dem dygden båda twå ſå ſedigt foſtrats op /</l>
                <l>At de föräldrars råd mer än ſitt nöije lydde.</l>
                <l rend="indent">Hos dem naturen ſielf med runda händer delt /</l>
-               <l>Hwad <name ref="#Rahel">Rahel</name> angenehm och <name ref="#Esther">Esther</name> ſtörre gjorde /</l>
+                  <l>Hwad <name type="person" ref="#Rahel">Rahel</name> angenehm och <name type="person" ref="#Esther">Esther</name> ſtörre gjorde /</l>
                <l rend="indent">Så at på ingen ting  dem eljeſt ſlagit felt;</l>
                <l>Än at de äldre blij och längre lefwa borde.</l>
                <l rend="indent">Hur kan en heftig ſorg ehr här wid illa ſtå</l>
@@ -284,8 +284,7 @@
             </lg></lg></div>
             
                <div><span type="big">Det Chriſteliga Tålamod.</span>
-            
-            
+                       
                <l>HÅlt inne med ditt taal det är ey alt ſå klart;</l>
                <l>Hwem är ſom ikke wet hwad de föräldrar lijda:</l>
                <l rend="indent">Som ſakna enda barn / och at det alt för rart /</l>
@@ -331,8 +330,7 @@
                <l>Så ſnart och alt med ett har welat hädan flytta /</l>
                <l rend="indent">På det som nogſamt ſyns / han framgent enſam må</l>
                <l>Wårt hierta inne haa / och hinderlöſt beſitta.</l></lg></div>
-         
-        
+                
                <div><lb/><byline><docAuthor><span rend="roman">             
                         <name type="person" ref="#SophiaElisabetBrenner">"SOPHIA E. BRENNER</name>.</span></docAuthor></byline>
          <figure>
