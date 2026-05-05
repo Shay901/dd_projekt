@@ -18,7 +18,7 @@
             <body>
                 <div>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        <xsl:apply-templates select="//tei:sourceDesc/tei:bibl"/>
                     </h1>
                     <div class="intro">
                         <ul>
