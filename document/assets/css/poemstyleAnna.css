@@ -1,25 +1,54 @@
 body {
   background-color: #FDF5E6;
   font-size: 1rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    float: left;
+    width: 100%;
+}
+
+ul.nav li {
+    float: left;
+      font-size: 1.15rem;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover {
+    background-color: brown;
 }
 
 h1 {
     text-align: center;
     font-size: 3rem;
     font-family: Calibri, Verdana, sans-serif;
-    padding-right: 10%;
-    padding-left: 10%; 
+    padding-top: 50px;
 }
 
 .intro {
     margin: 50px;
-    max-width: 900px;
+    max-width: 1000px;
     font-size: 1.15rem;
     font-family: Calibri, Verdana, sans-serif;
     margin-left: 200px;
 }
 
 ul.info {
+    list-style-image: url('asterisk2.gif');
     list-style-type: circle;
 }
 

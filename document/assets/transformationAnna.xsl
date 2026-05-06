@@ -16,7 +16,15 @@
                 </title>
             </head>
             <body>
+                <ul class="nav">
+                    <li><a href="index.html">Startsida</a></li>
+                    <li><a href="GUB0137737_AnnaCammecke_1699.html">Anna Cammecker</a></li>
+                    <li><a href="GUB0137738_BritaBeataEl_1698.html">Brita Beata &amp; Elisabet Magdalena Bååt</a></li>
+                    <li><a href="GUB0137741_BritaJoransd_1697.html">Brita Jöransdotter</a></li>
+                    <li><a href="GUBO137740_GunborgKinnmundt_1694.html">Gunborg Kinnmundt</a></li>
+                </ul>
                 <div>
+                    <br />
                     <h1>
                         <xsl:apply-templates select="//tei:sourceDesc/tei:bibl"/>
                     </h1>
