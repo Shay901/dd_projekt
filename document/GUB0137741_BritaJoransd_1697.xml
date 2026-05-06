@@ -11,7 +11,7 @@
                Huſtro BRITA Jörans-Dotters / Profwiant-Mäſtarens wid Kongl. Ammiralitetet, Den Ehreborne och Wählbetrodde Herrens /
                Herr PETTER Halls / För detta Kiärälſkeliga Makas ſidſta Tancka"</title>
             <author>Brita Jöransdotter</author>
-            <editor>Thorelli, Cederström och Tortosa</editor>
+            <editor>Cederström, Thorelli och Tortosa</editor>
             <respStmt>
                <resp>TEI-kodning</resp>
                <name xml:id="JT">Johanna Thorelli</name>
@@ -141,7 +141,7 @@ i höjden min förespråkare."</bibl>
                <lb/>Nu mera hoos Gud Sahlige <span rend="roman">MATRONANS</span>,
                <lb/><span type="bigname"><name type="person" ref="#BritaJoransdotter">Huſtro BRITA
                   <lb/>Jörans-Dotters</name></span> /
-               <lb/>Profwiant-Mäſstarens wid <choice><abbr>Kongl.</abbr><expan>Konglige</expan></choice> <span rend="roman">Ammiralitetet</span>,
+               <lb/>Profwiant-Mäſtarens wid <choice><abbr>Kongl.</abbr><expan>Konglige</expan></choice> <span rend="roman">Ammiralitetet</span>,
                <lb/>Den
                <lb/>Ehreborne och Wählbetrodde Herrens /
                <lb/><span type="bigname"><name type="person" ref="#PetterHall">Herr PETTER Halls</name></span> /
@@ -206,7 +206,7 @@ i höjden min förespråkare."</bibl>
                   </lg>
                <lg type="stanza">
                   <l>Du hölt oſpart och ſökte med all Möda</l>
-                  <l>Ey att mit Lijf men <sic>Aran</sic> min att döda</l>
+                  <l>Ey att mit Lijf men <choice><sic>Aran</sic><corr>Äran</corr></choice> min att döda</l>
                   <l rend="indent">Den Omſorg war din ſtunders högſta Roo /</l>
                   <l>Men ſij! Min Skiöld godt Samwet ſom jag bärga</l>
                   <l>Det war emot din Drafwels-Flock min Wärja</l>

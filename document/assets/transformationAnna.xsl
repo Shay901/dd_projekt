@@ -52,6 +52,7 @@
                                     <xsl:variable name="facs" select="@facs"/>
                                 <tr>
                                     <td class="faksimil">
+                                        <p/>                                            
                                         <a>
                                             <xsl:attribute name="href">
                                                 <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:graphic/@url"/>

@@ -93,7 +93,7 @@ tr {
 }
 
 span.bigname {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: brown;
 }
 
@@ -120,11 +120,6 @@ td.text {
     vertical-align: top;
 }
 
-td.spalt {
-    vertical-align: top;
-    font-size: 1.05rem;
-}
-
 .front {
     text-align: center;
 }
@@ -135,6 +130,7 @@ td.spalt {
 
 h2 {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 h2.mid {

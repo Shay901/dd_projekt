@@ -1,6 +1,6 @@
 body {
   background-color: #FDF5E6;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 h1 {
@@ -31,7 +31,7 @@ table {
     margin-left: auto;
     padding-bottom: 50px;
     border-collapse: separate;
-    border-spacing: 30px;
+    border-spacing: 20px;
 }
 
 th {
@@ -67,7 +67,7 @@ tr {
 }
 
 span.bigname {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: brown;
 }
 
@@ -90,13 +90,13 @@ img.faksimil {
 
 td.text {
     width: 50%;
-    padding-left: 20px;
+    padding-left: 0px;
     vertical-align: top;
 }
 
 td.spalt {
     vertical-align: top;
-    font-size: 1.05rem;
+    font-size: 0.95rem;
 }
 
 .front {
@@ -105,6 +105,7 @@ td.spalt {
 
 h2 {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 p.figDesc {
