@@ -19,7 +19,7 @@ h1 {
     margin-left: 200px;
 }
 
-ul {
+ul.info {
     list-style-type: circle;
 }
 
@@ -38,6 +38,8 @@ th {
     font-size: 2.5rem;
     font-family: verdana;
     color: gray;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 table.split {

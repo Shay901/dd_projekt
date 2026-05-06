@@ -45,7 +45,7 @@ h1 {
     margin-left: 200px;
 }
 
-ul {
+ul.info {
     list-style-type: circle;
 }
 
@@ -66,22 +66,8 @@ th {
     color: gray;
 }
 
-table.split {
-    width: 100%;
-    padding: 0px;
-}
-
 td {
     vertical-align: top;
-}
-
-td.narrow {
-    width: 8%;
-}
-
-td.smaller {
-    font-size: 1rem;
-    text-align: center;
 }
 
 tr {
@@ -106,7 +92,7 @@ span.plats {
 }
 
 td.faksimil {
-    max-width: 50%;
+    width: 50%;
     vertical-align: top;
 }
 

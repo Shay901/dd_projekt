@@ -21,7 +21,7 @@
                         <xsl:apply-templates select="//tei:sourceDesc/tei:bibl"/>
                     </h1>
                     <div class="intro">
-                        <ul>
+                        <ul class="info">
                             <li>En tillfällesdikt från <xsl:value-of select="//tei:pubPlace"
                             />, den <xsl:value-of select="//tei:imprint/tei:date"/>.</li>
                             <li>Författaren är <xsl:value-of select="//tei:author"/>.</li>
@@ -29,24 +29,14 @@
                             <li>Transkriberad och kodad av <xsl:value-of
                                     select="//tei:respStmt/tei:name"/> inom arbetsgruppen
                                     <xsl:value-of select="//tei:titleStmt/tei:editor"/>.</li>
-                            <li>
-                                <xsl:value-of select="//tei:publicationStmt/tei:p[1]"/>
-                            </li>
-                            <li>
-                                <xsl:value-of select="//tei:publicationStmt/tei:p[2]"/>
-                            </li>
                         </ul>
                     </div>
                     
                     <main>
                             <table>
                                 <tr>
-                                    <th>
-                                        Faksimil
-                                    </th>
-                                    <th>
-                                        Text
-                                    </th>
+                                    <th>Faksimil</th>
+                                    <th>Text</th>
                                 </tr>
                                 <xsl:for-each select="//tei:div[@type='page']">
                                     <xsl:variable name="facs" select="@facs"/>
