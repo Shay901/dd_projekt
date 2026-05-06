@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title>Digital version av "En Sorgbunden Mans Tårar och Tankar öfwer ſin Salige Huſtrus Oförmodelige och alt
+               för haſtige Frånfälle / under deß egen Perſon ſorgeligen föreſtälte Då Hans Kongl.
+               May:tʒ wår Allernådigſte Konungʒ Undderånigſte Tienare och Slotʒfogde wid deß Kongl.
+               Reſidence i Stockholm / Edle och Wälb:ne Herr Jöran Stiernhoff Lätt Begrafwa sin
+               Salige Fru / Edle och Wälb:ne F.r Gunborg Kinnmundt"</title>
+            <author>Sophia Elisabet Brenner</author>
+            <editor>Cederström, Thorelli och Tortosa</editor>
+            <respStmt>
+               <resp>TEI-kodning</resp>
+               <name xml:id="CC">Cecilia Cederström</name>
+            </respStmt>
+         </titleStmt>
+
+         <extent>
+            <measure unit="rows" quantity="40">40 rader</measure>
+         </extent>
+
+         <publicationStmt>
+            <p>Digitaliseringen av verket är en del av kursen "Digitalisering för bevarande och
+               tillgänglighet" vårterminen 2026 vid Högskolan i Borås, i samarbete med Göteborgs
+               universitet.</p>
+            <p>Verket innefattas inte av någon upphovsrätt utan är fullständigt tillgängligt.</p>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl>Gunborg Kinnmundts begravningsdikt</bibl>
+            <biblStruct>
+               <monogr>
+                  <title>En Sorgbunden Mans Tårar och Tankar öfwer ſin Salige Huſtrus Oförmodelige och alt
+                     för haſtige Frånfälle / under deß egen Perſon ſorgeligen föreſtälte Då Hans Kongl.
+                     May:tʒ wår Allernådigſte Konungʒ Undderånigſte Tienare och Slotʒfogde wid deß Kongl.
+                     Reſidence i Stockholm / Edle och Wälb:ne Herr Jöran Stiernhoff Lätt Begrafwa sin
+                     Salige Fru / Edle och Wälb:ne F.r Gunborg Kinnmundt</title>
+                  <author>Sophia Elisabet Brenner</author>
+                  <imprint>
+                     <publisher>Kungliga Boktryckeriet hos Salige Wankijfs
+                        Änka</publisher>
+                     <pubPlace>Stockholm</pubPlace>
+                     <date when="1694-11-25">25 november 1694</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <projectDesc>
+            <p>Projektet ingår i kursen "Digitalisering för bevarande och tilgänglighet" (C3IDB1),
+               en del av masterprogrammet i biblioteks- och informationsvetenskap vid Borås
+               högskola. Syftet är att skapa en kritisk digitalisering av ett
+               kulturarvsmaterial.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Urvalkriterier: Begravningsdikt från sent 1600-tal som behandlar kvinnor eller
+               barn.Valda ur Göteborgs universitetsbiblioteks samlingar.</p>
+         </samplingDecl>
+
+         <editorialDecl>
+            <p>Eftersom texten är på svenska har vi valt att låta språket för metadata och
+               kringinformation också vara svenska.</p>
+            <p>Vårt fokus ligger på text och kontext, inte de poetiska och materiella
+               aspekterna.</p>
+            <correction>
+               <p>Felstavningar i originalet har inte rättats, men markerats med en "sic"-tagg.</p>
+               <p>Ord som delvis försvunnit genom skador i originaldokumentet har återställts, men
+                  markerats med taggen "unclear".</p>
+            </correction>
+            <normalization>
+               <p>Texten har inte normaliserats utan den ursprungliga stavningen är bevarad,
+                  inklusive tidsperiodstypiska tecken som dubbel-s (ß), långa s (ſ) och z med svans
+                  (ʒ).</p>
+            </normalization>
+            <punctuation>
+               <p>Originalets punktuering har bevarats.</p>
+               <p>Punktueringen är standardiserad såtillvida att alla idag vanliga skiljetecken
+                  skrivs direkt efter det föregående ordet utan mellanslag, medan det tidstypiska
+                  snedstrecket (/) avskiljs från närmast föregående ord med ett mellanslag.</p>
+            </punctuation>
+            <hyphenation>
+               <p>Radbrytande bindestreck kodas med tecknet för sådana (U+00AD), och dess
+                  radbrytning kodas med attributet break="no" för att markera att ordet i fråga inte
+                  avbryts.</p>
+            </hyphenation>
+         </editorialDecl>
+
+      </encodingDesc>
+
+      <profileDesc>
+         <langUsage>
+            <language ident="sv-Latf">Tidigmodern svenska, skriven med frakturstil.</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://id.kb.se/term/sao/SAB-systemet">Hc.03</classCode>
+            <classCode scheme="https://id.kb.se/term/sao/Dewey%20decimalklassifikation"
+               >839.71</classCode>
+            <keywords scheme="https://id.kb.se/term/saogf">
+               <term>Begravningsdikter</term>
+               <term>Verk före 1800</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+
+   <standOff>
+      <listPerson>
+         <person xml:id="JöranStiernhoff">
+            <p>Georg Hircinius Stiernhoff, 1631-1710. Slottsfogde och underståthållare i Stockholm. Adlad med namnet Stiernhoff 1682. Gift 4 gånger. Många barn under de första två äktenskapen, men de flesta dog unga. I dikten framkommer att båda de första hustrurna dog i barnsäng.</p>
+            <p><idno type="URL"
+               >https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
+         </person>
+         <person xml:id="GunborgKinnmundt">
+            <p>Gunborg Kinninmundt, 1655-1694. Gift 1680 med Jöran/Georg Hircinius, två år senare adlad Stiernhoff, i hans andra äktenskap. Död i barnsäng med sitt nionde barn.</p>
+            <p><idno type="URL"
+               >https://www.adelsvapen.com/genealogi/Stiernhoff_nr_1039#TAB_1</idno></p>
+         </person>
+         <person xml:id="SophiaElisabetBrenner">
+            <p>Sophia Elisabet Brenner, 1659-1730. En av sin tids ledande tillfällesdiktare. Pionjär i skönlitterär framställning av kvinnliga erfarenheter.</p>
+            <p><idno type="URI">http://viaf.org/viaf/45123310</idno></p>
+            <p><idno type="URL">https://skbl.se/sv/artikel/SophiaElisabetBrenner</idno></p>
+         </person>
+         <person xml:id="WankijfsÄnka"><p>Maria Matras Wankijf, död tidigast 1705. Gift 1669 med boktryckaren Nils Wankijf, och efter dennes död 1689 drev hon själv tryckeriet fram till 1705.</p>
+            <p><idno type="URL">https://sv.wikipedia.org/wiki/Maria_Wankijf</idno></p>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="Riddarholmskyrkan">
+            <desc>En av de svenska kungarnas gravkyrka. Stockholms enda bevarade medeltida klosterkyrka. Kallades tidigare för Gråmunkekyrkan eller Gråmunkeholmskyrkan.</desc>
+            <idno type="URL">https://sv.wikipedia.org/wiki/Riddarholmskyrkan</idno></place>
+            <place xml:id="Stockholm"><desc>Stockholm. Sveriges huvudstad och största stad.</desc>
+               <idno type="URL">https://sv.wikipedia.org/wiki/Stockholm</idno>
+         </place>
+
+      </listPlace>
+
+
+   </standOff>
+   
+   <facsimile>
+      <surface xml:id="Gunnborg1">
+         <graphic url="assets/img/GUB0137740_GunborgKinn_1694_01.jpg"/>
+      </surface>
+      <surface xml:id="Gunnborg2">
+         <graphic url="assets/img/GUB0137740_GunborgKinn_1694_02.jpg"/>
+      </surface>
+      <surface xml:id="Gunnborg3">
+         <graphic url="assets/img/GUB0137740_GunborgKinn_1694_03.jpg"/>
+      </surface>
+   </facsimile>
+   
+   <text rend="fraktur">
+      <front>
+       
+            <div type="page" facs="#Gunnborg1">
+            <head> En Sorgbunden Mans <lb/>Tårar och Tankar <lb/>öfwer ſin Salige Huſtrus
+               <lb/>Oförmodelige och alt för haſtige Frånfälle / <lb/>under deß egen Perſon
+               ſorgeligen föreſtälte <lb/>Då <lb/>Hans <choice>
+                  <abbr>Kongl. May:tʒ</abbr>
+                  <expan>Konglige Mayestätʒ</expan>
+               </choice>wår Allernådigſte Konungʒ
+               <lb/><choice><sic>Undderånigſte</sic><corr>Underdånigſte</corr></choice> Tienare och Slotʒfogde wid
+               deß <choice>
+                  <abbr>Kongl.</abbr>
+                  <expan>Konglige</expan>
+               </choice>
+               <lb/><foreign xml:lang="fr" rend="roman">Reſidence</foreign> i <name type="place" ref="#Stockholm">Stockholm</name> /
+               <lb/>Edle och <choice>
+                  <abbr>Wälb:ne</abbr>
+                  <expan>Wälborne</expan>
+               </choice>
+               <lb/><span type="bigname"><name type="person" ref="#JöranStiernhoff">Herr Jöran Stiernhoff</name></span><lb/>Lärt Begrafwa sin Salige Fru /
+               <lb/>Edle och <choice>
+                  <abbr>Wälb:ne</abbr>
+                  <expan>Wälborne</expan>
+               </choice>
+               <lb/><span type="bigname"><name type="person" ref="#GunborgKinnmundt"><choice>
+                  <abbr>Fr.</abbr>
+                  <expan>Fru</expan>
+               </choice>
+                     Gunborg Kinnmundt</name> /</span></head>
+            <dateline>Som ſkedde i <name type="place" ref="#Riddarholmskyrkan">Ridderholms Kyrkian</name> den 
+               <date when="1694-11-25"><span rend="roman">25 No-<lb break="no"/>vember, ANNO 1694.</span>
+               </date></dateline>
+               <lb/>
+            <figure><figDesc>En linje med abstrakta symboler.</figDesc></figure>
+            <lb/>
+               <div type="printing"><p>Tryckt uti <name><choice>
+                     <abbr>Kongl.</abbr>
+                     <expan>Konglige</expan>
+                  </choice>Booktryckerijet</name>/ hoos <name><choice>
+                     <abbr>Sal.</abbr>
+                     <expan>Salige</expan>
+                  </choice> <name type="person" ref="#WankijfsÄnka">Wankijfs Änckia</name></name>.</p></div>
+               <note place="bottom" type="pencil">1694</note>
+         </div>
+      </front>
+      
+      
+<pb/>
+
+
+
+      <body>
+         <div type="page" facs="#Gunnborg2">
+<figure><figDesc>Dekorativ illustration med detaljer såsom lövverk, fåglar, krona och lagerkrans.</figDesc></figure>
+            
+            <lg type="mainpoem">
+               <lg>
+               <l>SÅ blir deth då för mig ett o-undwiſkligt Öde /</l>
+               <l rend="indent">En ewig-grundat Lag / et o-mootſägligt ſlut /</l>
+               <l>At gråta til min Död och lämna hoos de döde /</l>
+               <l rend="indent">Twå ſom på lijka ſätt, mit Hierta kåhrat ut!</l>
+            </lg>
+            <lg>
+               <l>Twå som på lijka ſätt / med lijka wedermöda /</l>
+               <l rend="indent">Dock lijka full' af Troo / ſagdt Werlden ſidſt god Natt /</l>
+               <l>Då dee till detta Lijf ſitt Foſter tänkte föda /</l>
+               <l rend="indent">Då galt deth bägges Lijf och mig min bästa Skatt.</l>
+            </lg>
+            <lg>
+               <l>O-bootligt Hierte-Såår / beklagligt Sorgeminne /</l>
+               <l>Ach at Gudʒ Dom och Rätt ey mina domar tåhl!</l>
+               <l>Men hur kan Kött och Blod ſå noga ſkränkas inne /</l>
+               <l>Mon någon wäl tilmodʒ / har pröfwat makan skåål?</l>
+            </lg>
+            <lg>
+               <l>Mån ingen annan ſig ſå högdt moot Gud förſyndat?</l>
+               <l rend="indent">Ändock hoo weet hur när min död och ändalykt /</l>
+               <l>Den Högſte har / kan ſkee / min Maka hädan-ſkyndat /</l>
+               <l rend="indent">På deth hon effter mig ey lefde undertrykt.</l>
+            </lg>
+            <lg>
+               <l>Jag weet deß rena Siäl har Gudi wäl behagat /</l>
+               <l rend="indent">Ty hon til Synd och Wärld förachtligt Öga ſlog /</l>
+               <l>Sant är / Den högſte har mig mehr än många agat /</l>
+               <l rend="indent">Dock weet iag at hon nögd och Säll i Chriſto doog.</l>
+            </lg>
+            <lg>
+               <l>Jag wet fördenſkul wiſt / at hon hos Chriſtum lefwer,</l>
+               <l rend="indent">Föruthan ändalykt / dens högſtes åſyn ſeer /</l>
+               <l>Och iämte Änglarna ſin röſt för Gud uphäfwer /</l>
+               <l rend="indent">Sitt Helig ſtämmer an ſom alla Helgon gör' /</l>
+            </lg></lg>
+               <fw type="catch">Slijkt</fw>
+            </div>
+            <pb/>
+         <div type="page" facs="#Gunnborg3">
+            <lg type="mainpoem">
+               <lg>
+               <l>Slijkt wore mächtigt noch mit ſorgſe hierta ſtilla /</l>
+               <l rend="indent">Jag ärnar mången gång at kyßa Herrens Rijs /</l>
+               <l>Men när iag ſedan hör / ſig Barnen iämra illa /</l>
+               <l rend="indent">Då ängſlas iag på nytt / uppå ett annat wijs.</l>
+            </lg>
+            <lg>
+               <l>Jag tänker / Store Gud om dig behagat lähna /</l>
+               <l rend="indent">Mig än på någon tijd min ſåta ächta Wän /</l>
+               <l>Jag hade kunnat Dig / ſå och min Konung tiena /</l>
+               <l rend="indent">I ſtörre roligheet; ſtraxt tänker iag igän</l>
+            </lg>
+            <lg>
+               <l>Aldʒ-wåldig ſtore Gud / förlåt de ſnöde Tankar /</l>
+               <l rend="indent">Hwij will en ſyndig Man med dig til rätta ſtåå?</l>
+               <l>Jag tror du ingen Laſt på mina Skuldror ſankar /</l>
+               <l rend="indent">För än du pröfwar förſt / hwad tyngd iag tåla må.</l>
+            </lg>
+            <lg>
+               <l>Så blandas Tröſt och Gråt / til deß iag måhlet hinner /</l>
+               <l rend="indent">Så ömſa Tankarna otalig mången gång /</l>
+               <l>Till deß hoo weet hur ſnart mitt Tijmeglas uthrinner /</l>
+               <l rend="indent">Och iag i Ängla Liud förbytt min Swane-sång.</l>
+            </lg></lg>
+
+            <byline>Wälmeent af<lb/><docAuthor><span rend="roman"><name type="person" ref="#SophiaElisabetBrenner"><choice>
+                           <abbr>Soph. E. Br</abbr>
+                           <expan>Sophia Elisabet Brenner</expan>
+                        </choice></name></span></docAuthor></byline>
+            <figure><figDesc>Dekorativ illustration med urna, keruber, kors och Jesus med törnekrona.</figDesc></figure>
+         </div>
+         <pb/>
+         <note place="bottom" type="pencil">17999354090</note>
+
+
+      </body>
+   </text>
+</TEI>

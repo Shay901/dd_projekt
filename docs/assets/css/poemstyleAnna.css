@@ -1,0 +1,174 @@
+body {
+  background-color: #FDF5E6;
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    float: left;
+    width: 100%;
+}
+
+ul.nav li {
+    float: left;
+      font-size: 1.15rem;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Calibri, Verdana, sans-serif;
+    padding-top: 50px;
+}
+
+.intro {
+    margin: 50px;
+    max-width: 1000px;
+    font-size: 1.15rem;
+    font-family: Calibri, Verdana, sans-serif;
+    margin-left: 200px;
+}
+
+ul.info {
+    list-style-image: url('asterisk2.gif');
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    border-collapse: separate;
+    border-spacing: 20px;
+}
+
+th {
+    font-size: 2.5rem;
+    font-family: verdana;
+    color: gray;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+table.split {
+    width: 100%;
+    padding: 0px;
+}
+
+td {
+    vertical-align: top;
+}
+
+td.narrow {
+    width: 8%;
+}
+
+td.smaller {
+    font-size: 1rem;
+    text-align: center;
+}
+
+tr {
+    padding-top: 30px;
+}
+
+.roman {
+    font-family: courier, fixed, monospace;
+}
+
+span.bigname {
+    font-size: 2.5rem;
+    color: brown;
+}
+
+span.person {
+    color: brown;
+}
+
+span.plats {
+    color: brown;
+}
+
+td.faksimil {
+    max-width: 50%;
+    vertical-align: top;
+}
+
+img.faksimil {
+    width: 100%;
+}
+
+td.text {
+    width: 50%;
+    padding-left: 0px;
+    vertical-align: top;
+}
+
+td.spalt {
+    vertical-align: top;
+    font-size: 0.95rem;
+}
+
+.front {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+p.figDesc {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+div.banners {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bigverse {
+    font-size: 1.5rem;
+}
+
+.indent {
+    margin-left: 40px;
+}
+
+.longindent {
+    margin-left: 200px;
+}
+
+.catch {
+    text-align: right;
+}
+
+div.note {
+    text-align: center;
+    color: lightgray;
+    padding-top: 40px;
+}

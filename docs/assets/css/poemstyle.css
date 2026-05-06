@@ -1,0 +1,170 @@
+body {
+    background-color: #FDF5E6;
+    font-size: 1.15rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    float: left;
+    width: 100%;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover {
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Calibri, Verdana, sans-serif;
+    padding-top: 50px;
+}
+
+.intro {
+    margin: 50px;
+    max-width: 1000px;
+    font-size: 1.15rem;
+    font-family: Calibri, Verdana, sans-serif;
+    margin-left: 200px;
+}
+
+ul.info {
+    list-style-image: url('asterisk2.gif');
+    list-style-type: circle;
+}
+
+img.homeillust {
+    float: right;
+    padding-left: 50px;
+}
+
+table {
+    width: 100%;
+    padding-right: 80px;
+    padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 50px;
+    border-collapse: separate;
+    border-spacing: 100px;
+}
+
+th {
+    font-size: 2.5rem;
+    font-family: verdana;
+    color: gray;
+}
+
+td {
+    vertical-align: top;
+}
+
+tr {
+    padding-top: 30px;
+}
+
+.roman {
+    font-family: courier, fixed, monospace;
+}
+
+span.bigname {
+    font-size: 2.5rem;
+    color: brown;
+}
+
+span.person {
+    color: brown;
+}
+
+span.plats {
+    color: brown;
+}
+
+td.faksimil {
+    width: 50%;
+    vertical-align: top;
+}
+
+img.faksimil {
+    width: 100%;
+}
+
+td.text {
+    width: 50%;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+.front {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2.mid {
+    text-align: left;
+    margin-left: 40px;
+}
+
+p.figDesc {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+div.banners {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bigverse {
+    font-size: 1.5rem;
+}
+
+.indent {
+    margin-left: 40px;
+}
+
+.longindent {
+    margin-left: 200px;
+}
+
+.catch {
+    text-align: right;
+}
+
+div.note {
+    text-align: center;
+    color: lightgray;
+    padding-top: 40px;
+}
+div.notetop {
+    text-align: right;
+    color: lightgray;
+}
