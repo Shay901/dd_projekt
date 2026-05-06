@@ -118,11 +118,13 @@
       </listPlace>
       <listBibl>
          <bibl xml:id="bibel1">Psaltaren kap 103 vers 15-16: 
-            "Människans dagar är som gräset, som en blomma på fältet blomstrar hon. 
-            Vinden drar förbi över den och den är borta, dess plats är inte längre känd."</bibl>
-         <bibl xml:id="bibel2">Markusevangeliet kap 10 vers 12:
-            "När Jesus såg detta blev han upprörd och sa till dem: 'Hindra inte barnen
-            att komma till mig, för Guds kungarike tillhör sådana som de."</bibl>
+"Människans dagar är som gräset: 
+hon spirar som blomman på marken,
+så sveper vinden fram, och den är borta, 
+platsen där den stod är tom."</bibl>
+         <bibl xml:id="bibel2">Markusevangeliet kap 10 vers 14:
+"Låt barnen komma hit till mig och hindra dem inte: 
+Guds rike tillhör sådana som de."</bibl>
       </listBibl>
    </standOff>
 
