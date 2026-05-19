@@ -39,10 +39,9 @@
                                     <xsl:value-of select="//tei:titleStmt/tei:editor"/>.</li>
                         </ul>
                     </div>
-                    <div>
+
                         <img class="separator" src="assets/ill/Ill_Bååth1a.png"
                             alt="Skiljelinje" />
-                        </div>
                     <main>
                             <table>
                                 <tr>
