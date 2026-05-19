@@ -17,7 +17,7 @@ ul.nav {
 
 ul.nav li {
     float: left;
-      font-size: 1.15rem;
+    font-size: 1.15rem;
 }
 
 ul.nav li a {
@@ -45,6 +45,12 @@ h1 {
     font-size: 1.15rem;
     font-family: Calibri, Verdana, sans-serif;
     margin-left: 200px;
+}
+
+.separator {
+  display: block;
+  margin: auto;
+  width: 800px;
 }
 
 ul.info {

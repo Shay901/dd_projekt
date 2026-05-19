@@ -39,7 +39,10 @@
                                     <xsl:value-of select="//tei:titleStmt/tei:editor"/>.</li>
                         </ul>
                     </div>
-                    
+                    <div>
+                        <img class="separator" src="assets/ill/Ill_Bååth1a.png"
+                            alt="Skiljelinje" />
+                        </div>
                     <main>
                             <table>
                                 <tr>
@@ -48,7 +51,7 @@
                                 </tr>
                                 <xsl:for-each select="//tei:div[@type='page']">
                                     <xsl:variable name="facs" select="@facs"/>
-                                <tr>
+                                <tr class="content">
                                     <td class="faksimil">
                                         <p/><a>
                                             <xsl:attribute name="href">

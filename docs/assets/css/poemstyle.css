@@ -46,6 +46,12 @@ h1 {
     margin-left: 200px;
 }
 
+.separator {
+  display: block;
+  margin: auto;
+  width: 800px;
+}
+
 ul.info {
     list-style-image: url('asterisk2.gif');
     list-style-type: circle;
@@ -75,10 +81,6 @@ th {
 
 td {
     vertical-align: top;
-}
-
-tr {
-    padding-top: 30px;
 }
 
 .roman {
